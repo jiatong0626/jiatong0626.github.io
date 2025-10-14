@@ -11,32 +11,33 @@
             color: white;
             padding: 10px 20px;
             border: none;
-            border-radius: 5px;
+            border-radius: 0px;
             cursor: pointer;
         }
 
         .sign-btn {
             background-color: #6AA062;
             color: white;
-            padding: 10px 20px;
+            padding: 10px 30px;
             border: none;
             border-radius: 5px;
             cursor: pointer;
+            font-weight: bold;
         }
 
         .cart-btn {
             background-color: #F5DA67;
             color: black;
-            padding: 10px 20px;
+            padding: 10px 50px;
             border: none;
-            border-radius: 5px;
+            border-radius: 50px;
             cursor: pointer;
         }
 
         .get-btn {
             background-color: #6E55A7;
             color: rgb(255, 255, 255);
-            padding: 10px 20px;
+            padding: 10px 25px;
             border: none;
             border-radius: 5px;
             cursor: pointer;
@@ -45,18 +46,19 @@
         .download-btn {
             background-color: #ffffff;
             color: #74787C;
+            border: 1px solid #74787C;
             padding: 10px 20px;
-            border: none;
             border-radius: 5px;
             cursor: pointer;
+            font-weight: bold;
         }
 
         .apply-btn {
             background-color: #3b63b5;
             color: white;
-            padding: 10px 20px;
+            padding: 10px 30px;
             border: none;
-            border-radius: 5px;
+            border-radius: 50px;
             cursor: pointer;
         }
 
@@ -64,24 +66,33 @@
             background-color: #ffffff;
             color: #4061B2;
             padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
+            border: 1px solid #4061B2;
+            border-radius: 50px;
             cursor: pointer;
+            font-weight: bold;
+        }
+
+        button {
+            margin: 5px;
+        }
+
+        button:hover {
+            opacity: 0.8;
         }
     </style>
 </head>
 
 <body>
     <div>
-        <button class="request-btn">Request now</button>
-        <button class="sign-btn">Sign up</button>
-        <button class="cart-btn">Add to Cart</button>
+        <button onclick="alert('Request now clicked')" class="request-btn">Request now</button>
+        <button onclick="alert('Sign up clicked')" class="sign-btn">Sign up</button>
+        <button onclick="alert('Add to Cart clicked')" class="cart-btn">Add to Cart</button>
     </div>
     <div>
-        <button class="get-btn">Get started</button>
-        <button class="download-btn">Download</button>
-        <button class="apply-btn">Apply on company website</button>
-        <button class="save-btn">Save</button>
+        <button onclick="alert('Get started clicked')" class="get-btn">Get started</button>
+        <button onclick="alert('Download clicked')" class="download-btn">Download</button>
+        <button onclick="alert('Apply on company website clicked')" class="apply-btn">Apply on company website</button>
+        <button onclick="alert('Save clicked')" class="save-btn">Save</button>
     </div>
 
 </body>

@@ -8,35 +8,93 @@
     <style>
         body {
             font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: rgb(221, 221, 221);
+        }
+
+        .container {
+            background-color: white;
+            width: 1300px;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            padding: 15px;
+
+        }
+
+        .top {
+            background-color: rgb(100, 85, 190);
+            padding: 5px;
+        }
+
+        .name {
+            background-color: brown;
+            text-align: left;
+            flex: auto;
+            width: 800px;
+            padding: 15px;
+            padding-bottom: 0px;
+        }
+
+        .name h1 {
+            font-size: 60px;
+            color: rgb(92, 0, 167);
+        }
+
+        .name h2 {
+            font-size: 20px;
+            color: rgb(150, 150, 150);
+        }
+
+        .intro {
+            background-color: aqua;
+            width: 600px;
+            padding: 15px;
+            padding-top: 0px;
+        }
+
+        .photos {
+            background-color: coral;
+            flex: auto;
+            padding: 5px;
+        }
+
+        .icon {
+            background-color: lightgreen;
         }
     </style>
 </head>
 
 <body>
-    <div class="top">
-        <h1>CHAI JIA TONG</h1>
-        <h2>“Softness is not weakness; it is strength in disguise.” — Hayao Miyazaki</h2>
-    </div>
-    <div class="main">
-        <div class="photos"><img src="images/DSCF3045.jpg" alt="Description of image" width="300"></div>
-        <div class="intro">
-            <p>Hi, I’m Chai Jia Tong.</p>
-            <p>
-                I’d say I’m mostly quiet, but when I care about something, I give it my full attention.
-                I enjoy taking photos, listening to music, and sometimes writing down little thoughts.</p>
-            <p>
-                I don’t back down easily when facing challenges, but I’m not in a rush to compare myself with others.
-                What matters to me is growing step by step, doing the things I love, and keeping life at my own pace.
-            </p>
-            <p>
-                I hope that in the future, I can stay true to myself, remain gentle, and at the same time become
-                stronger, shining with my own light.
-            </p>
+    <div class="container">
+        <div class="top">
+            <div class="name">
+                <h1>CHAI JIA TONG</h1>
+                <h2>“Softness is not weakness; it is strength in disguise.” — Hayao Miyazaki</h2>
+            </div>
+            <div class="intro">
+                <p>Hi, I’m Chai Jia Tong.</p>
+                <p>
+                    I’d say I’m mostly quiet, but when I care about something, I give it my full attention.
+                    I enjoy taking photos, listening to music, and sometimes writing down little thoughts.</p>
+                <p>
+                    I don’t back down easily when facing challenges, but I’m not in a rush to compare myself with
+                    others.
+                    What matters to me is growing step by step, doing the things I love, and keeping life at my own
+                    pace.
+                </p>
+                <p>
+                    I hope that in the future, I can stay true to myself, remain gentle, and at the same time become
+                    stronger, shining with my own light.
+                </p>
+            </div>
+            <div class="icon">
+                <img src="images/ig.png" alt="Description of image" width="50">
+                <img src="images/youtube.png" alt="Description of image" width="50">
+            </div>
         </div>
-    </div>
-    <div class="icon">
-        <img src="images/ig.png" alt="Description of image" width="50">
-        <img src="images/youtube.png" alt="Description of image" width="50">
+        <div class="photos">
+            <img src="images/DSCF3045.jpg" alt="Description of image" width="300">
+        </div>
     </div>
 </body>
 

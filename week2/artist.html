@@ -24,6 +24,10 @@
 
         }
 
+        .adologo:hover {
+            opacity: 70%;
+        }
+
         .main {
             background-color: rgb(255, 255, 255);
             width: 1400px;
@@ -124,6 +128,7 @@
             padding-bottom: 8px;
             line-height: 8px;
             font-size: 24px;
+            font-style: italic;
         }
 
         .a1cover img,
@@ -159,13 +164,41 @@
             font-size: 18px;
             text-align: justify;
         }
+
+        .albums3 img {
+            padding-bottom: 100px;
+        }
+
+        .adoofficial {}
+
+        .ado {
+            margin-top: 100px;
+            margin-bottom: -10px;
+            box-shadow: #1f1f27 20px 20px 100px;
+        }
+
+        .ado img {
+            width: 1400px;
+        }
+
+        .bottombar {
+            background-color: #1f1f27;
+            height: 200px;
+            width: 100%
+        }
     </style>
 </head>
 
 <body>
     <div class="topbar">
-        <img src="images/adologo.jpg" alt="Ado" height="100px">
-        <div class="icon"></div>
+        <div class="adologo">
+            <img src="images/adologo.jpg" alt="Ado" height="100px"
+                onclick="window.location.href='https://ado-shop.com/?srsltid=AfmBOoqLrnKQUzQScVlDl1fwa0lJ4jLe2fh9WYx-fHpMA8jkpX4D87WG'">
+        </div>
+        <!-- <div class="icon">
+            <img src="images/ig.png" alt="Description of image" width="45"
+                onclick="window.location.href='https://www.instagram.com/jiatongchai/'">
+        </div> -->
     </div>
     <div class="main">
         <div class="photos1">
@@ -262,10 +295,16 @@
             </div>
             <div class="albums3">
                 <img src="images/ado6.jpg" alt="Ado Live">
+                <button class="adoofficial">
+                    <a href="https://ado-shop.com/?srsltid=AfmBOoqLrnKQUzQScVlDl1fwa0lJ4jLe2fh9WYx-fHpMA8jkpX4D87WG"
+                        class="adolink" target="_blank">
+                        Ado Official Music Shop
+                    </a>
+                </button>
             </div>
         </div>
         <div class="ado">
-
+            <img src="images/ado4.jpg" alt="ado">
         </div>
     </div>
     <div class="bottombar"></div>

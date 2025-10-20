@@ -21,10 +21,42 @@
             padding: 15px;
             text-align: center;
             box-shadow: #1f1f27 10px 10px 50px;
+            display: flex;
 
         }
 
+        .bar {
+            width: 1400px;
+            margin-left: auto;
+            margin-right: auto;
+            justify-content: center;
+            align-items: flex-end;
+            display: flex;
+        }
+
+        .adologo {
+            height: 105px;
+            padding-left: 520px;
+        }
+
         .adologo:hover {
+            opacity: 70%;
+        }
+
+        .icon {
+            width: 220px;
+            padding-left: 300px;
+        }
+
+        .icon a {
+            text-decoration: none;
+        }
+
+        .icon img {
+            padding: 5px;
+        }
+
+        .icon img:hover {
             opacity: 70%;
         }
 
@@ -129,6 +161,7 @@
             line-height: 8px;
             font-size: 24px;
             font-style: italic;
+            color: #1f1f27;
         }
 
         .a1cover img,
@@ -163,6 +196,7 @@
             padding-top: 0px;
             font-size: 18px;
             text-align: justify;
+            color: #1f1f27;
         }
 
         .albums3 img {
@@ -183,7 +217,7 @@
 
         .bottombar {
             background-color: #1f1f27;
-            height: 200px;
+            height: 150px;
             width: 100%
         }
     </style>
@@ -191,14 +225,28 @@
 
 <body>
     <div class="topbar">
-        <div class="adologo">
-            <img src="images/adologo.jpg" alt="Ado" height="100px"
-                onclick="window.location.href='https://ado-shop.com/?srsltid=AfmBOoqLrnKQUzQScVlDl1fwa0lJ4jLe2fh9WYx-fHpMA8jkpX4D87WG'">
+        <div class="bar">
+            <div class="adologo">
+                <a href="https://ado-shop.com/?srsltid=AfmBOoqLrnKQUzQScVlDl1fwa0lJ4jLe2fh9WYx-fHpMA8jkpX4D87WG"
+                    target="_blank">
+                    <img src="images/adologo.jpg" alt="Ado" height="100px">
+                </a>
+            </div>
+            <div class="icon">
+                <a href="https://www.facebook.com/ado1024.official/" target="_blank">
+                    <img src="images/fb.png" alt="FB" width="40px">
+                </a>
+                <a href="https://www.instagram.com/ado_staff_official/" target="_blank">
+                    <img src="images/ig.png" alt="IG" width="40px">
+                </a>
+                <a href="https://www.youtube.com/@Ado1024" target="_blank">
+                    <img src="images/youtube.png" alt="YT" width="40px">
+                </a>
+                <a href="https://x.com/ado1024imokenp" target="_blank">
+                    <img src="images/x.png" alt="X" width="40px">
+                </a>
+            </div>
         </div>
-        <!-- <div class="icon">
-            <img src="images/ig.png" alt="Description of image" width="45"
-                onclick="window.location.href='https://www.instagram.com/jiatongchai/'">
-        </div> -->
     </div>
     <div class="main">
         <div class="photos1">

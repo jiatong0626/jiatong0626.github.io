@@ -171,6 +171,8 @@
             height: 350px;
         }
 
+
+
         .info1 {
             flex: 50%;
             padding-right: 60px;
@@ -199,11 +201,48 @@
             color: #1f1f27;
         }
 
-        .albums3 img {
-            padding-bottom: 100px;
+        .albums3 {
+            justify-content: center;
         }
 
-        .adoofficial {}
+        .albums3 img {
+            padding-bottom: 80px;
+        }
+
+        .rose {
+            height: 150px;
+            padding-bottom: 30px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .rose img {
+            width: 130px;
+            height: 130px;
+        }
+
+        .btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .btn a {
+            background-color: rgb(41, 42, 68);
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: bold;
+            padding: 15px 70px;
+            border-radius: 50px;
+            box-shadow: #1f1f27 2px 2px 10px;
+        }
+
+        .btn a:hover {
+            text-shadow: #ffffff 1px 1px 5px;
+            box-shadow: none;
+            background-color: #767692;
+        }
 
         .ado {
             margin-top: 100px;
@@ -216,9 +255,15 @@
         }
 
         .bottombar {
+            font-family: 'Times New Roman', Times, serif;
             background-color: #1f1f27;
+            color: #ffffff;
             height: 150px;
-            width: 100%
+            width: 100%;
+            text-align: center;
+            padding-top: 20px;
+            font-size: 28px;
+
         }
     </style>
 </head>
@@ -343,19 +388,24 @@
             </div>
             <div class="albums3">
                 <img src="images/ado6.jpg" alt="Ado Live">
-                <button class="adoofficial">
+                <div class="rose">
+                    <img src="images/rose.png" alt="rose">
+                </div>
+                <div class="btn">
                     <a href="https://ado-shop.com/?srsltid=AfmBOoqLrnKQUzQScVlDl1fwa0lJ4jLe2fh9WYx-fHpMA8jkpX4D87WG"
                         class="adolink" target="_blank">
                         Ado Official Music Shop
                     </a>
-                </button>
+                </div>
             </div>
         </div>
         <div class="ado">
             <img src="images/ado4.jpg" alt="ado">
         </div>
     </div>
-    <div class="bottombar"></div>
+    <div class="bottombar">
+        <h1>- End -</h1>
+    </div>
 </body>
 
 </html>

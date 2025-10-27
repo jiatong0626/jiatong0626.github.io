@@ -5,18 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>flexbox3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet">
     <style>
-        .body {}
+        body {
+            font-family: "Space Grotesk", sans-serif;
+            font-weight: bold;
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+        }
 
         .topbar {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            height: 50px;
-            padding: 30px 50px;
+            padding: 40px 60px;
+            font-size: 18px
         }
-
-        .logo {}
 
         .mainbtn {
             display: flex;
@@ -29,13 +38,63 @@
         }
 
         .requestbtn {
+            font-family: "Space Grotesk", sans-serif;
+            font-size: 18px;
             background-color: white;
-            padding: 15px 20px;
-            border: 2px solid black;
-            border-radius: 10px;
+            padding: 18px 25px;
+            border: 1px solid #191A23;
+            border-radius: 15px;
         }
 
-        .main {}
+        .main {
+            display: flex;
+        }
+
+        .maintext,
+        .mainimages {
+            width: 50%;
+        }
+
+        .maintext {
+            padding: 0 110px 0 60px;
+
+        }
+
+        .maintext h1 {
+            font-size: 54px;
+            font-weight: bold;
+        }
+
+        .maintext p {
+            font-size: 18px;
+            padding-bottom: 15px;
+        }
+
+        .mainimages {
+            padding-right: 60px;
+            text-align: right;
+        }
+
+        .bookbtn {
+            font-family: "Space Grotesk", sans-serif;
+            font-size: 18px;
+            background-color: #191A23;
+            border: none;
+            color: white;
+            border-radius: 15px;
+            padding: 20px 30px;
+        }
+
+        .bottombar {
+            display: flex;
+            justify-content: space-around;
+            margin: 40px 0;
+            padding: 0 20px;
+        }
+
+        .bottombar div {
+            padding: 15px;
+        }
     </style>
 </head>
 
@@ -56,25 +115,23 @@
         </div>
     </div>
     <div class="main">
-        <div>
+        <div class="maintext">
             <h1>Navigating the digital landscape for success</h1>
             <p>Our digital marketing agency helps businesses grow and succeed online through a range of services
                 including SEO, PPC, social media marketing, and content creation.</p>
-            <button>Book a consultation</button>
+            <button class="bookbtn">Book a consultation</button>
         </div>
-        <div>
+        <div class="mainimages">
             <img src="images/Illustration.png" alt="img">
         </div>
     </div>
-    <div class="bottom">
-        <div>
-            <img src="images/amazon.png" alt="amazon">
-            <img src="images/dni.png" alt="dni">
-            <img src="images/hubspot.png" alt="amazon">
-            <img src="images/notion.png" alt="amazon">
-            <img src="images/netflix.png" alt="netflix">
-            <img src="images/zoom.png" alt="zoom">
-        </div>
+    <div class="bottombar">
+        <div><img src="images/amazon.png" alt="amazon"></div>
+        <div><img src="images/dni.png" alt="dni"></div>
+        <div><img src="images/hubspot.png" alt="amazon"></div>
+        <div><img src="images/notion.png" alt="amazon"></div>
+        <div><img src="images/netflix.png" alt="netflix"></div>
+        <div><img src="images/zoom.png" alt="zoom"></div>
     </div>
 </body>
 

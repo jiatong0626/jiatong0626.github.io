@@ -16,6 +16,19 @@
 
         .topbar {
             margin-top: 20px;
+            justify-items: center;
+        }
+
+        .topbar1 {
+            width: 30%;
+        }
+
+        .topbar2 {
+            width: 60%;
+        }
+
+        .topbar3 {
+            width: 100%;
         }
 
         .topbar1,
@@ -24,6 +37,7 @@
             background-color: white;
             margin-top: 20px;
             padding: 15px 22px;
+            height: 50px;
         }
 
         .topbar1,
@@ -39,9 +53,14 @@
         }
 
         .menu2,
-        .menu3 {
+        .contact {
             display: flex;
             align-items: center;
+        }
+
+        .menu2 div,
+        .contact div {
+            padding: 0 10px;
         }
 
         .mainbtn {
@@ -50,6 +69,14 @@
 
         .mainbtn div {
             padding: 0 15px;
+        }
+
+        .callbtn {
+            background-color: #f9612b;
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
         }
     </style>
 </head>
@@ -69,7 +96,9 @@
                 <img src="images/logo.png" alt="logo" width="190px">
             </div>
             <div class="menu2">
-                <div class="callicon2"></div>
+                <div class="callicon2">
+                    <img src="images/call.png" alt="call" width="24px">
+                </div>
                 <div class="contactno2">
                     <h6>555-123-4567</h6>
                 </div>
@@ -92,11 +121,16 @@
                 <div class="contentbtn">Contact</div>
             </div>
             <div class="contact">
-                <div class="callicon3"></div>
+                <div class="callicon3">
+                    <img src="images/call.png" alt="call" width="24px">
+                </div>
                 <div class="contactno3">
                     <h6>555-123-4567</h6>
                 </div>
-                <div class="contactcallbtn"></div>
+                <div class="contactcallbtn">
+                    <a href="https://construction.elementra.themerex.net/services/#" class="callbtn"
+                        target="_blank">Contact</a>
+                </div>
             </div>
         </div>
     </div>

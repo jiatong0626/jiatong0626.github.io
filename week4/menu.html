@@ -5,12 +5,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>menu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: "Oxygen", sans-serif;
+            background-color: #F6F5EF;
+        }
+
+        .top-bar {
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 5px 48px;
+
+        }
+
+        .menu-btn {
+            display: flex;
+        }
+
+        .logo,
+        .menu-btn div {
+            padding: 12px;
+        }
+
+        .contactare {
+            display: flex;
+            align-items: center;
+        }
+
+        .phone {
+            display: flex;
+            align-items: center;
+            padding: 0 24px;
+        }
+
+        .phone div {
+            padding: 0 5px;
+        }
+
+        .callbtn {
+            background-color: #f9612b;
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 8px;
+        }
+
+        .menu-icon {
+            display: none;
+        }
+
+        @media screen and (max-width: 1279px) {
+            .top-bar {
+                padding: 5px 24px;
+            }
+
+            .menu-btn,
+            .big-contact-btn {
+                display: none;
+            }
+
+            .menu-icon {
+                display: block;
+            }
+        }
+
+        @media screen and (max-width: 780px) {
+            .top-bar {
+                padding: 5px 12px;
+            }
+
+            .phone {
+                display: none;
+            }
+        }
+    </style>
 </head>
 
 <body>
     <div class="top-bar">
         <div class="logo">
-            <img src="images/logo.png" alt="logo">
+            <img src="images/logo.png" alt="logo" width="190">
         </div>
         <div class="menu-btn">
             <div class="homebtn">Home</div>

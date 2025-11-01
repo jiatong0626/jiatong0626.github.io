@@ -19,8 +19,13 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 20px 60px;
-            font-size: 18px
+            padding: 40px 120px;
+            padding-bottom: 20px;
+            font-size: 24px
+        }
+
+        .logo {
+            width: 300px;
         }
 
         .main-btn {
@@ -29,20 +34,24 @@
         }
 
         .main-btn div {
-            padding: 15px;
+            padding: 30px;
         }
 
         .requestbtn {
             font-family: "Space Grotesk", sans-serif;
             background-color: white;
             border: 1px solid #191A23;
-            font-size: 18px;
-            padding: 18px 25px;
+            font-size: 24px;
+            padding: 20px 35px;
             border-radius: 15px;
         }
 
+        .menu-icon {
+            display: none;
+        }
+
         .main {
-            padding: 20px 60px;
+            padding: 20px 120px;
         }
 
         .story1 {
@@ -50,15 +59,50 @@
             background-color: #F3F3F3;
             padding: 40px;
             border-radius: 20px;
+            /* align-items: center; */
+        }
+
+        .illus {
+            width: 50%;
+            padding: 0 50px;
+        }
+
+        .title1 {
+            width: 50%;
+            padding: 0 100px;
+        }
+
+        .title-proven {
+            font-size: 35px;
+
+        }
+
+        /* .title-proven h1 {
+            margin: 0;
+        } */
+
+        .content-proven {
+            font-size: 26px;
         }
 
         .story2 {
             display: flex;
             background-color: #191A23;
             color: white;
-            padding: 40px;
+            padding: 60px;
             border-radius: 20px;
             margin-top: 60px;
+        }
+
+        .title2 {
+            width: 70%;
+            padding-right: 40px;
+        }
+
+        .go-read {
+            display: flex;
+            align-items: center;
+            gap: 15px;
         }
 
         .twohundredto {
@@ -77,6 +121,85 @@
             padding: 15px;
             border-radius: 20px;
             width: 50%;
+            text-align: center;
+        }
+
+        @media screen and (max-width: 1700px) {
+            .top-bar {
+                font-size: 20px;
+            }
+
+            .logo {
+                width: 250px;
+            }
+
+            .main-btn div {
+                padding: 18px;
+            }
+
+            .requestbtn {
+                font-size: 20px;
+                padding: 14px 25px;
+            }
+
+            .title-proven {
+                font-size: 28px;
+            }
+
+            .content-proven {
+                font-size: 18px;
+            }
+
+        }
+
+        @media screen and (max-width: 1500px) {
+            .top-bar {
+                font-size: 18px;
+                padding: 30px 80px;
+            }
+
+            .logo {
+                width: 180px;
+            }
+
+            .main-btn div {
+                padding: 10px;
+            }
+
+            .requestbtn {
+                font-size: 18px;
+                padding: 10px 20px;
+            }
+
+            .illus {
+                padding: 0 20px;
+            }
+
+            .title1 {
+                padding: 0 50px;
+            }
+
+            .title-proven {
+                font-size: 22px;
+            }
+
+            .content-proven {
+                font-size: 16px;
+            }
+
+            .main {
+                padding: 10px 80px;
+            }
+        }
+
+        @media screen and (max-width: 1100px) {
+            .main-btn {
+                display: none;
+            }
+
+            .menu-icon {
+                display: block;
+            }
         }
     </style>
 </head>
@@ -84,7 +207,7 @@
 <body>
     <div class="top-bar">
         <div class="logo">
-            <img src="images/logo2.png" alt="logo">
+            <img src="images/logo2.png" alt="logo" width="100%">
         </div>
         <div class="main-btn">
             <div>About us</div>
@@ -92,24 +215,24 @@
             <div>Use Cases</div>
             <div>Pricing</div>
             <div>Blog</div>
-            <div>
+            <div class="request-btn-out">
                 <button class="requestbtn">Request a quote</button>
             </div>
-            <div class="menu-icon">
-                <img src="images/ex2menu.png" alt="menu" width="24">
-            </div>
+        </div>
+        <div class="menu-icon">
+            <img src="images/ex2menu.png" alt="menu" width="24">
         </div>
     </div>
     <div class="main">
         <div class="story1">
             <div class="illus">
-                <img src="images/Use cases illus.png" alt="illus">
+                <img src="images/Use cases illus.png" alt="illus" width="100%">
             </div>
             <div class="title1">
-                <div>
+                <div class="title-proven">
                     <h1>Proven Success Stories</h1>
                 </div>
-                <div>
+                <div class="content-proven">
                     <p>See how our innovative digital marketing strategies have transformed businesses.
                         Whether through SEO, PPC, social media, or web design, these use cases highlight the tangible
                         impact of our work. Explore the successes and envision what we can achieve together.</p>
@@ -130,7 +253,7 @@
                 </div>
                 <div class="go-read">
                     <div class="readicon">
-                        <img src="#" alt="readicon">
+                        <img src="images/Read.png" alt="readicon" width="32">
                     </div>
                     <div class="readlink">Read</div>
                 </div>

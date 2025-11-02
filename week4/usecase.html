@@ -19,9 +19,10 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 40px 120px;
+            padding: 50px 120px;
             padding-bottom: 20px;
-            font-size: 24px
+            font-size: 24px;
+
         }
 
         .logo {
@@ -34,7 +35,18 @@
         }
 
         .main-btn div {
-            padding: 30px;
+            padding: 20px 15px;
+
+        }
+
+        .main-btn h4 {
+            padding: 10px 15px;
+            margin: 0;
+        }
+
+        .usecase-btn h4 {
+            background-color: #B9FF66;
+            border-radius: 15px;
         }
 
         .requestbtn {
@@ -51,14 +63,16 @@
         }
 
         .main {
-            padding: 20px 120px;
+            /* max-width: 1920px;
+            margin: auto; */
+            padding: 60px 120px;
         }
 
         .story1 {
             display: flex;
             background-color: #F3F3F3;
             padding: 40px;
-            border-radius: 20px;
+            border-radius: 60px;
             /* align-items: center; */
         }
 
@@ -89,21 +103,87 @@
             display: flex;
             background-color: #191A23;
             color: white;
-            padding: 60px;
-            border-radius: 20px;
-            margin-top: 60px;
+            padding: 80px;
+            border-radius: 60px;
+            margin-top: 180px;
+            justify-content: space-between;
+        }
+
+        .star {
+            width: 48px;
+            padding: 15px;
+            display: none;
         }
 
         .title2 {
-            width: 70%;
-            padding-right: 40px;
+            width: 48%;
+        }
+
+        .greentitle {
+            display: flex;
+        }
+
+        .greentitle h1 {
+            font-size: 52px;
+            background-color: #B9FF66;
+            color: #191A23;
+            padding: 5px 8px;
+            margin: 15px 0;
+            border-radius: 20px;
+        }
+
+        .greentitle-small {
+            font-size: 24px;
+            display: none;
+        }
+
+        .title2-sub {
+            font-size: 42px;
+            padding: 40px;
+            padding-left: 0;
+        }
+
+        .title2-content {
+            font-size: 24px;
+            padding: 20px 0;
         }
 
         .go-read {
             display: flex;
             align-items: center;
-            gap: 15px;
+            padding: 60px 0;
+            gap: 30px;
         }
+
+        .readicon {
+            width: 60px;
+        }
+
+        .readlink {
+            font-size: 28px;
+            color: #B9FF66;
+        }
+
+        .meterial {
+            width: 45%;
+        }
+
+        /* .meterial {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            width: 50%;
+            padding: 20px;
+        } */
+
+        /* .meterial div {
+            background-color: white;
+            color: #191A23;
+            padding: 30px;
+            border-radius: 20px;
+            width: 50%;
+            text-align: center;
+        } */
 
         .twohundredto {
             display: flex;
@@ -117,11 +197,30 @@
         .seventyfiveto div {
             background-color: white;
             color: #191A23;
-            margin: 15px;
-            padding: 15px;
-            border-radius: 20px;
+            margin: 24px;
+            padding: 32px;
+            border-radius: 40px;
             width: 50%;
             text-align: center;
+        }
+
+        .twohundredto h1,
+        .seventyfiveto h1 {
+            font-size: 58px;
+            margin: 0;
+            padding: 14px;
+        }
+
+        .twohundredto p,
+        .seventyfiveto p {
+            font-size: 28px;
+            font-weight: bold;
+            margin: 0;
+            padding: 14px;
+        }
+
+        .go-read-small {
+            display: none;
         }
 
         @media screen and (max-width: 1700px) {
@@ -134,12 +233,21 @@
             }
 
             .main-btn div {
-                padding: 18px;
+                padding: 15px 10px;
+
+            }
+
+            .main-btn h4 {
+                padding: 5px 10px;
             }
 
             .requestbtn {
                 font-size: 20px;
                 padding: 14px 25px;
+            }
+
+            .story2 {
+                margin-top: 100px;
             }
 
             .title-proven {
@@ -148,6 +256,52 @@
 
             .content-proven {
                 font-size: 18px;
+            }
+
+            .greentitle h1 {
+                font-size: 42px;
+            }
+
+            .title2-sub {
+                font-size: 32px;
+                padding: 20px 0;
+            }
+
+            .title2-content {
+                font-size: 20px;
+                padding: 15px 20px;
+                padding-left: 0;
+            }
+
+            .twohundredto div,
+            .seventyfiveto div {
+                margin: 18px;
+                padding: 24px;
+            }
+
+            .twohundredto h1,
+            .seventyfiveto h1 {
+                font-size: 42px;
+                padding: 8px;
+            }
+
+            .twohundredto p,
+            .seventyfiveto p {
+                font-size: 22px;
+                padding: 8px;
+            }
+
+            .go-read {
+                padding-top: 20px;
+                padding-bottom: 0;
+            }
+
+            .readicon {
+                width: 40px;
+            }
+
+            .readlink {
+                font-size: 20px;
             }
 
         }
@@ -163,7 +317,8 @@
             }
 
             .main-btn div {
-                padding: 10px;
+                padding: 10px 5px;
+
             }
 
             .requestbtn {
@@ -210,13 +365,25 @@
             <img src="images/logo2.png" alt="logo" width="100%">
         </div>
         <div class="main-btn">
-            <div>About us</div>
-            <div>Services</div>
-            <div>Use Cases</div>
-            <div>Pricing</div>
-            <div>Blog</div>
+            <div>
+                <h4>About us</h4>
+            </div>
+            <div>
+                <h4>Services</h4>
+            </div>
+            <div class="usecase-btn">
+                <h4>Use Cases</h4>
+            </div>
+            <div>
+                <h4>Pricing</h4>
+            </div>
+            <div>
+                <h4>Blog</h4>
+            </div>
             <div class="request-btn-out">
-                <button class="requestbtn">Request a quote</button>
+                <button class="requestbtn">
+                    <h4>Request a quote</h4>
+                </button>
             </div>
         </div>
         <div class="menu-icon">
@@ -240,20 +407,26 @@
             </div>
         </div>
         <div class="story2">
+            <div class="star">
+                <img src="images/star.png" alt="staricon" width="100%">
+            </div>
             <div class="title2">
                 <div class="greentitle">
                     <h1>Featured Success Story</h1>
                 </div>
-                <div class="title2-sub">
-                    <h2>Scaling Success for a Leading E-Commerce Brand</h2>
+                <div class="greentitle-small">
+                    FEATURED
                 </div>
-                <div class="title2-coontent">
+                <div class="title2-sub">
+                    Scaling Success for a Leading E-Commerce Brand
+                </div>
+                <div class="title2-content">
                     <p>Through a comprehensive SEO and PPC strategy, we helped this e-commerce brand increase
                         visibility, drive traffic, and boost sales.</p>
                 </div>
                 <div class="go-read">
                     <div class="readicon">
-                        <img src="images/Read.png" alt="readicon" width="32">
+                        <img src="images/Read.png" alt="readicon" width="100%">
                     </div>
                     <div class="readlink">Read</div>
                 </div>
@@ -279,6 +452,12 @@
                         <p>improvement in conversion rate</p>
                     </div>
                 </div>
+            </div>
+            <div class="go-read-small">
+                <div class="readicon-small">
+                    <img src="images/Read.png" alt="readicon" width="100%">
+                </div>
+                <div class="readlink-small">Read</div>
             </div>
         </div>
     </div>

@@ -52,7 +52,7 @@
         .requestbtn {
             font-family: "Space Grotesk", sans-serif;
             background-color: white;
-            border: 1px solid #191A23;
+            border: 2px solid #191A23;
             font-size: 24px;
             padding: 20px 35px;
             border-radius: 15px;
@@ -60,6 +60,7 @@
 
         .menu-icon {
             display: none;
+            width: 30px;
         }
 
         .main {
@@ -74,6 +75,10 @@
             padding: 40px;
             border-radius: 60px;
             /* align-items: center; */
+        }
+
+        .title-proven-small {
+            display: none;
         }
 
         .illus {
@@ -99,19 +104,29 @@
             font-size: 26px;
         }
 
-        .story2 {
+        .story2-out {
             display: flex;
+            justify-content: space-between;
             background-color: #191A23;
             color: white;
             padding: 80px;
             border-radius: 60px;
             margin-top: 180px;
+        }
+
+        .story2 {
+            display: flex;
             justify-content: space-between;
+            /* background-color: #191A23;
+            color: white;
+            padding: 80px;
+            border-radius: 60px;
+            margin-top: 180px; */
         }
 
         .star {
-            width: 48px;
-            padding: 15px;
+            width: 32px;
+            padding: 0 10px;
             display: none;
         }
 
@@ -133,8 +148,9 @@
         }
 
         .greentitle-small {
-            font-size: 24px;
+            font-size: 30px;
             display: none;
+            color: #B9FF66;
         }
 
         .title2-sub {
@@ -159,7 +175,8 @@
             width: 60px;
         }
 
-        .readlink {
+        .readlink,
+        .readlink-small {
             font-size: 28px;
             color: #B9FF66;
         }
@@ -213,7 +230,7 @@
 
         .twohundredto p,
         .seventyfiveto p {
-            font-size: 28px;
+            font-size: 26px;
             font-weight: bold;
             margin: 0;
             padding: 14px;
@@ -221,6 +238,12 @@
 
         .go-read-small {
             display: none;
+            align-items: center;
+        }
+
+        .readicon-small {
+            width: 38px;
+            padding: 15px 0;
         }
 
         @media screen and (max-width: 1700px) {
@@ -246,7 +269,7 @@
                 padding: 14px 25px;
             }
 
-            .story2 {
+            .story2-out {
                 margin-top: 100px;
             }
 
@@ -294,6 +317,7 @@
             .go-read {
                 padding-top: 20px;
                 padding-bottom: 0;
+                gap: 15px;
             }
 
             .readicon {
@@ -345,6 +369,46 @@
             .main {
                 padding: 10px 80px;
             }
+
+            .story2-out {
+                margin-top: 60px;
+                padding: 60px;
+                border-radius: 40px;
+            }
+
+            .greentitle h1 {
+                font-size: 28px;
+                border-radius: 10px;
+            }
+
+            .title2-sub {
+                font-size: 24px;
+                padding: 10px 0;
+            }
+
+            .title2-content p {
+                font-size: 18px;
+                margin: 0;
+            }
+
+            .twohundredto div,
+            .seventyfiveto div {
+                margin: 15px;
+                padding: 15px;
+                border-radius: 20px;
+            }
+
+            .twohundredto h1,
+            .seventyfiveto h1 {
+                font-size: 28px;
+                padding: 5px;
+            }
+
+            .twohundredto p,
+            .seventyfiveto p {
+                font-size: 16px;
+                padding: 5px;
+            }
         }
 
         @media screen and (max-width: 1100px) {
@@ -354,6 +418,230 @@
 
             .menu-icon {
                 display: block;
+            }
+
+            .top-bar {
+                padding: 20px 40px;
+            }
+
+            .main {
+                padding: 0 40px;
+            }
+
+            .story1 {
+                padding: 20px;
+            }
+
+            .title-proven {
+                font-size: 16px;
+            }
+
+            .content-proven {
+                font-size: 12px;
+            }
+
+            .story2-out {
+                margin-top: 30px;
+                padding: 30px;
+            }
+
+            .greentitle {
+                display: none;
+            }
+
+            .greentitle-small {
+                display: block;
+            }
+
+            .title2-sub {
+                font-size: 20px;
+            }
+
+            .title2-content p {
+                font-size: 14px;
+            }
+
+            .go-read {
+                gap: 10px;
+                padding: 5px 0;
+            }
+
+            .readicon {
+                width: 32px;
+            }
+
+            .readlink {
+                font-size: 14px;
+            }
+
+            .twohundredto div,
+            .seventyfiveto div {
+                margin: 12px;
+                padding: 18px;
+            }
+
+            .twohundredto h1,
+            .seventyfiveto h1 {
+                font-size: 22px;
+            }
+
+            .twohundredto p,
+            .seventyfiveto p {
+                font-size: 12px;
+                padding: 0;
+            }
+
+        }
+
+        @media screen and (max-width: 760px) {
+            .top-bar {
+                padding: 20px;
+            }
+
+            .logo {
+                width: 200px;
+            }
+
+            .main {
+                padding: 0 10px;
+            }
+
+            .story1 {
+                flex-direction: column;
+                padding: 10;
+                background-color: white;
+            }
+
+            .title-proven-small h1,
+            .content-proven p {
+                margin: 0;
+            }
+
+            .title1 {
+                padding: 0;
+            }
+
+            .title-proven-small {
+                font-size: 28px;
+            }
+
+            .content-proven {
+                padding: 10px;
+                font-size: 20px;
+            }
+
+            .illus {
+                padding: 10px;
+            }
+
+            .title-proven-small {
+                display: block;
+            }
+
+            .title-proven {
+                display: none;
+            }
+
+            .illus,
+            .title1,
+            .title2,
+            .meterial {
+                width: 100%;
+            }
+
+            .story2-out {
+                padding: 40px;
+            }
+
+            .story2 {
+                flex-direction: column;
+                width: 80%;
+            }
+
+            .star {
+                display: block;
+            }
+
+            .title2-sub {
+                font-size: 24px;
+            }
+
+            .title2-content p {
+                font-size: 18px;
+            }
+
+            .twohundredto,
+            .seventyfiveto {
+                flex-direction: column;
+            }
+
+            .twohundredto div,
+            .seventyfiveto div {
+                flex-direction: column;
+                width: 80%;
+                margin: 15px 0;
+                padding: 15px;
+            }
+
+            .twohundredto h1,
+            .seventyfiveto h1 {
+                font-size: 36px;
+                padding: 10px;
+            }
+
+            .twohundredto p,
+            .seventyfiveto p {
+                font-size: 18px;
+                padding: 10px;
+            }
+
+            .go-read {
+                display: none;
+            }
+
+            .go-read-small {
+                display: block;
+                display: flex;
+                gap: 10px;
+            }
+
+            .readlink-small {
+                font-size: 18px;
+            }
+        }
+
+        @media screen and (max-width: 430px) {
+            .top-bar {
+                padding: 10px;
+            }
+
+            .main {
+                padding: 5px;
+            }
+
+            .story1 {
+                padding: 5px;
+            }
+
+            .title-proven-small {
+                font-size: 22px;
+            }
+
+            .content-proven {
+                padding: 5px;
+                font-size: 16px;
+            }
+
+            .story2-out {
+                padding: 30px;
+            }
+
+            .greentitle-small {
+                font-size: 24px;
+            }
+
+            .title2-content p {
+                font-size: 16px;
             }
         }
     </style>
@@ -365,19 +653,19 @@
             <img src="images/logo2.png" alt="logo" width="100%">
         </div>
         <div class="main-btn">
-            <div>
+            <div class="about-btn">
                 <h4>About us</h4>
             </div>
-            <div>
+            <div class="services-btn">
                 <h4>Services</h4>
             </div>
             <div class="usecase-btn">
                 <h4>Use Cases</h4>
             </div>
-            <div>
+            <div class="pricing-btn">
                 <h4>Pricing</h4>
             </div>
-            <div>
+            <div class="blog-btn">
                 <h4>Blog</h4>
             </div>
             <div class="request-btn-out">
@@ -387,11 +675,14 @@
             </div>
         </div>
         <div class="menu-icon">
-            <img src="images/ex2menu.png" alt="menu" width="24">
+            <img src="images/ex2menu.png" alt="menu" width="100%">
         </div>
     </div>
     <div class="main">
         <div class="story1">
+            <div class="title-proven-small">
+                <h1>Proven Success Stories</h1>
+            </div>
             <div class="illus">
                 <img src="images/Use cases illus.png" alt="illus" width="100%">
             </div>
@@ -406,58 +697,60 @@
                 </div>
             </div>
         </div>
-        <div class="story2">
+        <div class="story2-out">
             <div class="star">
                 <img src="images/star.png" alt="staricon" width="100%">
             </div>
-            <div class="title2">
-                <div class="greentitle">
-                    <h1>Featured Success Story</h1>
+            <div class="story2">
+                <div class="title2">
+                    <div class="greentitle">
+                        <h1>Featured Success Story</h1>
+                    </div>
+                    <div class="greentitle-small">
+                        FEATURED
+                    </div>
+                    <div class="title2-sub">
+                        Scaling Success for a Leading E-Commerce Brand
+                    </div>
+                    <div class="title2-content">
+                        <p>Through a comprehensive SEO and PPC strategy, we helped this e-commerce brand increase
+                            visibility, drive traffic, and boost sales.</p>
+                    </div>
+                    <div class="go-read">
+                        <div class="readicon">
+                            <img src="images/Read.png" alt="readicon" width="100%">
+                        </div>
+                        <div class="readlink">Read</div>
+                    </div>
                 </div>
-                <div class="greentitle-small">
-                    FEATURED
+                <div class="meterial">
+                    <div class="twohundredto">
+                        <div class="traffic">
+                            <h1>200%</h1>
+                            <p>increase in organic traffic</p>
+                        </div>
+                        <div class="online">
+                            <h1>150%</h1>
+                            <p>rise in online sales</p>
+                        </div>
+                    </div>
+                    <div class="seventyfiveto">
+                        <div class="cpc">
+                            <h1>75%</h1>
+                            <p>reduction in cost-per-click (CPC)</p>
+                        </div>
+                        <div class="conversion">
+                            <h1>300%</h1>
+                            <p>improvement in conversion rate</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="title2-sub">
-                    Scaling Success for a Leading E-Commerce Brand
-                </div>
-                <div class="title2-content">
-                    <p>Through a comprehensive SEO and PPC strategy, we helped this e-commerce brand increase
-                        visibility, drive traffic, and boost sales.</p>
-                </div>
-                <div class="go-read">
-                    <div class="readicon">
+                <div class="go-read-small">
+                    <div class="readicon-small">
                         <img src="images/Read.png" alt="readicon" width="100%">
                     </div>
-                    <div class="readlink">Read</div>
+                    <div class="readlink-small">Read</div>
                 </div>
-            </div>
-            <div class="meterial">
-                <div class="twohundredto">
-                    <div class="traffic">
-                        <h1>200%</h1>
-                        <p>increase in organic traffic</p>
-                    </div>
-                    <div class="online">
-                        <h1>150%</h1>
-                        <p>rise in online sales</p>
-                    </div>
-                </div>
-                <div class="seventyfiveto">
-                    <div class="cpc">
-                        <h1>75%</h1>
-                        <p>reduction in cost-per-click (CPC)</p>
-                    </div>
-                    <div class="conversion">
-                        <h1>300%</h1>
-                        <p>improvement in conversion rate</p>
-                    </div>
-                </div>
-            </div>
-            <div class="go-read-small">
-                <div class="readicon-small">
-                    <img src="images/Read.png" alt="readicon" width="100%">
-                </div>
-                <div class="readlink-small">Read</div>
             </div>
         </div>
     </div>

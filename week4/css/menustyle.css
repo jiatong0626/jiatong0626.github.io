@@ -1,0 +1,73 @@
+body {
+    font-family: "Oxygen", sans-serif;
+    background-color: #F6F5EF;
+}
+
+.top-bar {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 48px;
+}
+
+.menu-btn {
+    display: flex;
+}
+
+.logo,
+.menu-btn div {
+    padding: 12px;
+}
+
+.contactare {
+    display: flex;
+    align-items: center;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.phone div {
+    padding: 0 5px;
+}
+
+.callbtn {
+    background-color: #f9612b;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+.menu-icon {
+    display: none;
+}
+
+@media screen and (max-width: 1279px) {
+    .top-bar {
+        padding: 5px 24px;
+    }
+
+    .menu-btn,
+    .big-contact-btn {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .top-bar {
+        padding: 5px 12px;
+    }
+
+    .phone {
+        display: none;
+    }
+}

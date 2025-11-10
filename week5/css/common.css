@@ -61,6 +61,10 @@ button {
     display: none;
 }
 
+.main {
+    padding: 30px;
+}
+
 @media screen and (max-width: 1200px) {
     .main-btn {
         gap: 38px;
@@ -76,4 +80,44 @@ button {
         border-radius: 12px;
     }
 
+
+}
+
+@media screen and (max-width: 1000px) {
+    .top-bar {
+        padding: 20px;
+    }
+
+    .logo {
+        max-width: 200px;
+    }
+
+    .main-btn {
+        gap: 28px;
+    }
+
+    .main-btn h4,
+    .main-btn button {
+        font-size: 14px;
+    }
+
+    .request-btn button {
+        padding: 12px;
+        border-radius: 12px;
+    }
+
+    .main {
+        padding: 20px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .main-btn {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
 }

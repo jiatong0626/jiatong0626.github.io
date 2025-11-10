@@ -22,6 +22,11 @@ img {
     display: block;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 button {
     background-color: inherit;
     font-family: inherit;
@@ -63,6 +68,15 @@ button {
 
 .main {
     padding: 30px;
+}
+
+.logo a :hover {
+    opacity: 0.7;
+}
+
+.main-btn div :hover {
+    background-color: var(--title-green);
+    border-radius: 5px;
 }
 
 @media screen and (max-width: 1200px) {

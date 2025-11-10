@@ -1,3 +1,8 @@
+.usecase-btn {
+    background-color: var(--title-green);
+    border-radius: 5px;
+}
+
 .main {
     display: flex;
     flex-direction: column;

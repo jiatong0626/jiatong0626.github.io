@@ -29,7 +29,7 @@ body {
 .ins,
 .yt,
 .dc {
-    width: 36px;
+    width: 34px;
     padding: 0 10px;
 }
 
@@ -56,7 +56,7 @@ body {
 }
 
 .profile-img {
-    width: 350px;
+    width: 300px;
     margin: auto;
     padding: 20px;
 }
@@ -95,13 +95,18 @@ body {
     text-align: center;
 }
 
-.first-line {
+.first-line,
+.second-line {
     display: flex;
     justify-content: space-around;
 }
 
 .week-exe {
     width: calc(100%/ 3);
+}
+
+.week-exe-second {
+    width: 50%;
 }
 
 .exe-info {
@@ -166,7 +171,9 @@ body {
 }
 
 @media screen and (max-width: 960px) {
-    .first-line {
+
+    .first-line,
+    .second-line {
         flex-direction: column;
         justify-content: center;
     }
@@ -175,7 +182,8 @@ body {
         padding: 0;
     }
 
-    .week-exe {
+    .week-exe,
+    .week-exe-second {
         width: auto;
     }
 }

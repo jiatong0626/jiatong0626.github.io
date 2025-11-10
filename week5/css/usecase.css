@@ -1,0 +1,151 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.story-one {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--title-gray);
+    padding: 50px 70px;
+    border-radius: 60px;
+    gap: 80px;
+}
+
+.story-one>div {
+    width: calc(50% - 40px);
+}
+
+.story-one img {
+    width: 100%;
+}
+
+.title-proven-small {
+    display: none;
+}
+
+.story-proven {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px 0;
+}
+
+.title-proven h1 {
+    font-size: 64px;
+    font-weight: 550;
+}
+
+.content-proven p {
+    font-size: 24px;
+}
+
+.story-two {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--title-dark);
+    color: white;
+    padding: 50px;
+    border-radius: 60px;
+}
+
+.star-icon {
+    width: 32px;
+    display: none;
+}
+
+.story-two-inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 100;
+}
+
+/* .story-two-inner>div {
+    width: calc(50% - 50px);
+} */
+
+.story-featured {
+    width: calc(55% - 50px);
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.title-featured h1 {
+    font-size: 44px;
+    font-weight: 500;
+}
+
+.title-featured-ori {
+    background-color: var(--title-green);
+    color: var(--title-dark);
+}
+
+.title-featured-small {
+    display: none;
+}
+
+.sup-featured h3 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.content-featured p {
+    font-size: 20px;
+}
+
+.go-read {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.read-icon {
+    max-width: 46px;
+}
+
+.read-link {
+    font-size: 20px;
+    color: var(--title-green);
+}
+
+.go-read-bottom {
+    display: none;
+}
+
+.meterial {
+    width: calc(45% - 50px);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.meterial>div {
+    display: flex;
+    gap: 40px;
+}
+
+.data {
+    width: calc(50% - 20px);
+    background-color: white;
+    color: var(--title-dark);
+    aspect-ratio: 1/1;
+    border-radius: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    gap: 20px;
+}
+
+.data h1 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.data p {
+    font-size: 22px;
+    font-weight: 500;
+}

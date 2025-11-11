@@ -1,0 +1,112 @@
+body {
+    text-align: center;
+    background-color: rgb(45, 43, 51);
+    color: white;
+    max-width: 1300px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+.main {
+    padding: 20px;
+}
+
+.title {
+    margin: auto;
+    max-width: 900px;
+    padding: 40px 0;
+    font-size: 24px;
+}
+
+.pic-intro {
+    display: flex;
+    gap: 30px;
+}
+
+.pic-intro>div {
+    width: calc(100% - 20px / 3);
+}
+
+.intro-img img {
+    border-radius: 30px;
+}
+
+.intro-text {
+    width: calc(80% - 30px);
+    margin: auto;
+    background-color: white;
+    color: rgb(45, 43, 51);
+    padding: 30px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 120px;
+    aspect-ratio: 1/1;
+}
+
+.intro-text a :hover {
+    color: rgb(74, 70, 104);
+}
+
+@media screen and (max-width: 1200px) {
+    .title {
+        padding: 20px 0;
+    }
+
+    .title h1 {
+        font-size: 28px;
+    }
+
+    .title p {
+        font-size: 18px;
+    }
+
+    .intro-text {
+        width: calc(80% - 15px);
+        padding: 15px;
+    }
+
+    .intro-text h1 {
+        font-size: 24px;
+    }
+
+    .intro-text p {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .title {
+        max-width: 500px;
+    }
+
+    .title h1 {
+        font-size: 34px;
+    }
+
+    .title p {
+        font-size: 20px;
+    }
+
+    .pic-intro {
+        flex-direction: column;
+    }
+
+    .intro-img {
+        margin: auto;
+        width: 50%;
+    }
+
+    .intro-text {
+        max-width: calc(35% - 15px);
+    }
+}

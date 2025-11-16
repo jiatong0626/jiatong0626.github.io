@@ -1,10 +1,19 @@
-body {
-    text-align: center;
-    background-color: rgb(45, 43, 51);
-    color: white;
-    max-width: 1300px;
-    margin: auto;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oxygen:wght@300;400;700&family=Pirata+One&family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(48, 48, 65);
+}
+
+img {
+    max-width: 100%;
+    display: block;
 }
 
 a {
@@ -12,101 +21,209 @@ a {
     color: inherit;
 }
 
-img {
-    max-width: 100%;
-}
-
 .main {
-    padding: 20px;
+    max-width: 1400px;
+    margin: auto;
+    text-align: center;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
 }
 
 .title {
+    display: flex;
+    flex-direction: column;
+    max-width: 1100px;
     margin: auto;
-    max-width: 900px;
-    padding: 40px 0;
-    font-size: 24px;
+    gap: 15px;
+    color: white;
 }
 
-.pic-intro {
+.title h1 {
+    font-size: 38px;
+}
+
+.ado h1 {
+    font-size: 52px;
+}
+
+.title p {
+    font-size: 18px;
+}
+
+/* .album {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+} */
+
+.album-row {
+    max-width: 900px;
+    margin: auto;
     display: flex;
     gap: 30px;
 }
 
-.pic-intro>div {
-    width: calc(100% - 20px / 3);
+.album-row>div {
+    width: calc(33.33% - 20px);
 }
 
-.intro-img img {
-    border-radius: 30px;
+.album-img {
+    box-shadow: rgb(83, 76, 100) 20px 20px 50px;
+    border-radius: 20px;
 }
 
-.intro-text {
-    width: calc(80% - 30px);
+.album-img img {
+    border-radius: 20px;
+}
+
+.album-intro-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 85%;
     margin: auto;
     background-color: white;
-    color: rgb(45, 43, 51);
-    padding: 30px;
+    padding: 18px;
+    gap: 20px;
+    aspect-ratio: 1/0.9;
     border-radius: 20px;
     position: relative;
-    bottom: 120px;
-    aspect-ratio: 1/1;
+    bottom: 60px;
+    box-shadow: rgb(83, 76, 100) 20px 20px 50px;
 }
 
-.intro-text a :hover {
-    color: rgb(74, 70, 104);
+.album-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
-@media screen and (max-width: 1200px) {
-    .title {
-        padding: 20px 0;
+.album-name h1 {
+    font-size: 24px;
+}
+
+.link-icon {
+    max-width: 28px;
+}
+
+.album-intro-content p {
+    font-size: 14px;
+}
+
+.album-link:hover {
+    color: rgb(83, 76, 100);
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 860px) {
+    .main {
+        gap: 30px;
     }
 
     .title h1 {
         font-size: 28px;
     }
 
+    .ado h1 {
+        font-size: 42px;
+    }
+
     .title p {
-        font-size: 18px;
-    }
-
-    .intro-text {
-        width: calc(80% - 15px);
-        padding: 15px;
-    }
-
-    .intro-text h1 {
-        font-size: 24px;
-    }
-
-    .intro-text p {
         font-size: 14px;
     }
 
-}
-
-@media screen and (max-width: 900px) {
-    .title {
-        max-width: 500px;
+    .album-name {
+        gap: 5px;
     }
 
-    .title h1 {
-        font-size: 34px;
-    }
-
-    .title p {
+    .album-name h1 {
         font-size: 20px;
     }
 
-    .pic-intro {
+    .link-icon {
+        width: 20px;
+    }
+
+    .album-intro-content {
+        gap: 10px;
+        padding: 12px;
+    }
+
+    .album-intro-content p {
+        font-size: 11px;
+    }
+
+    .album-second-row {
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .title h1 {
+        font-size: 24px;
+    }
+
+    .ado h1 {
+        font-size: 32px;
+    }
+
+    .title p {
+        font-size: 12px;
+    }
+
+    .album-intro-content {
+        gap: 5px;
+    }
+
+    .album-name h1 {
+        font-size: 18px;
+    }
+
+    .link-icon {
+        width: 18px;
+    }
+
+    .album-intro-content p {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .ado h1 {
+        font-size: 54px;
+    }
+
+    .album-row {
         flex-direction: column;
+        max-width: 400px;
+        gap: 0;
     }
 
-    .intro-img {
-        margin: auto;
-        width: 50%;
+    .album-row>div {
+        width: 100%;
     }
 
-    .intro-text {
-        max-width: calc(35% - 15px);
+    .album-intro-content {
+        aspect-ratio: 0;
+        padding: 20px;
+        gap: 15px;
+    }
+
+    .album-name h1 {
+        font-size: 22px;
+    }
+
+    .link-icon {
+        width: 26px;
+    }
+
+    .album-intro-content p {
+        font-size: 14px;
+    }
+
+    .album-second-row {
+        margin-top: 0;
     }
 }

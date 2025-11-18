@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 600px;
+    margin: auto;
+    background-color: rgb(239, 233, 255);
+    padding: 50px 0;
+}
+
+input {
+    padding: 15px 20px;
+    border-radius: 100px;
+    border: none;
+}
+
+.main {
+    padding: 50px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.re-form {
+    padding: 10px;
+}
+
+form>div {
+    padding: 10px;
+}
+
+.intro {
+    display: flex;
+    align-items: end;
+    gap: 30px;
+}
+
+.intro>div {
+    width: calc(50% - 15px);
+}
+
+.intro-input {
+    border-radius: 100px;
+    box-shadow: rgba(0, 0, 0, 0.137) 0px 6px 25px;
+    margin: 10px 0;
+}
+
+.intro input,
+.url input {
+    width: 100%;
+}
+
+.url {
+    width: 100%;
+}
+
+.text {
+    width: 100%;
+}
+
+.text textarea {
+    width: 100%;
+    aspect-ratio: 1/0.3;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.sub input {
+    width: 100%;
+}

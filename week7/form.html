@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="re-form">
+            <h1>Self Introduction</h1>
+        </div>
+        <form>
+            <div class="intro">
+                <div class="intro-input">
+                    <input type="text" id="fname" name="fname" placeholder="First Name" required>
+                </div>
+                <div class="intro-input">
+                    <input type="text" id="lname" name="fname" placeholder="Last Name" required>
+                </div>
+            </div>
+            <div class="intro">
+                <div>
+                    <div>
+                        <label for="birth">
+                            <p>Date of Birth</p>
+                        </label>
+                    </div>
+                    <div class="intro-input">
+                        <input type="date" id="birth" name="birth" required>
+                    </div>
+                </div>
+                <div class="intro-input">
+                    <input type="email" id="email" name="email" placeholder="Email Address" required>
+                </div>
+            </div>
+            <div class="url">
+                <div>
+                    <label for="url">
+                        <p>Homepage URL</p>
+                    </label>
+                </div>
+                <div class="intro-input">
+                    <input type="url" id="url" name="url">
+                </div>
+            </div>
+            <!-- <div>
+                <input type="radio" id="rc" name="red" value="Red">
+                <label for="rc">Red</label>
+                <input type="radio" id="gc" name="red" value="Red">
+                <label for="rc">Red</label>
+                <input type="radio" id="bc" name="red" value="Red">
+                <label for="rc">Red</label>
+            </div> -->
+            <div class="color">
+                <p>Favourite Colors:</p>
+                <input type="checkbox" id="red" name="red" value="Red">
+                <label for="red"> Red</label><br>
+                <input type="checkbox" id="green" name="green" value="Green">
+                <label for="green"> Green</label><br>
+                <input type="checkbox" id="blue" name="blue" value="Blue">
+                <label for="blue"> Blue</label><br>
+            </div>
+            <div class="text">
+                <label for="self">Self Introduction:</label><br>
+                <textarea id="self" name="self"></textarea>
+            </div>
+            <div class="sub">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

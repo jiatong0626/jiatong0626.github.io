@@ -8,7 +8,7 @@ body {
     max-width: 600px;
     margin: auto;
     background-color: rgb(239, 233, 255);
-    padding: 50px 0;
+    padding: 50px 10px;
 }
 
 input {
@@ -25,6 +25,7 @@ input {
 
 .re-form {
     padding: 10px;
+    color: rgb(77, 74, 87);
 }
 
 form>div {
@@ -56,12 +57,30 @@ form>div {
     width: 100%;
 }
 
+.color {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.color-choose {
+    display: flex;
+}
+
+.color-choose>div {
+    width: 50%;
+}
+
 .text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     width: 100%;
 }
 
 .text textarea {
-    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
     aspect-ratio: 1/0.3;
     border-radius: 20px;
     padding: 20px;
@@ -69,4 +88,9 @@ form>div {
 
 .sub input {
     width: 100%;
+}
+
+.sub input:hover {
+    background-color: rgb(77, 74, 87);
+    color: white;
 }

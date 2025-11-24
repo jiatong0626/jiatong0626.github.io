@@ -16,7 +16,7 @@
                 <img src="images/logo.png" alt="logo">
             </a>
         </div>
-        <div class="main-btn">
+        <div class="main-btn active" id="main-btn">
             <div class="about-btn btn-item">
                 <div class="btn-link">
                     <a href="#" target="_blank">
@@ -90,9 +90,7 @@
                 </button>
             </div>
         </div>
-        <div class="menu-icon">
-            <img src="images/menu.png" alt="menu">
-        </div>
+        <div class="menu-icon" id="menu-icon">&#9776;</div>
     </div>
     <div class="main">
         <div class="main-content">
@@ -128,6 +126,22 @@
         <div><img src="images/netflix.png" alt="netflix"></div>
         <div><img src="images/zoom.png" alt="zoom"></div>
     </div>
+
+    <script>
+        const toggleButton = document.getElementById("menu-icon");
+        const menu = document.getElementById("main-btn");
+
+        toggleButton.addEventListener("click", () => {
+            menu.classList.toggle("active");
+
+            if (menu.classList.contains("active")) {
+                toggleButton.innerHTML = "&times;";
+            } else {
+                toggleButton.innerHTML = "&#9776;";
+            }
+        });
+    </script>
+
 </body>
 
 </html>

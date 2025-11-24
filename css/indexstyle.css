@@ -141,7 +141,8 @@ body {
 }
 
 .week-exe,
-.week-exe-second {
+.week-exe-second,
+.week-exe-third {
     background-color: rgba(255, 255, 255, 0.63);
     border-radius: 50px;
     margin: 15px;

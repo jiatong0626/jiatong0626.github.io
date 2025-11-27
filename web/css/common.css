@@ -71,6 +71,7 @@ h3,
 h4 {
     font-family: var(--heading);
     font-weight: var(--regular);
+    color: var(--deep-cocoa-brown);
 }
 
 h1 {

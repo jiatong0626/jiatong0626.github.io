@@ -1,1 +1,77 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oxygen:wght@300;400;700&family=Pirata+One&family=Rubik+Glitch&family=Space+Grotesk:wght@300..700&display=swap');
+
+@font-face {
+    font-family: "SF Pro";
+    src: url("../font/SF-Pro.ttf") format("ttf");
+    font-display: swap;
+}
+
+/* font family */
+:root {
+    --heading: "DM Serif Display", serif;
+    --paragraph: "SF Pro", sans-serif;
+}
+
+/* font weight */
+:root {
+    --regular: 400;
+}
+
+/* font size */
+:root {
+    --h1-size: 64px;
+    --h2-size: 40px;
+    --h3-p1-size: 24px;
+    --h4-p2-size: 16px;
+    --small-caption-size: 20px;
+}
+
+/* Color  */
+:root {
+    --light-cream: #FDF8F2;
+    --deep-cocoa-brown: #3B2A23;
+    --soft-sand-beige: #F3E7D8;
+    --warm-light-gray: #E5DED2;
+    --medium-warm-gray: #B3A89B;
+    --warm-golden-accent: #D9B26B;
+    --clay-taupe: #C3A78A;
+
+}
+
+/* Border Radius */
+:root {
+    --small-img: 52px;
+    --large-img: 22px;
+}
+
+/* box-shadow */
+:root {
+    --shadow: rgba(0, 0, 0, 0.25) 11px 14px 32.8px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--heading);
+    max-width: 1400px;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h3 {
+    font-family: var(--heading);
+    font-weight: var(--regular);
+}

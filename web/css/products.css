@@ -32,6 +32,13 @@
     width: 40%;
 }
 
+/* 类似这样 然后用gap 不用调padding */
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .info p {
     padding-right: 30px;
 }

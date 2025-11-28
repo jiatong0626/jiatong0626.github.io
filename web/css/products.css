@@ -8,6 +8,7 @@
 .living-intro {
     display: flex;
     gap: 40px;
+    height: 300px;
 }
 
 .intro-image {
@@ -24,7 +25,7 @@
 
 .intro-image img {
     border-radius: 22px;
-    box-shadow: rgba(0, 0, 0, 0.559) 11px 14px 32.8px;
+    box-shadow: var(--shadow);
 }
 
 .info {
@@ -33,4 +34,43 @@
 
 .info p {
     padding-right: 30px;
+}
+
+.categories {
+    background-color: #E5DED2;
+    padding: 50px;
+    padding-bottom: 90px;
+}
+
+.categories h2 {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 60px;
+}
+
+.three-cat div {
+    width: 33.33%;
+}
+
+.three-cat {
+    display: flex;
+    gap: 61px;
+}
+
+.f-collections {
+    display: flex;
+    margin: 45px;
+    gap: 30px;
+}
+
+.f-text {
+    width: 40%;
+}
+
+.f-img {
+    width: 60%;
+}
+
+.f-img img {
+    border-radius: 22px;
 }

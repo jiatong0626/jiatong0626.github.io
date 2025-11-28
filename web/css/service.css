@@ -1,6 +1,6 @@
 .hero {
     position: relative;
-    height: 340px;
+    height: 650px;
     width: 100%;
     background-image: url("../images/service\ main.jpg");
     background-position: center;
@@ -37,11 +37,11 @@
 .customer-section {
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 76px;
 }
 
 .customer-image img {
-    width: 100%;
+    /* width: 100%; */
     max-width: 380px;
     border-radius: 30px;
     object-fit: cover;
@@ -56,7 +56,7 @@
 }
 
 .support-section {
-    background-color: #c8b7a5;
+    background-color: #B3A89B;
     padding: 60px 80px;
     color: white;
 }
@@ -98,14 +98,12 @@
     margin-bottom: 8px;
 }
 
-.support-text p {
+.support-ext p {
     font-size: 16px;
     line-height: 1.5;
 }
 
-
-
-.discover-section {
+f .discover-section {
     border-top: 1px solid #e0d0c0;
     border-bottom: 1px solid #e0d0c0;
 }
@@ -121,8 +119,8 @@
     padding: 18px 10px;
     text-decoration: none;
     color: var(--text-main);
-    font-size: 14px;
-    border-bottom: 1px solid #e0d0c0;
+    font-size: 24px;
+    border-bottom: 1px solid #B3A89B;
 }
 
 .discover-item .arrow-icon {

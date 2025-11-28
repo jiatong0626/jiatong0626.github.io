@@ -91,6 +91,7 @@
 
 .support-text {
     max-width: 300px;
+    color: #3B2A23;
 }
 
 .support-text h3 {
@@ -116,7 +117,7 @@ f .discover-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 18px 10px;
+    padding: 26px 10px;
     text-decoration: none;
     color: var(--text-main);
     font-size: 24px;
@@ -128,9 +129,7 @@ f .discover-section {
     height: auto;
 }
 
-.discover-item:last-child {
-    border-bottom: none;
-}
+
 
 .discover-item:hover {
     background-color: #f1e3d5;

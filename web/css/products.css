@@ -1,0 +1,36 @@
+.title {
+    text-align: center;
+    position: relative;
+    bottom: 350px;
+    color: #FDF8F2;
+}
+
+.living-intro {
+    display: flex;
+    gap: 40px;
+}
+
+.intro-image {
+    width: 60%;
+    position: relative;
+    bottom: 125px;
+    z-index: 1;
+}
+
+.hero-banner-full {
+    position: relative;
+    z-index: 10;
+}
+
+.intro-image img {
+    border-radius: 22px;
+    box-shadow: rgba(0, 0, 0, 0.559) 11px 14px 32.8px;
+}
+
+.info {
+    width: 40%;
+}
+
+.info p {
+    padding-right: 30px;
+}

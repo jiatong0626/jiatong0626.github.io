@@ -71,7 +71,15 @@
     border-radius: var(--small-img);
 }
 
+.team-photo img {
+    border-radius: var(--small-img);
+}
+
 .service-photo {
+    border-radius: var(--small-img);
+}
+
+.service-photo img {
     border-radius: var(--small-img);
 }
 
@@ -96,7 +104,7 @@
 }
 
 .craftsmanship_text {
-    margin-top: 21px;
+    margin-top: 20px;
 }
 
 .survey {
@@ -133,4 +141,36 @@
 .line3 {
     margin-top: 53px;
     width: 95%;
+}
+
+.section3_title h1 {
+    color: #3B2A23;
+}
+
+.section3_title {
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+}
+
+.about-section3 {
+    background-color: #E5DED2;
+    aspect-ratio: 1 / 0.4;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    box-shadow: var(--shadow);
+}
+
+.section3 {
+    padding-bottom: 200px;
+}
+
+.section3_tex {
+    display: flex;
+    flex-direction: column;
+    gap: 76px;
 }

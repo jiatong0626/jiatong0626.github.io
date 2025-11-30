@@ -23,3 +23,154 @@
     width: 80%;
     gap: 20px;
 }
+
+.about-section2 {
+    background-color: #B3A89B;
+    position: relative;
+    bottom: 115px;
+}
+
+.about_intro {
+    margin-top: 150px;
+}
+
+
+.aboutintro-title {
+    margin-top: -6px;
+}
+
+.aboutintro-text {
+    margin-top: 20px;
+    width: 95%;
+}
+
+.aboutintro-slogan {
+    margin-top: 51px;
+}
+
+.categories-photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 196px;
+    position: relative;
+    bottom: 210px;
+}
+
+.categories-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 470px;
+    gap: 470px;
+}
+
+
+.team-photo {
+    border-radius: var(--small-img);
+}
+
+.team-photo img {
+    border-radius: var(--small-img);
+}
+
+.service-photo {
+    border-radius: var(--small-img);
+}
+
+.service-photo img {
+    border-radius: var(--small-img);
+}
+
+.craftsmanship {
+    display: flex;
+    gap: 76px;
+    margin-top: -160px;
+    padding: 50px 0px;
+}
+
+.craftsmanship-text {
+    width: 50%;
+    padding: 60px;
+}
+
+.craftsmanship-photo {
+    width: 50%;
+}
+
+.craftsmanship_title {
+    margin-top: -6px;
+}
+
+.craftsmanship_text {
+    margin-top: 20px;
+}
+
+.survey {
+    margin-top: 78px;
+}
+
+.handcrafted {
+    display: flex;
+    justify-content: space-between;
+}
+
+.line1 {
+    margin-top: 43px;
+    width: 85%;
+}
+
+.wood {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 53px;
+}
+
+.line2 {
+    margin-top: 43px;
+    width: 90%;
+}
+
+.quality {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 53px;
+}
+
+.line3 {
+    margin-top: 53px;
+    width: 95%;
+}
+
+.section3_title h1 {
+    color: #3B2A23;
+}
+
+.section3_title {
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+}
+
+.about-section3 {
+    background-color: #E5DED2;
+    aspect-ratio: 1 / 0.4;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    box-shadow: var(--shadow);
+}
+
+.section3 {
+    padding-bottom: 200px;
+}
+
+.section3_tex {
+    display: flex;
+    flex-direction: column;
+    gap: 76px;
+}

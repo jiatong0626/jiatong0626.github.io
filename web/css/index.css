@@ -1,0 +1,120 @@
+.deep {
+    background-color: var(--warm-light-gray);
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main-title {
+    margin-top: -6px;
+}
+
+.hero-banner {
+    background-image: url(../images/homehero.jpg);
+    background-position: center;
+    aspect-ratio: 2.2 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-banner h5 {
+    color: var(--light-cream);
+}
+
+.our-craft-card {
+    display: flex;
+    align-items: center;
+    background-color: var(--warm-light-gray);
+    width: 80%;
+    margin: auto;
+    border-radius: var(--large-img);
+    box-shadow: var(--shadow);
+    position: relative;
+    top: -80px;
+    z-index: 1001;
+}
+
+.craft-info {
+    width: 60%;
+    padding: 70px;
+}
+
+.craft-img img {
+    border-radius: var(--left-img);
+}
+
+.our-collections {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 61px;
+    padding: 190px 0 140px 0;
+    position: relative;
+    top: -200px;
+}
+
+.collections-content {
+    display: flex;
+    flex-direction: column;
+    gap: 61px;
+}
+
+.content-row {
+    display: flex;
+    justify-content: center;
+    gap: 61px;
+}
+
+.frame {
+    width: calc(30.2% - 40.67px);
+    aspect-ratio: 1 /1;
+    background-size: cover;
+    border-radius: var(--small-img);
+    box-shadow: var(--shadow);
+}
+
+.frame-bg-color {
+    background-color: var(--transparency-bg);
+    width: 100%;
+    aspect-ratio: 1 /1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+    border-radius: var(--small-img);
+}
+
+
+
+.frame h2 {
+    color: var(--light-cream);
+}
+
+.frame-living {
+    background-image: url(../images/livingroom.jpg);
+
+}
+
+.frame-bedroom {
+    background-image: url(../images/bedroomcard.jpg);
+}
+
+.frame-accessories {
+    background-image: url(../images/homeacc.jpg);
+}
+
+.frame-lighting {
+    background-image: url(../images/lighting.jpg);
+}
+
+.frame-seating {
+    background-image: url(../images/seating.jpg);
+}
+
+.frame-dining {
+    background-image: url(../images/dining.jpg);
+}

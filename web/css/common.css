@@ -15,7 +15,7 @@
 /* font weight */
 :root {
     --regular: 400;
-    --semibold: 600;
+    --semibold: 550;
 }
 
 /* font size */
@@ -36,6 +36,7 @@
     --medium-warm-gray: #B3A89B;
     --warm-golden-accent: #D9B26B;
     --clay-taupe: #C3A78A;
+    --transparency-bg: #3b2a2361;
 }
 
 /* Border Radius */
@@ -55,10 +56,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    background-color: var(--light-cream);
 }
 
 img {
@@ -138,8 +135,7 @@ p {
     padding: 20px 42px;
 }
 
-.inner,
-.main {
+.inner {
     max-width: 1400px;
     margin: auto;
 }
@@ -169,7 +165,9 @@ p {
 }
 
 .main {
-    padding: 0px 42px;
+    background-color: var(--light-cream);
+    max-width: calc(1400px - 84px);
+    margin: auto;
 }
 
 .footer h6,
@@ -197,8 +195,8 @@ p {
 
 .footer-discover-btn {
     background-color: var(--deep-cocoa-brown);
-    padding: 15px 25px;
-    border-radius: 10px;
+    padding: 16px 40px;
+    border-radius: 25px;
 }
 
 .footer-info {

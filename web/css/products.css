@@ -5,6 +5,11 @@
     color: #FDF8F2;
 }
 
+.title p {
+    font-style: italic;
+    color: #FDF8F2;
+}
+
 .living-intro {
     display: flex;
     gap: 40px;
@@ -24,7 +29,7 @@
 }
 
 .intro-image img {
-    border-radius: 22px;
+    border-radius: var(--top-left-img);
     box-shadow: var(--shadow);
 }
 
@@ -37,10 +42,6 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-}
-
-.info p {
-    padding-right: 30px;
 }
 
 .categories {
@@ -64,14 +65,22 @@
     gap: 61px;
 }
 
+.three-cat img {
+    border-radius: 52px;
+}
+
 .f-collections {
     display: flex;
     margin: 45px;
-    gap: 30px;
+    gap: 60px;
+    align-items: center;
 }
 
 .f-text {
+    display: flex;
+    flex-direction: column;
     width: 40%;
+    gap: 20px;
 }
 
 .f-img {

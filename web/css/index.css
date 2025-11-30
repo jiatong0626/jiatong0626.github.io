@@ -36,6 +36,7 @@
     position: relative;
     top: -80px;
     z-index: 1001;
+    margin-bottom: -80px;
 }
 
 .craft-info {
@@ -52,9 +53,10 @@
     display: flex;
     flex-direction: column;
     gap: 61px;
-    padding: 190px 0 140px 0;
+    padding: 190px 0 120px 0;
     position: relative;
-    top: -200px;
+    top: -120px;
+    margin-bottom: -120px;
 }
 
 .collections-content {
@@ -88,8 +90,6 @@
     border-radius: var(--small-img);
 }
 
-
-
 .frame h2 {
     color: var(--light-cream);
 }
@@ -117,4 +117,96 @@
 
 .frame-dining {
     background-image: url(../images/dining.jpg);
+}
+
+.our-benefits {
+    display: flex;
+    align-items: center;
+    gap: 76px;
+    position: relative;
+    z-index: 1001;
+    top: -30px;
+    margin-bottom: -30px;
+}
+
+.our-benefits>div {
+    width: calc(50% - 38px);
+}
+
+.left-overlay-img {
+    box-shadow: var(--shadow);
+}
+
+.left-overlay-img,
+.left-overlay-img img {
+    border-radius: var(--left-img);
+}
+
+.benefits-info {
+    padding: 0 100px 0 0;
+}
+
+.benefits-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mark-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.our-strategy {
+    text-align: center;
+    padding: 90px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 61px;
+    position: relative;
+    top: -30px;
+    margin-bottom: -30px;
+}
+
+.strategy-illus {
+    background-image: url(../images/strategyillus.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-column {
+    display: flex;
+    flex-direction: column;
+    gap: 61px;
+}
+
+.content-grid {
+    background-color: var(--medium-warm-gray);
+    width: 70%;
+    margin: auto;
+    padding: 32px;
+    border-radius: var(--small-img);
+}
+
+.keep-right-grid {
+    position: relative;
+    left: 50px;
+}
+
+.keep-left-grid {
+    position: relative;
+    right: 50px;
+}
+
+.our-team {
+    text-align: center;
+}
+
+.team-member {
+    display: flex;
+    justify-content: center;
 }

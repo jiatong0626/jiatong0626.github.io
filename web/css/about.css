@@ -6,6 +6,7 @@
 
 .about-section1 {
     display: flex;
+    gap: 76px;
 }
 
 .intro-img {

@@ -36,7 +36,8 @@
     --medium-warm-gray: #B3A89B;
     --warm-golden-accent: #D9B26B;
     --clay-taupe: #C3A78A;
-    --transparency-bg: #3b2a2361;
+    --transparency-bg: rgba(59, 42, 35, 0.61);
+    --transparency-bg-opacity: #3b2a234b;
 }
 
 /* Border Radius */

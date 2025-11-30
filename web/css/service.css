@@ -1,0 +1,136 @@
+.hero {
+    position: relative;
+    height: 650px;
+    width: 100%;
+    background-image: url("../images/service\ main.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FDF8F2;
+}
+
+.hero-content h1 {
+    color: #FDF8F2;
+}
+
+.section {
+    padding: 70px 80px;
+}
+
+.light-bg {
+    background-color: var(--bg-light);
+}
+
+.muted-bg {
+    background-color: var(--bg-muted);
+}
+
+.section-title {
+    margin-bottom: 30px;
+}
+
+
+.customer-section {
+    display: flex;
+    align-items: center;
+    gap: 76px;
+}
+
+.customer-image img {
+    /* width: 100%; */
+    max-width: 380px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.customer-text h2 {
+    margin-bottom: 15px;
+}
+
+.customer-text p {
+    color: var(--text-muted);
+}
+
+.support-section {
+    background-color: #B3A89B;
+    padding: 60px 80px;
+    color: white;
+}
+
+
+.support-title {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.support-images {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin-bottom: 35px;
+}
+
+.support-images img {
+    width: 100%;
+    max-width: 300px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+
+.support-text-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.support-text {
+    max-width: 300px;
+    color: #3B2A23;
+}
+
+.support-text h3 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.support-ext p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+f .discover-section {
+    border-top: 1px solid #e0d0c0;
+    border-bottom: 1px solid #e0d0c0;
+}
+
+.discover-list {
+    margin-top: 15px;
+}
+
+.discover-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 10px;
+    text-decoration: none;
+    color: var(--text-main);
+    font-size: 24px;
+    border-bottom: 1px solid #B3A89B;
+}
+
+.discover-item .arrow-icon {
+    width: 18px;
+    height: auto;
+}
+
+
+
+.discover-item:hover {
+    background-color: #f1e3d5;
+}

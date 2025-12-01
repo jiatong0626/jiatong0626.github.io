@@ -65,6 +65,7 @@
     background-color: #B3A89B;
     padding: 50px;
     color: white;
+    align-self: start;
 }
 
 
@@ -124,7 +125,9 @@
 .support-text-row {
     display: flex;
     justify-content: space-between;
-    gap: 61px;
+    gap: 20px;
+    text-align: left;
+
 }
 
 .support-text {

@@ -80,13 +80,43 @@
     margin-bottom: 35px;
 }
 
+.three-help {
+    display: flex;
+    gap: 61px;
+}
+
+.three-help img {
+    border-radius: var(--small-img);
+    ;
+    aspect-ratio: 1/1;
+}
+
+.support-images {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
 .support-images img {
     width: 100%;
-    max-width: 300px;
-    height: 220px;
-    object-fit: cover;
-    border-radius: 25px;
-    aspect-ratio: 1/1;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(59, 42, 35, 0.63);
+    opacity: 1;
+    border-radius: var(--small-img);
+    transition: 0.3s;
+}
+
+.overlay h2 {
+    color: #FDF8F2;
+}
+
+.support-images:hover .overlay {
+    opacity: 0;
 }
 
 

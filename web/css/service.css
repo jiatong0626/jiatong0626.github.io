@@ -1,6 +1,6 @@
 .hero {
     position: relative;
-    height: 650px;
+    height: 555px;
     width: 100%;
     background-image: url("../images/servicemain.png");
     background-position: center;
@@ -65,7 +65,8 @@
     background-color: #B3A89B;
     padding: 50px;
     color: white;
-    align-self: start;
+    align-items: flex-start;
+    text-align: start;
 }
 
 

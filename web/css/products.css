@@ -41,7 +41,7 @@
 }
 
 .info p {
-    font-size: var(--h3-p1-size);
+    font-size: var(--h3-size);
 }
 
 .categories {
@@ -85,10 +85,14 @@
     opacity: 1;
     border-radius: var(--small-img);
     transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .overlay h2 {
     color: #FDF8F2;
+    padding: 0;
 }
 
 .img-box:hover .overlay {
@@ -110,7 +114,7 @@
 }
 
 .f-text p {
-    font-size: var(--h3-p1-size);
+    font-size: var(--h3-size);
 }
 
 .f-img {

@@ -1,0 +1,42 @@
+h1 {
+    color: var(--deep-cocoa-brown);
+}
+
+.main {
+    padding: 61px 42px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 61px;
+    padding: 42px;
+}
+
+.none-page-info {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.four-o-four {
+    font-family: var(--paragraph);
+    font-weight: 700;
+    font-size: 300px;
+    color: #F3E7D8;
+}
+
+.back-home-btn {
+    background-color: var(--deep-cocoa-brown);
+    padding: 16px 48px;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+.back-home-btn p {
+    color: var(--light-cream);
+}
+
+@media screen and (max-width: 900px) {
+    .four-o-four {
+        font-size: 200px;
+    }
+}

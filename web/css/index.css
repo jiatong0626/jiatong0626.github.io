@@ -24,6 +24,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 42px;
+}
+
+.hero-banner>div {
+    width: 90%;
 }
 
 .hero-banner h5 {
@@ -81,7 +86,7 @@
     aspect-ratio: 1 /1;
     background-size: cover;
     border-radius: var(--small-img);
-    box-shadow: var(--shadow);
+    /* box-shadow: var(--shadow); */
 }
 
 .frame-bg-color {
@@ -226,6 +231,10 @@
     justify-content: center;
 }
 
+/* .profile-img {
+    box-shadow: var(--shadow);
+} */
+
 .profile-img img,
 .profile-img {
     border-radius: var(--large-img);
@@ -243,7 +252,7 @@
 }
 
 .team-contact {
-    padding: 42px;
+    padding: 0 42px;
 }
 
 .frame-bg-color:hover {

@@ -62,14 +62,38 @@
     bottom: 210px;
 }
 
-.categories-title {
+.team-photo {
+    background-image: url(../images/aboutteam.jpg);
+    width: 30%;
+    aspect-ratio: 1 / 1;
+}
+
+.service-photo {
+    background-image: url(../images/aboutservice.jpg);
+    width: 30%;
+    aspect-ratio: 1 / 1;
+}
+
+.overlay-color {
+    background-color: var(--transparency-bg);
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    aspect-ratio: 1 / 1;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
-    bottom: 470px;
-    gap: 470px;
+    border-radius: var(--small-img);
 }
+
+.overlay-color:hover {
+    background-color: var(--transparency-bg-opacity);
+}
+
+.overlay-color h2 {
+    color: #FDF8F2;
+}
+
 
 
 .team-photo {
@@ -87,6 +111,7 @@
 .service-photo img {
     border-radius: var(--small-img);
 }
+
 
 .craftsmanship {
     display: flex;

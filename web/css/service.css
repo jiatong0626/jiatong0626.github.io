@@ -86,6 +86,7 @@
     height: 220px;
     object-fit: cover;
     border-radius: 25px;
+    aspect-ratio: 1/1;
 }
 
 

@@ -58,6 +58,7 @@
 
 .customer-text p {
     color: var(--text-muted);
+    font-size: var(--h3-size);
 }
 
 .support-section {
@@ -104,8 +105,8 @@
     margin-bottom: 8px;
 }
 
-.support-ext p {
-    font-size: 16px;
+.support-text p {
+    font-size: var(--h3-size);
     line-height: 1.5;
 }
 

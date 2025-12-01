@@ -62,7 +62,8 @@
 }
 
 .three-cat img {
-    border-radius: 52px;
+    border-radius: var(--small-img);
+    ;
     aspect-ratio: 1/1;
 }
 
@@ -82,7 +83,7 @@
     inset: 0;
     background: rgba(59, 42, 35, 0.63);
     opacity: 1;
-    border-radius: 52px;
+    border-radius: var(--small-img);
     transition: 0.3s;
 }
 
@@ -96,7 +97,7 @@
 
 .f-collections {
     display: flex;
-    margin: 45px;
+    padding: 45px;
     gap: 60px;
     align-items: center;
 }
@@ -108,10 +109,14 @@
     gap: 20px;
 }
 
+.f-text p {
+    font-size: var(--h3-p1-size);
+}
+
 .f-img {
     width: 60%;
 }
 
 .f-img img {
-    border-radius: 22px;
+    border-radius: var(--large-img);
 }

@@ -2,7 +2,7 @@
     position: relative;
     height: 650px;
     width: 100%;
-    background-image: url("../images/service\ main.jpg");
+    background-image: url("../images/servicemain.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -14,6 +14,11 @@
 }
 
 .hero-content h1 {
+    color: #FDF8F2;
+}
+
+.hero-content p {
+    font-style: italic;
     color: #FDF8F2;
 }
 

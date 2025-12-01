@@ -4,6 +4,11 @@
     text-align: center;
 }
 
+.herobannertitle p {
+    color: #E5DED2;
+    font-style: italic;
+}
+
 .about-section1 {
     display: flex;
     gap: 76px;
@@ -116,10 +121,12 @@
     justify-content: space-between;
 }
 
-.line1 {
+.line1 hr {
     margin-top: 43px;
     width: 85%;
+    border-top: 3px solid #FDF8F2;
 }
+
 
 .wood {
     display: flex;
@@ -127,9 +134,12 @@
     margin-top: 53px;
 }
 
-.line2 {
+.line2 hr {
     margin-top: 43px;
     width: 90%;
+    border: 0;
+    border-top: 3px solid #FDF8F2;
+
 }
 
 .quality {
@@ -138,9 +148,11 @@
     margin-top: 53px;
 }
 
-.line3 {
+.line3 hr {
     margin-top: 53px;
     width: 95%;
+    border-top: 3px solid #FDF8F2;
+
 }
 
 .section3_title h1 {
@@ -163,13 +175,14 @@
     justify-content: center;
     text-align: center;
     box-shadow: var(--shadow);
+    border-radius: var(--large-img);
 }
 
 .section3 {
     padding-bottom: 200px;
 }
 
-.section3_tex {
+.section3_text {
     display: flex;
     flex-direction: column;
     gap: 76px;

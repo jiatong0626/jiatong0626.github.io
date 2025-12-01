@@ -53,6 +53,11 @@
     --shadow: rgba(0, 0, 0, 0.25) 11px 14px 32.8px;
 }
 
+/* section padding */
+:root {
+    --section-padding: 42px;
+}
+
 * {
     margin: 0;
     padding: 0;

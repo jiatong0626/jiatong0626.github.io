@@ -8,6 +8,11 @@
     gap: 20px;
 }
 
+.contact {
+    max-width: 1000px;
+    margin: auto;
+}
+
 .main-title {
     margin-top: -6px;
 }
@@ -204,11 +209,41 @@
 
 .our-team {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 61px;
+    padding: 61px 0;
 }
 
 .team-member {
     display: flex;
     justify-content: center;
+    gap: 41px;
+}
+
+.personal-intro {
+    width: calc(23.5% - 30.75px);
+    justify-content: center;
+}
+
+.profile-img img,
+.profile-img {
+    border-radius: var(--large-img);
+}
+
+.profile-info {
+    width: 85%;
+    background-color: var(--light-cream);
+    box-shadow: var(--shadow);
+    padding: 24px 0;
+    border-radius: var(--large-img);
+    margin: auto;
+    position: relative;
+    top: -61px;
+}
+
+.team-contact {
+    padding: 42px;
 }
 
 .frame-bg-color:hover {

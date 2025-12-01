@@ -35,13 +35,13 @@
 
 .info {
     width: 40%;
-}
-
-/* 类似这样 然后用gap 不用调padding */
-.info {
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.info p {
+    font-size: var(--h3-p1-size);
 }
 
 .categories {
@@ -56,10 +56,6 @@
     padding-top: 60px;
 }
 
-.three-cat div {
-    width: 33.33%;
-}
-
 .three-cat {
     display: flex;
     gap: 61px;
@@ -67,6 +63,35 @@
 
 .three-cat img {
     border-radius: 52px;
+    aspect-ratio: 1/1;
+}
+
+.img-box {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.img-box img {
+    width: 100%;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(59, 42, 35, 0.63);
+    opacity: 1;
+    border-radius: 52px;
+    transition: 0.3s;
+}
+
+.overlay h2 {
+    color: #FDF8F2;
+}
+
+.img-box:hover .overlay {
+    opacity: 0;
 }
 
 .f-collections {

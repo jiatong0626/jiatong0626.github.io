@@ -1,6 +1,6 @@
 .hero {
     position: relative;
-    height: 650px;
+    height: 555px;
     width: 100%;
     background-image: url("../images/servicemain.png");
     background-position: center;
@@ -23,15 +23,7 @@
 }
 
 .section {
-    padding: 70px 80px;
-}
-
-.light-bg {
-    background-color: var(--bg-light);
-}
-
-.muted-bg {
-    background-color: var(--bg-muted);
+    padding: 50px 30px;
 }
 
 .section-title {
@@ -62,44 +54,47 @@
 }
 
 .support-section {
-    background-color: #B3A89B;
+    background-color: var(--medium-warm-gray);
     padding: 60px 80px;
-    color: white;
+    color: #3B2A23;
 }
-
 
 .support-title {
     font-size: 40px;
     margin-bottom: 40px;
-}
-
-.support-images {
-    display: flex;
-    justify-content: space-between;
-    gap: 25px;
-    margin-bottom: 35px;
+    padding: 0;
+    /* 不要再 padding 50px，不然会太靠里 */
 }
 
 .three-help {
     display: flex;
-    gap: 61px;
+    justify-content: center;
+    gap: 40px;
 }
 
-.three-help img {
-    border-radius: var(--small-img);
-    ;
-    aspect-ratio: 1/1;
+.support-card {
+    flex: 1;
+    max-width: 360px;
 }
 
-.support-images {
-    position: relative;
+.support-card img {
     width: 100%;
-    overflow: hidden;
-}
-
-.support-images img {
-    width: 100%;
+    border-radius: 40px;
     display: block;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.2);
+}
+
+.support-card h3 {
+    font-size: 24px;
+    margin-top: 24px;
+    margin-bottom: 10px;
+}
+
+.support-card p {
+    font-size: var(--h3-size);
+    line-height: 1.6;
 }
 
 .overlay {
@@ -123,7 +118,9 @@
 .support-text-row {
     display: flex;
     justify-content: space-between;
-    gap: 25px;
+    gap: 20px;
+    text-align: left;
+
 }
 
 .support-text {

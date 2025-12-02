@@ -1,0 +1,29 @@
+h1 {
+    color: var(--deep-cocoa-brown);
+}
+
+.main {
+    padding: 61px 42px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 61px;
+    padding: 42px;
+}
+
+.none-page-info {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.four-o-four {
+    font-family: var(--paragraph);
+    font-weight: 700;
+    font-size: 300px;
+    color: #F3E7D8;
+}
+
+.back-home-btn p {
+    color: var(--light-cream);
+}

@@ -5,7 +5,7 @@
 }
 
 .herobannertitle p {
-    color: #E5DED2;
+    color: var(--warm-light-gray);
     font-style: italic;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .about-section2 {
-    background-color: #B3A89B;
+    background-color: var(--medium-warm-gray);
     position: relative;
     bottom: 115px;
 }
@@ -91,8 +91,13 @@
 }
 
 .overlay-color h2 {
-    color: #FDF8F2;
+    color: var(--light-cream);
 }
+
+.overlay-color:hover {
+    display: none;
+}
+
 
 
 
@@ -191,7 +196,7 @@
 }
 
 .about-section3 {
-    background-color: #E5DED2;
+    background-color: var(--warm-light-gray);
     aspect-ratio: 1 / 0.4;
     width: 70%;
     margin: auto;

@@ -20,13 +20,13 @@
 
 /* font size */
 :root {
-    --h1-size: 64px;
+    --h1-size: 52px;
     --h2-size: 40px;
     --h3-p1-size: 24px;
     --h4-p2-size: 16px;
     --small-caption-size: 20px;
 
-    --h1-smaller-size: 58px;
+    --h1-smaller-size: 46px;
     --h2-smaller-size: 34px;
 
     --h1-onesmaller-size: 50px;

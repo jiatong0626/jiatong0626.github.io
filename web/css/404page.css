@@ -24,19 +24,6 @@ h1 {
     color: #F3E7D8;
 }
 
-.back-home-btn {
-    background-color: var(--deep-cocoa-brown);
-    padding: 16px 48px;
-    border-radius: 30px;
-    display: inline-block;
-}
-
 .back-home-btn p {
     color: var(--light-cream);
-}
-
-@media screen and (max-width: 900px) {
-    .four-o-four {
-        font-size: 200px;
-    }
 }

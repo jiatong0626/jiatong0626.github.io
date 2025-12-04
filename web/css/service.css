@@ -1,6 +1,6 @@
 .hero {
     position: relative;
-    height: 555px;
+    min-height: 555px;
     width: 100%;
     background-image: url("../images/servicemain.png");
     background-position: center;
@@ -10,20 +10,20 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #FDF8F2;
+    color: var(--light-cream);
 }
 
 .hero-content h1 {
-    color: #FDF8F2;
+    color: var(--light-cream);
 }
 
 .hero-content p {
     font-style: italic;
-    color: #FDF8F2;
+    color: var(--light-cream);
 }
 
 .section {
-    padding: 50px 30px;
+    padding: 60px 45px;
 }
 
 .section-title {
@@ -37,11 +37,21 @@
     gap: 76px;
 }
 
+.customer-image {
+    width: 70%
+}
+
 .customer-image img {
-    /* width: 100%; */
+    width: 100%;
     max-width: 380px;
     border-radius: 30px;
     object-fit: cover;
+
+}
+
+.customer text {
+    width: 30%;
+    padding: 2%;
 }
 
 .customer-text h2 {
@@ -49,14 +59,15 @@
 }
 
 .customer-text p {
-    color: var(--text-muted);
+    color: var(--deep-cocoa-brown);
     font-size: var(--h3-size);
+
 }
 
 .support-section {
     background-color: var(--medium-warm-gray);
     padding: 60px 80px;
-    color: #3B2A23;
+    color: var(--deep-cocoa-brown);
 }
 
 .support-title {
@@ -83,7 +94,7 @@
     display: block;
     aspect-ratio: 1 / 1;
     object-fit: cover;
-    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 25px 60px var(--shadow);
 }
 
 .support-card h3 {
@@ -107,7 +118,7 @@
 }
 
 .overlay h2 {
-    color: #FDF8F2;
+    color: var(--light-cream);
 }
 
 .support-images:hover .overlay {
@@ -125,7 +136,7 @@
 
 .support-text {
     max-width: 300px;
-    color: #3B2A23;
+    color: var(--deep-cocoa-brown);
 }
 
 .support-text h3 {
@@ -139,8 +150,8 @@
 }
 
 f .discover-section {
-    border-top: 1px solid #e0d0c0;
-    border-bottom: 1px solid #e0d0c0;
+    border-top: 1px solid var(--soft-sand-beige);
+    border-bottom: 1px solid var(--soft-sand-beige);
 }
 
 .discover-list {
@@ -153,9 +164,8 @@ f .discover-section {
     align-items: center;
     padding: 26px 10px;
     text-decoration: none;
-    color: var(--text-main);
     font-size: 24px;
-    border-bottom: 1px solid #B3A89B;
+    border-bottom: 1px solid var(--medium-warm-gray);
 }
 
 .discover-item .arrow-icon {
@@ -163,8 +173,6 @@ f .discover-section {
     height: auto;
 }
 
-
-
 .discover-item:hover {
-    background-color: #f1e3d5;
+    background-color: var(--warm-light-gray);
 }

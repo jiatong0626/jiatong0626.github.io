@@ -39,7 +39,9 @@
 }
 
 .about_intro {
-    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
@@ -150,15 +152,18 @@
     margin-top: 78px;
 }
 
+.linespacing hr {
+    margin-top: 43px;
+    border-top: 3px solid #FDF8F2;
+}
+
 .handcrafted {
     display: flex;
     justify-content: space-between;
 }
 
 .line1 hr {
-    margin-top: 43px;
     width: 85%;
-    border-top: 3px solid #FDF8F2;
 }
 
 
@@ -169,10 +174,7 @@
 }
 
 .line2 hr {
-    margin-top: 43px;
     width: 90%;
-    border: 0;
-    border-top: 3px solid #FDF8F2;
 
 }
 
@@ -183,9 +185,9 @@
 }
 
 .line3 hr {
-    margin-top: 53px;
+
     width: 95%;
-    border-top: 3px solid #FDF8F2;
+
 
 }
 

@@ -1,6 +1,6 @@
 .hero {
     position: relative;
-    height: 555px;
+    min-height: 555px;
     width: 100%;
     background-image: url("../images/servicemain.png");
     background-position: center;
@@ -37,11 +37,21 @@
     gap: 76px;
 }
 
+.customer-image {
+    width: 70%
+}
+
 .customer-image img {
-    /* width: 100%; */
+    width: 100%;
     max-width: 380px;
     border-radius: 30px;
     object-fit: cover;
+
+}
+
+.customer text {
+    width: 30%;
+    padding: 2%;
 }
 
 .customer-text h2 {
@@ -51,6 +61,7 @@
 .customer-text p {
     color: var(--deep-cocoa-brown);
     font-size: var(--h3-size);
+
 }
 
 .support-section {

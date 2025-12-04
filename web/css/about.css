@@ -1,12 +1,16 @@
-.herobannertitle {
-    position: relative;
-    bottom: 350px;
-    text-align: center;
-}
-
 .herobannertitle p {
     color: var(--warm-light-gray);
     font-style: italic;
+}
+
+.about-herobanner {
+    background-image: url(../images/about_herobanner.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    min-height: 400px;
 }
 
 .about-section1 {
@@ -16,8 +20,7 @@
 
 .intro-img {
     width: 50%;
-    position: relative;
-    bottom: 115px;
+
 }
 
 .about_intro {
@@ -59,7 +62,7 @@
     justify-content: center;
     gap: 196px;
     position: relative;
-    bottom: 210px;
+    bottom: 100px;
 }
 
 .team-photo {
@@ -120,9 +123,10 @@
 
 .craftsmanship {
     display: flex;
-    gap: 76px;
+    justify-content: space-around;
     margin-top: -160px;
     padding: 50px 0px;
+    align-items: center;
 }
 
 .craftsmanship-text {
@@ -131,7 +135,7 @@
 }
 
 .craftsmanship-photo {
-    width: 50%;
+    width: 40%;
 }
 
 .craftsmanship_title {
@@ -217,3 +221,5 @@
     flex-direction: column;
     gap: 76px;
 }
+
+/* @media screen and (max-width:800px){} */

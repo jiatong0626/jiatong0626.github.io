@@ -82,7 +82,9 @@
     --row-img-four: 41px;
     --section-padding-smaller-size: 22px;
     --list-title-paragraph: 20px;
-    --frame-inside: 24px
+    --frame-inside: 24px;
+    --row-list-img-three-smaller: 31px;
+    --row-img-paragraph-smaller: 38px;
 }
 
 /* aspect-ratio */
@@ -445,23 +447,11 @@ p {
     .main-btn {
         gap: 40px;
     }
-
-    .home-btn {
-        display: none;
-    }
 }
 
 @media screen and (max-width: 900px) {
     h3 {
         font-size: var(--h3-p1-medium-size);
-    }
-
-    .main-btn {
-        display: none;
-    }
-
-    .menu-icon {
-        display: block;
     }
 }
 
@@ -512,5 +502,15 @@ p {
 
     .footer-contact-area>div {
         justify-content: center;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .main-btn {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
     }
 }

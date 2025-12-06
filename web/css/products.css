@@ -2,6 +2,15 @@
     background-image: url(../images/lroom.jpg);
 }
 
+.hero-banner {
+    background-position: center;
+    min-height: 555px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--section-padding)
+}
+
 .title {
     text-align: center;
     color: #FDF8F2;
@@ -15,14 +24,14 @@
 .living-intro {
     display: flex;
     gap: 40px;
-    height: 300px;
+    height: 400px;
     align-items: center;
 }
 
 .intro-image {
     width: 60%;
     position: relative;
-    bottom: 26px;
+    bottom: -20px;
     z-index: 1;
 }
 
@@ -46,8 +55,6 @@
     flex-direction: column;
     gap: 20px;
     padding-right: 45px;
-    position: relative;
-    bottom: 45px;
 }
 
 .info p {
@@ -145,4 +152,41 @@
 
 .mobile {
     display: none;
+}
+
+@media screen and (max-width: 900px) {
+
+
+    .three-cat {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 100px;
+        gap: 80px;
+    }
+
+    .three-cat div {
+        width: 100%;
+    }
+
+    .f-text {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .f-img {
+        margin: auto;
+    }
+
+    .f-img img {
+        width: 100%;
+    }
+
+    .f-img h2,
+    p {
+        text-align: center;
+    }
 }

@@ -19,7 +19,7 @@
 .intro-image {
     width: 60%;
     position: relative;
-    bottom: 125px;
+    bottom: 117px;
     z-index: 1;
 }
 
@@ -31,6 +31,7 @@
 .intro-image img {
     border-radius: var(--top-left-img);
     box-shadow: var(--shadow);
+    min-height: 500px;
 }
 
 .info {
@@ -70,36 +71,42 @@
     aspect-ratio: 1/1;
 }
 
-.img-box {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
+.lroom {
+    background-image: url(../images/lroom-p.jpg);
 }
 
-.img-box img {
-    width: 100%;
-    display: block;
+.bedroom {
+    background-image: url(../images/bedroom.jpg);
 }
 
-.overlay {
-    position: absolute;
-    inset: 0;
-    background: rgba(59, 42, 35, 0.63);
-    opacity: 1;
+.kitchen {
+    background-image: url(../images/kitchen.jpg);
+}
+
+.c-text {
+    color: var(--light-cream);
+}
+
+.fream {
+    width: calc(30.2% - 40.67px);
+    aspect-ratio: 1 /1;
+    background-size: cover;
     border-radius: var(--small-img);
-    transition: 0.3s;
+}
+
+.overlay-color {
+    background-color: var(--transparency-bg);
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    aspect-ratio: 1/1;
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    border-radius: var(--small-img);
 }
 
-.overlay h2 {
-    color: #FDF8F2;
-    padding: 0;
-}
-
-.img-box:hover .overlay {
-    opacity: 0;
+.overlay-color:hover {
+    background-color: var(--transparency-bg-opacity);
 }
 
 .f-collections {

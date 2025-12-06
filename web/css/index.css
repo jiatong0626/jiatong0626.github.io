@@ -2,11 +2,11 @@
     background-color: var(--warm-light-gray);
 }
 
-.info {
+/* .info {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-}
+    gap: var(--list-title-paragraph);
+} */
 
 .contact {
     max-width: 1000px;
@@ -19,12 +19,6 @@
 
 .hero-banner {
     background-image: url(../images/homehero.jpg);
-    background-position: center;
-    aspect-ratio: 2.2 / 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 42px;
 }
 
 .hero-banner>div {
@@ -62,7 +56,7 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 61px;
+    gap: var(--row-list-img-three);
     padding: 190px 0 120px 0;
     position: relative;
     top: -120px;
@@ -72,21 +66,21 @@
 .collections-content {
     display: flex;
     flex-direction: column;
-    gap: 61px;
+    gap: var(--row-list-img-three);
 }
 
-.content-row {
+/* .content-row {
     display: flex;
     justify-content: center;
-    gap: 61px;
+    gap: var(--row-list-img-three);
 }
 
 .frame {
     width: calc(30.2% - 40.67px);
-    aspect-ratio: 1 /1;
+    aspect-ratio: var(--sq-img);
     background-size: cover;
     border-radius: var(--small-img);
-    /* box-shadow: var(--shadow); */
+    box-shadow: var(--shadow);
 }
 
 .frame-bg-color {
@@ -96,9 +90,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 32px;
+    padding: var(--frame-inside);
     border-radius: var(--small-img);
-}
+} */
 
 .frame h2 {
     color: var(--light-cream);
@@ -132,7 +126,7 @@
 .our-benefits {
     display: flex;
     align-items: center;
-    gap: 76px;
+    gap: var(--row-img-paragraph);
     position: relative;
     z-index: 1001;
     top: -30px;
@@ -173,7 +167,7 @@
     padding: 90px 0;
     display: flex;
     flex-direction: column;
-    gap: 61px;
+    gap: var(--row-list-img-three);
     position: relative;
     top: -30px;
     margin-bottom: -30px;
@@ -191,7 +185,7 @@
 .contact-column {
     display: flex;
     flex-direction: column;
-    gap: 61px;
+    gap: var(--row-list-img-three);
 }
 
 .content-grid {
@@ -216,14 +210,14 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 61px;
+    gap: var(--row-list-img-three);
     padding: 61px 0;
 }
 
 .team-member {
     display: flex;
     justify-content: center;
-    gap: 41px;
+    gap: var(--row-img-four);
 }
 
 .personal-intro {

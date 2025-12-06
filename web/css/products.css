@@ -1,7 +1,9 @@
+.hero-banner {
+    background-image: url(../images/lroom.jpg);
+}
+
 .title {
     text-align: center;
-    position: relative;
-    bottom: 350px;
     color: #FDF8F2;
 }
 
@@ -14,12 +16,13 @@
     display: flex;
     gap: 40px;
     height: 300px;
+    align-items: center;
 }
 
 .intro-image {
     width: 60%;
     position: relative;
-    bottom: 117px;
+    bottom: 26px;
     z-index: 1;
 }
 
@@ -28,10 +31,13 @@
     z-index: 10;
 }
 
+.mobile-title {
+    display: none;
+}
+
 .intro-image img {
     border-radius: var(--top-left-img);
     box-shadow: var(--shadow);
-    min-height: 500px;
 }
 
 .info {
@@ -50,25 +56,20 @@
 
 .categories {
     background-color: #E5DED2;
-    padding: 50px;
     padding-bottom: 90px;
 }
 
 .categories h2 {
     text-align: center;
     padding-bottom: 30px;
-    padding-top: 60px;
+    padding-top: 80px;
 }
 
 .three-cat {
     display: flex;
     gap: 61px;
-}
-
-.three-cat img {
-    border-radius: var(--small-img);
-    ;
-    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
 }
 
 .lroom {
@@ -83,8 +84,9 @@
     background-image: url(../images/kitchen.jpg);
 }
 
-.c-text {
+.c-text h2 {
     color: var(--light-cream);
+    padding: 0;
 }
 
 .fream {
@@ -103,11 +105,17 @@
     display: flex;
     justify-content: center;
     border-radius: var(--small-img);
+    align-items: center;
 }
 
 .overlay-color:hover {
     background-color: var(--transparency-bg-opacity);
 }
+
+.overlay-color:hover h2 {
+    opacity: 0;
+}
+
 
 .f-collections {
     display: flex;
@@ -133,4 +141,8 @@
 
 .f-img img {
     border-radius: var(--large-img);
+}
+
+.mobile {
+    display: none;
 }

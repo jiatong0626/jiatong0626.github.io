@@ -61,7 +61,6 @@
     --transparency-bg-opacity: #3b2a2327;
 }
 
-
 /* Border Radius */
 :root {
     --small-img: 52px;
@@ -89,6 +88,62 @@
 /* aspect-ratio */
 :root {
     --sq-img: 1 / 1;
+}
+
+/* html class name setup */
+
+/* title and paragraph */
+/* 全部标题离段落20px自己命名后面空格加info class="xxx info" */
+/* <div class="craft-info info"> */
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: var(--list-title-paragraph);
+}
+
+/* hero-banner */
+/* 每一页hero banner class name 记得空格加多一个hero或者直接叫hero */
+/* <div class="hero-banner hero"> */
+.hero {
+    background-position: center;
+    min-height: 555px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--section-padding)
+}
+
+
+/* Categories content */
+/* 针对相同元素那种选择 可以直接统一用相同的 */
+/* 针对一页三格那种 外面的div加content-row */
+/* <div class="first-row content-row"> */
+.content-row {
+    display: flex;
+    justify-content: center;
+    gap: var(--row-list-img-three);
+}
+
+/* 任何要做到相同效果的可以使用frame */
+/* 不一定要一行三格 内部的style*/
+/* <div class="frame-living frame"> */
+.frame {
+    width: calc(30.2% - 40.67px);
+    aspect-ratio: var(--sq-img);
+    background-size: cover;
+    border-radius: var(--small-img);
+    box-shadow: var(--shadow);
+}
+
+.frame-bg-color {
+    background-color: var(--transparency-bg);
+    width: 100%;
+    aspect-ratio: 1 /1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--frame-inside);
+    border-radius: var(--small-img);
 }
 
 * {
@@ -228,46 +283,6 @@ p {
     background-color: var(--light-cream);
     max-width: calc(1400px - 84px);
     margin: auto;
-}
-
-.info {
-    display: flex;
-    flex-direction: column;
-    gap: var(--list-title-paragraph);
-}
-
-.hero {
-    background-position: center;
-    min-height: 555px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: var(--section-padding)
-}
-
-.content-row {
-    display: flex;
-    justify-content: center;
-    gap: var(--row-list-img-three);
-}
-
-.frame {
-    width: calc(30.2% - 40.67px);
-    aspect-ratio: var(--sq-img);
-    background-size: cover;
-    border-radius: var(--small-img);
-    box-shadow: var(--shadow);
-}
-
-.frame-bg-color {
-    background-color: var(--transparency-bg);
-    width: 100%;
-    aspect-ratio: 1 /1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: var(--frame-inside);
-    border-radius: var(--small-img);
 }
 
 .footer h6,

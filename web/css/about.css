@@ -228,4 +228,83 @@
     gap: 76px;
 }
 
-/* @media screen and (max-width:800px){} */
+
+
+@media screen and (max-width:2200px) {
+    .mobileintro-img {
+        display: none;
+    }
+
+    .mobilecraftsmanship-photo {
+        display: none;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .about-section1 {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+
+    .about-section2 {
+        position: relative;
+        bottom: 0px;
+    }
+
+    .about_intro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 30px;
+        width: 100%;
+    }
+
+    .aboutintro-title {
+        width: 100%;
+    }
+
+    .intro-img {
+        display: none;
+    }
+
+    .mobileintro-img {
+        display: block;
+    }
+
+    .categories-photo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 61px;
+        position: relative;
+        bottom: 100px;
+    }
+
+    .mobilecraftsmanship-photo {
+        display: block;
+        width: 100%;
+    }
+
+    .craftsmanship-photo {
+        display: none;
+    }
+
+    .craftsmanship-text {
+        width: 100%;
+    }
+
+    .section3_title {
+        position: relative;
+        bottom: 0px;
+        padding: 20px;
+    }
+
+    .section3 {
+        padding-bottom: 50px;
+        padding-top: 30px;
+    }
+}

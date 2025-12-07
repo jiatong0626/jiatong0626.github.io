@@ -133,12 +133,9 @@
     margin-bottom: -30px;
 }
 
-.our-benefits>div {
-    width: calc(50% - 38px);
-}
-
 .left-overlay-img {
     box-shadow: var(--shadow);
+    width: calc(50% - 38px);
 }
 
 .left-overlay-img,
@@ -147,6 +144,7 @@
 }
 
 .benefits-info {
+    width: calc(50% - 38px);
     padding: 0 100px 0 0;
 }
 
@@ -251,4 +249,53 @@
 
 .frame-bg-color:hover {
     background-color: var(--transparency-bg-opacity);
+}
+
+@media screen and (max-width: 1000px) {
+    .craft-info {
+        padding: 40px;
+        width: 70%;
+    }
+
+    .collections-content {
+        flex-direction: row;
+        width: 70%;
+        margin: auto;
+        gap: var(--row-list-img-three-smaller);
+    }
+
+    .content-row {
+        flex-direction: column;
+        width: calc(50% - 15.5px);
+        gap: var(--row-list-img-three-smaller);
+    }
+
+    .frame {
+        width: 100%;
+    }
+
+    .our-benefits {
+        gap: var(--row-img-paragraph-smaller);
+    }
+
+    .left-overlay-img {
+        width: calc(60% - 19px)
+    }
+
+    .benefits-info {
+        width: calc(40% - 19px);
+        padding: 0 42px 0 0;
+    }
+
+    .content-grid {
+        padding: 18px;
+    }
+
+    .team-member {
+        flex-wrap: wrap;
+    }
+
+    .personal-intro {
+        width: calc(50% - 20.5px);
+    }
 }

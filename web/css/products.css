@@ -2,52 +2,43 @@
     background-image: url(../images/lroom.jpg);
 }
 
-.hero-banner {
-    background-position: center;
-    min-height: 555px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: var(--section-padding)
-}
-
 .title {
     text-align: center;
-    color: #FDF8F2;
-}
-
-.title p {
-    font-style: italic;
-    color: #FDF8F2;
+    color: var(--light-cream);
 }
 
 .living-intro {
     display: flex;
     gap: 40px;
-    height: 400px;
     align-items: center;
 }
 
-.intro-image {
-    width: 60%;
-    position: relative;
-    bottom: -20px;
-    z-index: 1;
+.title h6 {
+    color: var(--light-cream);
 }
 
-.hero-banner-full {
-    position: relative;
+/* .intro-image {
+    width: 60%;
     z-index: 10;
-}
+} */
+
 
 .mobile-title {
     display: none;
 }
 
-.intro-image img {
+.lroom-image {
+    background-image: url(../images/lroom1.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: var(--top-left-img);
+}
+
+/* .intro-image img {
     border-radius: var(--top-left-img);
     box-shadow: var(--shadow);
-}
+} */
 
 .info {
     width: 40%;
@@ -64,6 +55,8 @@
 .categories {
     background-color: #E5DED2;
     padding-bottom: 90px;
+    position: relative;
+    bottom: 50px;
 }
 
 .categories h2 {
@@ -96,14 +89,14 @@
     padding: 0;
 }
 
-.fream {
+.frame {
     width: calc(30.2% - 40.67px);
     aspect-ratio: 1 /1;
     background-size: cover;
     border-radius: var(--small-img);
 }
 
-.overlay-color {
+/* .overlay-color {
     background-color: var(--transparency-bg);
     background-size: contain;
     background-position: center;
@@ -113,7 +106,7 @@
     justify-content: center;
     border-radius: var(--small-img);
     align-items: center;
-}
+} */
 
 .overlay-color:hover {
     background-color: var(--transparency-bg-opacity);
@@ -154,7 +147,7 @@
     display: none;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
 
 
     .three-cat {
@@ -221,5 +214,17 @@
         bottom: auto;
         padding-top: 20px;
         width: 70%;
+    }
+}
+
+@media screen and (max-width: 1073px) {
+    .categories {
+        bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 1058px) {
+    .categories {
+        bottom: 20px;
     }
 }

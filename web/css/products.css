@@ -43,14 +43,12 @@
 
 .categories {
     background-color: #E5DED2;
-    padding-bottom: 90px;
     position: relative;
     bottom: 50px;
 }
 
 .categories h2 {
     text-align: center;
-    padding-bottom: 30px;
     padding-top: 80px;
 }
 

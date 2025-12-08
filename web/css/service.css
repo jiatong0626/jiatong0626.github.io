@@ -1,4 +1,4 @@
-.hero {
+/* .hero {
     position: relative;
     min-height: 555px;
     width: 100%;
@@ -11,6 +11,11 @@
     justify-content: center;
     text-align: center;
     color: var(--light-cream);
+} */
+
+.hero {
+    background-image: url("../images/servicemain.png");
+    text-align: center;
 }
 
 .hero-content h1 {

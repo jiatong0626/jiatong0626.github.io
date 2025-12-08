@@ -74,7 +74,6 @@
     font-size: 40px;
     margin-bottom: 40px;
     padding: 0;
-    /* 不要再 padding 50px，不然会太靠里 */
 }
 
 .three-help {
@@ -181,7 +180,7 @@
 @media screen and (max-width: 800px) {
 
     .section {
-        padding: 40px 24px;
+        padding: 16px 40px;
     }
 
     .customer-section {
@@ -221,7 +220,7 @@
     }
 
     .support-section {
-        padding: 40px 24px;
+        padding: 16px 40px;
     }
 
     .support-title {
@@ -297,6 +296,13 @@
         display: none;
     }
 
+    .discover-item {
+        font-size: var(--h3-mobile-size);
+    }
+
+    .discover-item .arrow-icon {
+        width: 14px;
+    }
 
     .f-collections {
         display: flex;

@@ -133,14 +133,30 @@
     margin-bottom: -30px;
 }
 
-.left-overlay-img {
-    box-shadow: var(--shadow);
-    width: calc(50% - 38px);
+.benefits-info-mobile {
+    display: none;
+    text-align: center;
+    background-color: var(--transparency-bg);
+    width: 100%;
+    aspect-ratio: 1 / 0.3;
+    align-items: center;
+    justify-content: center;
 }
 
-.left-overlay-img,
-.left-overlay-img img {
+.benefits-info-mobile h2,
+.benefits-info-mobile h5 {
+    color: var(--light-cream);
+}
+
+.left-overlay-img {
+    background-image: url(../images/benefits.jpg);
     border-radius: var(--left-img);
+    box-shadow: var(--shadow);
+    width: calc(50% - 38px);
+    aspect-ratio: 1 / 0.8;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .benefits-info {
@@ -180,6 +196,10 @@
     justify-content: space-between;
 }
 
+.strategy-illus-img {
+    display: none;
+}
+
 .contact-column {
     display: flex;
     flex-direction: column;
@@ -192,6 +212,7 @@
     margin: auto;
     padding: 32px;
     border-radius: var(--small-img);
+    aspect-ratio: 1 / 0.6;
 }
 
 .keep-right-grid {
@@ -288,7 +309,7 @@
     }
 
     .content-grid {
-        padding: 18px;
+        width: 60%;
     }
 
     .team-member {
@@ -296,6 +317,81 @@
     }
 
     .personal-intro {
-        width: calc(50% - 20.5px);
+        width: calc(35% - 20.5px);
+    }
+
+    .profile-img img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .our-benefits {
+        flex-direction: column;
+        text-align: center;
+        padding: 0 0 42px 0;
+    }
+
+    .benefits-info-mobile {
+        display: flex;
+    }
+
+    .left-overlay-img {
+        width: 100%;
+        aspect-ratio: 1 / 0.3;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .benefits-info {
+        padding: 0 42px;
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .benefits-info>.title {
+        display: none;
+    }
+
+    .our-strategy {
+        top: 0;
+        margin-bottom: 0;
+        padding: 60px 0;
+        gap: var(--row-list-img-three-smaller);
+    }
+
+    .strategy-illus {
+        background-image: none;
+        justify-content: center;
+    }
+
+    .strategy-illus-img {
+        display: block;
+    }
+
+    .contact-column {
+        gap: var(--row-list-img-three-smaller);
+    }
+
+    .content-grid {
+        width: 80%;
+    }
+
+    .keep-right-grid {
+        left: 0;
+    }
+
+    .keep-left-grid {
+        right: 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .collections-content {
+        flex-direction: column;
+    }
+
+    .content-row {
+        width: 100%;
     }
 }

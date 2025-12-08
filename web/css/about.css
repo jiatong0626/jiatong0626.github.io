@@ -1,16 +1,14 @@
-.herobannertitle p {
+.herobannertitle h6 {
     color: var(--warm-light-gray);
-    font-style: italic;
+}
+
+.herobannertitle {
+    text-align: center;
 }
 
 .about-herobanner {
     background-image: url(../images/about_herobanner.jpg);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-size: cover;
-    min-height: 400px;
+
 }
 
 .about-section1 {
@@ -83,7 +81,7 @@
     aspect-ratio: 1 / 1;
 }
 
-.overlay-color {
+/* .overlay-color {
     background-color: var(--transparency-bg);
     background-size: contain;
     background-position: center;
@@ -93,7 +91,7 @@
     align-items: center;
     justify-content: center;
     border-radius: var(--small-img);
-}
+} */
 
 .overlay-color:hover {
     background-color: var(--transparency-bg-opacity);
@@ -240,6 +238,39 @@
     }
 }
 
+@media screen and (max-width:1050px) {
+    .mobileintro-img {
+        display: none;
+    }
+
+    .mobilecraftsmanship-photo {
+        display: none;
+    }
+
+    .about-section2 {
+        background-color: var(--medium-warm-gray);
+        position: relative;
+        bottom: 70px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .mobileintro-img {
+        display: none;
+    }
+
+    .mobilecraftsmanship-photo {
+        display: none;
+    }
+
+    .about-section2 {
+        background-color: var(--medium-warm-gray);
+        position: relative;
+        bottom: 0px;
+    }
+}
+
+
 @media screen and (max-width:800px) {
     .about-section1 {
         display: flex;
@@ -274,12 +305,16 @@
         display: block;
     }
 
+    .mobileintro-img img {
+        width: 100%;
+    }
+
     .categories-photo {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 61px;
+        gap: var(--row-list-img-three-smaller);
         position: relative;
         bottom: 100px;
     }
@@ -295,6 +330,7 @@
 
     .craftsmanship-text {
         width: 100%;
+        text-align: center;
     }
 
     .section3_title {
@@ -306,5 +342,19 @@
     .section3 {
         padding-bottom: 50px;
         padding-top: 30px;
+    }
+
+    .team-photo {
+        background-image: url(../images/aboutteam.jpg);
+        background-size: cover;
+        width: 50%;
+        aspect-ratio: 1 / 1;
+    }
+
+    .service-photo {
+        background-image: url(../images/aboutservice.jpg);
+        background-size: cover;
+        width: 50%;
+        aspect-ratio: 1 / 1;
     }
 }

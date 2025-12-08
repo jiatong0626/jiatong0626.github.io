@@ -178,15 +178,48 @@
     }
 
     .f-img {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
         margin: auto;
-    }
-
-    .f-img img {
         width: 100%;
     }
 
     .f-img h2,
     p {
         text-align: center;
+    }
+
+    .categories h2 {
+        font-size: var(--h2-mobile-size);
+    }
+
+    .living-intro {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 90px;
+        text-align: center;
+    }
+
+    .info h2 {
+        display: none;
+    }
+
+    .info {
+        width: 100%;
+        padding: 0;
+    }
+
+    .mobile-title {
+        display: block;
+        text-align: center;
+    }
+
+    .intro-image {
+        position: static;
+        bottom: auto;
+        padding-top: 20px;
+        width: 70%;
     }
 }

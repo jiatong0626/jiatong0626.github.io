@@ -34,6 +34,7 @@
     background-color: var(--medium-warm-gray);
     position: relative;
     bottom: 115px;
+    margin-bottom: -115px;
 }
 
 .about_intro {
@@ -146,9 +147,9 @@
     margin-top: -6px;
 }
 
-.craftsmanship_text {
+/* .craftsmanship_text {
     margin-top: 20px;
-}
+} */
 
 .survey {
     margin-top: 78px;
@@ -199,8 +200,8 @@
 
 .section3_title {
     text-align: center;
-    position: relative;
-    bottom: 50px;
+    /* position: relative;
+    bottom: 50px; */
 }
 
 .about-section3 {
@@ -217,13 +218,16 @@
 }
 
 .section3 {
-    padding-bottom: 200px;
+    padding: var(--section-padding-mobile);
+    display: flex;
+    flex-direction: column;
+    gap: var(--row-list-img-three);
 }
 
 .section3_text {
     display: flex;
     flex-direction: column;
-    gap: 76px;
+    gap: var(--row-list-img-three);
 }
 
 
@@ -251,6 +255,7 @@
         background-color: var(--medium-warm-gray);
         position: relative;
         bottom: 70px;
+        margin-bottom: -70px;
     }
 }
 
@@ -267,7 +272,9 @@
         background-color: var(--medium-warm-gray);
         position: relative;
         bottom: 0px;
+        margin-bottom: 0px;
     }
+
 }
 
 
@@ -276,12 +283,6 @@
         display: flex;
         flex-direction: column;
         gap: 0px;
-    }
-
-
-    .about-section2 {
-        position: relative;
-        bottom: 0px;
     }
 
     .about_intro {
@@ -333,16 +334,16 @@
         text-align: center;
     }
 
-    .section3_title {
+    .section3,
+    .section3_text {
+        gap: var(--row-list-img-three-smaller);
+    }
+
+    /* .section3_title {
         position: relative;
         bottom: 0px;
         padding: 20px;
-    }
-
-    .section3 {
-        padding-bottom: 50px;
-        padding-top: 30px;
-    }
+    } */
 
     .team-photo {
         background-image: url(../images/aboutteam.jpg);

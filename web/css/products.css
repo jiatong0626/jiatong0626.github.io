@@ -52,12 +52,6 @@
     gap: var(--row-list-img-three);
 }
 
-/* .categories h2 {
-    text-align: center;
-    padding-bottom: 30px;
-    padding-top: 80px;
-} */
-
 .three-cat {
     display: flex;
     gap: 61px;
@@ -138,7 +132,6 @@
 
 @media screen and (max-width: 800px) {
     .categories {
-        /* padding: var(--section-padding); */
         gap: var(--row-list-img-three-smaller);
     }
 
@@ -160,6 +153,7 @@
 
     .three-cat div {
         width: 100%;
+        border-radius: var(--large-img);
     }
 
     .f-text {

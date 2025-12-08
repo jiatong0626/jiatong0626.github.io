@@ -42,15 +42,21 @@
 
 
 .categories {
+    text-align: center;
     background-color: #E5DED2;
+    padding: 80px 0;
     position: relative;
     bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: var(--row-list-img-three);
 }
 
-.categories h2 {
+/* .categories h2 {
     text-align: center;
+    padding-bottom: 30px;
     padding-top: 80px;
-}
+} */
 
 .three-cat {
     display: flex;

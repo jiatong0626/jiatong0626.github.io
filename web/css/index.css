@@ -176,6 +176,10 @@
     gap: 10px;
 }
 
+.mark-content h6 {
+    color: var(--deep-cocoa-brown);
+}
+
 .our-strategy {
     text-align: center;
     padding: 90px 0;

@@ -11,6 +11,8 @@
     display: flex;
     gap: 40px;
     align-items: center;
+    position: relative;
+    z-index: 1001;
 }
 
 .title h6 {
@@ -22,18 +24,28 @@
     z-index: 10;
 } */
 
+.intro-image {
+    background-image: url(../images/lroom1.jpg);
+    width: 60%;
+    border-radius: var(--top-left-img);
+    box-shadow: var(--shadow);
+    aspect-ratio: 1 / 0.7;
+    background-size: cover;
+    background-position: center;
+    border-radius: var(--top-left-img);
+}
 
 .mobile-title {
     display: none;
 }
 
-.lroom-image {
-    background-image: url(../images/lroom1.jpg);
-    width: 100%;
+/* .lroom-image {
+    aspect-ratio: 1 / 0.7;
     background-size: cover;
     background-position: center;
     border-radius: var(--top-left-img);
-}
+    
+} */
 
 /* .intro-image img {
     border-radius: var(--top-left-img);

@@ -205,6 +205,7 @@ h6 {
 
 h6 {
     font-style: italic;
+    color: var(--light-cream);
 }
 
 .top-bar {
@@ -212,7 +213,6 @@ h6 {
 }
 
 h5,
-h6,
 p {
     color: var(--deep-cocoa-brown);
 }

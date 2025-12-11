@@ -83,8 +83,13 @@
 
 
 .section2 {
-    padding: var(--section-padding-smaller-size);
+    padding: var(--section-padding-mobile);
     text-align: center;
+}
+
+.meetteam-text {
+    width: 60%;
+    margin: auto;
 }
 
 .meetteam-intro {

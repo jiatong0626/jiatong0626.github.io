@@ -80,3 +80,47 @@
 .seventeen-title {
     margin-top: 50px;
 }
+
+
+.section2 {
+    padding: var(--section-padding-smaller-size);
+    text-align: center;
+}
+
+.meetteam-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--list-title-paragraph);
+}
+
+.team-member {
+    display: flex;
+    justify-content: center;
+    gap: var(--row-img-four);
+}
+
+.member-img img {
+    border-radius: var(--large-img);
+}
+
+.ourteam {
+    gap: var(--row-list-img-three);
+    display: flex;
+    flex-direction: column;
+}
+
+.member-intro {
+    width: calc(23.5% - 30.75px);
+}
+
+.member-info {
+    width: 85%;
+    background-color: var(--light-cream);
+    box-shadow: var(--shadow);
+    padding: 24px 0;
+    border-radius: var(--large-img);
+    margin: auto;
+    position: relative;
+    top: -61px;
+}

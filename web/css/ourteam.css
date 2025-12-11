@@ -1,0 +1,12 @@
+.ourteamherobannertitle h6 {
+    color: var(--warm-light-gray);
+}
+
+.ourteamherobannertitle {
+    text-align: center;
+}
+
+.ourteam-herobanner {
+    background-image: url(../images/ourteam-herobanner.jpg);
+
+}

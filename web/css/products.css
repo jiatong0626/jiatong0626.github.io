@@ -53,19 +53,6 @@
     margin-bottom: -50px;
 }
 
-/* .categories h2 {
-    text-align: center;
-    padding-bottom: 30px;
-    padding-top: 80px;
-} */
-
-/* .three-cat {
-    display: flex;
-    gap: 61px;
-    display: flex;
-    justify-content: center;
-} */
-
 .lroom {
     background-image: url(../images/lroom-p.jpg);
 }
@@ -82,25 +69,6 @@
     color: var(--light-cream);
     padding: 0;
 }
-
-/* .frame {
-    width: calc(30.2% - 40.67px);
-    aspect-ratio: 1 /1;
-    background-size: cover;
-    border-radius: var(--small-img);
-} */
-
-/* .overlay-color {
-    background-color: var(--transparency-bg);
-    background-size: contain;
-    background-position: center;
-    width: 100%;
-    aspect-ratio: 1/1;
-    display: flex;
-    justify-content: center;
-    border-radius: var(--small-img);
-    align-items: center;
-} */
 
 .overlay-color:hover {
     background-color: var(--transparency-bg-opacity);
@@ -143,7 +111,6 @@
     }
 
     .categories {
-        /* padding: var(--section-padding); */
         gap: var(--row-list-img-three-smaller);
         top: 0;
         padding: 61px 0;
@@ -186,12 +153,6 @@
         width: 100%;
     }
 
-    /* 会影响footer */
-    /* .f-img h2,
-    p {
-        text-align: center;
-    } */
-
     .categories h2 {
         font-size: var(--h2-mobile-size);
     }
@@ -199,7 +160,6 @@
     .living-intro {
         flex-direction: column;
         align-items: center;
-        /* margin-bottom: 90px; */
         text-align: center;
         gap: var(--row-list-img-three-smaller);
         padding: var(--section-padding);
@@ -217,7 +177,6 @@
 
     .mobile-title {
         display: block;
-        /* text-align: center; */
     }
 
     .info,

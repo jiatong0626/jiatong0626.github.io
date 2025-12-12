@@ -1,0 +1,68 @@
+.hero-banner {
+    background-image: url(../images/lroom-page.jpg);
+}
+
+.hero-title {
+    text-align: center;
+}
+
+.lroom-craft {
+    display: flex;
+    align-items: center;
+    background-color: var(--warm-light-gray);
+    width: 80%;
+    margin: auto;
+    border-radius: var(--large-img);
+    box-shadow: var(--shadow);
+    position: relative;
+    top: -80px;
+    z-index: 1001;
+    margin-bottom: -80px;
+}
+
+.overlay-color h2 {
+    color: var(--light-cream);
+    padding: 0;
+}
+
+.info {
+    width: 60%;
+    padding: 70px;
+}
+
+.craft-img {
+    background-image: url(../images/intro.jpg);
+    border-radius: var(--left-img);
+    width: 40%;
+    aspect-ratio: 1 / 1.25;
+    background-size: cover;
+    background-position: center;
+}
+
+.sofa {
+    background-image: url(../images/sofa.jpg);
+}
+
+.coffee-table {
+    background-image: url(../images/coffee-table.jpg);
+}
+
+.armchairs {
+    background-image: url(../images/armchairs.jpg);
+}
+
+.armchairs h2 {
+    text-align: center;
+}
+
+.lighting {
+    background-image: url(../images/l-lighting.jpg);
+}
+
+.storage {
+    background-image: url(../images/storage.jpg);
+}
+
+.cabinet {
+    background-image: url(../images/cabinets.jpg);
+}

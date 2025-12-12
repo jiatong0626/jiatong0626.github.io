@@ -6,6 +6,26 @@
     text-align: center;
 }
 
+.six-row {
+    display: flex;
+    flex-direction: column;
+    gap: var(--row-list-img-three);
+}
+
+.categories-set {
+    text-align: center;
+    padding: 120px 0 120px 0;
+    gap: var(--row-list-img-three);
+}
+
+.p-categories h6 {
+    color: var(----deep-cocoa-brown);
+}
+
+.p-categories {
+    margin-bottom: 61px;
+}
+
 .lroom-craft {
     display: flex;
     align-items: center;
@@ -28,6 +48,11 @@
 .info {
     width: 60%;
     padding: 70px;
+}
+
+。p-categories {
+    text-align: center;
+    margin: 50px 0;
 }
 
 .craft-img {

@@ -129,3 +129,14 @@
     position: relative;
     top: -61px;
 }
+
+.section3 {
+    background-color: var(--medium-warm-gray);
+}
+
+.section3-info {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

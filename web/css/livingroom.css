@@ -26,6 +26,33 @@
     margin-bottom: 61px;
 }
 
+.inspi {
+    display: flex;
+    align-items: center;
+    background-color: var(--medium-warm-gray);
+    gap: var(--row-img-paragraph);
+    margin-bottom: 30px;
+
+}
+
+.inspi-info {
+    width: calc(50%-38px);
+}
+
+.inspi-img {
+    background-image: url(../images/inspiration.jpg);
+    border-radius: var(--left-img);
+    box-shadow: var(--shadow);
+    width: calc(50% - 38px);
+    aspect-ratio: var(--left-overlay-img);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1001;
+    top: -15px;
+    margin-bottom: -30px;
+}
+
 .lroom-craft {
     display: flex;
     align-items: center;
@@ -45,7 +72,7 @@
     padding: 0;
 }
 
-.info {
+.craft-info {
     width: 60%;
     padding: 70px;
 }

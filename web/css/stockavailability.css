@@ -137,3 +137,55 @@
     flex-direction: column;
     gap: var(--list-title-paragraph);
 }
+
+.product-bottom {
+    display: flex;
+    gap: 120px;
+}
+
+.material-intro {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    position: relative;
+    z-index: 1001;
+}
+
+.title h6 {
+    color: var(--light-cream);
+}
+
+.materials-image {
+    background-image: url(../images/material.png);
+    width: 50%;
+    border-radius: var(--top-left-img);
+    box-shadow: var(--shadow);
+    aspect-ratio: 1 / 0.7;
+    background-size: cover;
+    background-position: center;
+    border-radius: var(--top-left-img);
+}
+
+
+.material-title {
+    display: none;
+}
+
+
+.text {
+    width: 50%;
+    padding-right: 45px;
+    gap: var(--list-title-paragraph);
+
+}
+
+.explore-btn {
+    padding: 16px 40px;
+    border-radius: 25px;
+    border: none;
+    background-color: var(--deep-cocoa-brown);
+    color: var(--light-cream);
+    font-family: var(--paragraph);
+    font-weight: var(--regular);
+    font-size: var(--h3-size);
+}

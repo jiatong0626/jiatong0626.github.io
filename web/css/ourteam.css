@@ -132,11 +132,46 @@
 
 .section3 {
     background-color: var(--medium-warm-gray);
+    padding: var(--section-padding-mobile);
+
+}
+
+.section3-logo {
+    width: 10%;
+    margin: auto;
+}
+
+.section3-info p {
+    width: 40%;
+    margin: auto;
 }
 
 .section3-info {
-    justify-content: center;
     display: flex;
     flex-direction: column;
+    gap: var(--section-padding-mobile);
+}
+
+.section3-card {
+    background-color: var(--warm-light-gray);
+    aspect-ratio: 1 / 0.4;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
+    box-shadow: var(--shadow);
+    border-radius: var(--large-img);
+}
+
+.get-btn p {
+    color: var(--light-cream);
+
+}
+
+.get-btn {
+    background-color: var(--deep-cocoa-brown);
+    padding: 16px 40px;
+    border-radius: 25px;
 }

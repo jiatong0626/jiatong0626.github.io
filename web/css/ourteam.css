@@ -152,6 +152,7 @@
     gap: var(--section-padding-mobile);
 }
 
+
 .section3-card {
     background-color: var(--warm-light-gray);
     aspect-ratio: 1 / 0.4;
@@ -174,4 +175,36 @@
     background-color: var(--deep-cocoa-brown);
     padding: 16px 40px;
     border-radius: 25px;
+}
+
+.section4 {
+    display: flex;
+    gap: var(--row-img-paragraph)
+}
+
+.team-benefits {
+    background-image: url(../images/team\ benefits.jpg);
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    aspect-ratio: 1 / 1;
+}
+
+.team-title {
+    margin-left: 20px;
+}
+
+.team-info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--list-title-paragraph);
+}
+
+.team-text div {
+    display: flex;
+    padding: 20px;
+    gap: var(--list-title-paragraph);
+    align-items: center;
 }

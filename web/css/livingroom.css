@@ -118,3 +118,38 @@
 .cabinet {
     background-image: url(../images/cabinets.jpg);
 }
+
+.designer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: var(--row-list-img-three);
+    padding: var(--section-padding-mobile);
+}
+
+.designer-pic {
+    display: flex;
+    justify-content: center;
+    gap: var(--row-img-four);
+}
+
+.personal-intro {
+    width: calc(23.5- 30.75px);
+    justify-content: center;
+}
+
+.profile-img img,
+.profile-img {
+    border-radius: var(--large-img);
+}
+
+.profile-info {
+    width: 85%;
+    background-color: var(--light-cream);
+    box-shadow: var(--shadow);
+    padding: 24px 0;
+    border-radius: var(--large-img);
+    margin: auto;
+    position: relative;
+    top: -61px;
+}

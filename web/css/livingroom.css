@@ -32,11 +32,11 @@
     background-color: var(--medium-warm-gray);
     gap: var(--row-img-paragraph);
     margin-bottom: 30px;
-
 }
 
 .inspi-info {
-    width: calc(50%-38px);
+    width: 50%;
+    padding-right: 30px;
 }
 
 .inspi-img {

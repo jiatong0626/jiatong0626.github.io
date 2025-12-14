@@ -141,10 +141,11 @@
     margin: auto;
 }
 
-.section3-info p {
+/* 你这个影响到那个btn里面的p了 */
+/* .section3-info p {
     width: 40%;
     margin: auto;
-}
+} */
 
 .section3-info {
     display: flex;
@@ -169,6 +170,11 @@
 .get-btn p {
     color: var(--light-cream);
 
+}
+
+/* 给他有margin去挤压里面多余的空间 */
+.section3-btn {
+    margin: auto;
 }
 
 .get-btn {

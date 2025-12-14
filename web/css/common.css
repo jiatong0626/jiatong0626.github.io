@@ -6,6 +6,10 @@
     font-display: swap;
 }
 
+.done h3 {
+    color: green;
+}
+
 /* font family */
 :root {
     --heading: "DM Serif Display", serif;
@@ -103,6 +107,7 @@
     --img-card: 1 / 0.5;
     --left-overlay-img: 1 / 0.8;
 }
+
 
 /* html class name setup */
 

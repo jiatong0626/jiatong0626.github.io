@@ -13,11 +13,15 @@
 
 .about-section1 {
     display: flex;
-    gap: 76px;
+    gap: var(--row-img-paragraph);
 }
 
 .intro-img {
     width: 50%;
+    background-image: url(../images/aboutintro.jpg);
+    aspect-ratio: 1 / 1.6;
+    background-size: cover;
+    background-position: center;
 
 }
 
@@ -44,9 +48,7 @@
 }
 
 
-.aboutintro-title {
-    margin-top: -6px;
-}
+
 
 .aboutintro-text {
     margin-top: 20px;
@@ -60,8 +62,7 @@
 .categories-photo {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 196px;
+    justify-content: space-around;
     position: relative;
     bottom: 100px;
 }
@@ -69,17 +70,18 @@
 .team-photo {
     background-image: url(../images/aboutteam.jpg);
     background-size: cover;
-
     width: 30%;
     aspect-ratio: 1 / 1;
+    box-shadow: var(--shadow);
 }
 
 .service-photo {
     background-image: url(../images/aboutservice.jpg);
     background-size: cover;
-
     width: 30%;
     aspect-ratio: 1 / 1;
+    box-shadow: var(--shadow);
+
 }
 
 /* .overlay-color {
@@ -106,24 +108,15 @@
     display: none;
 }
 
-
-
-
 .team-photo {
     border-radius: var(--small-img);
 }
 
-.team-photo img {
-    border-radius: var(--small-img);
-}
 
 .service-photo {
     border-radius: var(--small-img);
 }
 
-.service-photo img {
-    border-radius: var(--small-img);
-}
 
 
 .craftsmanship {
@@ -136,23 +129,20 @@
 
 .craftsmanship-text {
     width: 50%;
-    padding: 60px;
+    padding: 30px;
 }
 
 .craftsmanship-photo {
     width: 40%;
 }
 
-.craftsmanship_title {
-    margin-top: -6px;
-}
 
 /* .craftsmanship_text {
     margin-top: 20px;
 } */
 
 .survey {
-    margin-top: 78px;
+    margin-top: 60px;
 }
 
 .linespacing hr {
@@ -233,19 +223,20 @@
 
 
 @media screen and (max-width:2200px) {
-    .mobileintro-img {
+    .mobilecraftsmanship-photo {
         display: none;
     }
 
-    .mobilecraftsmanship-photo {
+    .craftsmanship_smalltitle_mobile {
+        display: none;
+    }
+
+    .aboutintro-smalltitle-mobile {
         display: none;
     }
 }
 
 @media screen and (max-width:1050px) {
-    .mobileintro-img {
-        display: none;
-    }
 
     .mobilecraftsmanship-photo {
         display: none;
@@ -260,9 +251,7 @@
 }
 
 @media screen and (max-width:900px) {
-    .mobileintro-img {
-        display: none;
-    }
+
 
     .mobilecraftsmanship-photo {
         display: none;
@@ -279,10 +268,34 @@
 
 
 @media screen and (max-width:800px) {
+    .craftsmanship_smalltitle {
+        display: none;
+    }
+
+    .aboutintro-smalltitle {
+        display: none;
+    }
+
+    .aboutintro-smalltitle-mobile {
+        display: block;
+    }
+
+    .craftsmanship_smalltitle_mobile {
+        display: block;
+    }
+
     .about-section1 {
         display: flex;
         flex-direction: column;
         gap: 0px;
+    }
+
+    .about-section2 {
+        background-color: var(--medium-warm-gray);
+        position: relative;
+        bottom: 0px;
+        margin-bottom: 0px;
+        padding: var(--section-padding-mobile);
     }
 
     .about_intro {
@@ -290,7 +303,7 @@
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        padding: 30px;
+        padding: var(--section-padding);
         width: 100%;
     }
 
@@ -298,8 +311,8 @@
         width: 100%;
     }
 
-    .intro-img {
-        display: none;
+    .about-section1 {
+        flex-direction: column-reverse;
     }
 
     .mobileintro-img {
@@ -310,6 +323,15 @@
         width: 100%;
     }
 
+    .intro-img {
+        width: 100%;
+        background-image: url(../images/aboutintro.jpg);
+        aspect-ratio: 1 / 0.8;
+        background-size: cover;
+        background-position: center;
+
+    }
+
     .categories-photo {
         display: flex;
         flex-direction: column;
@@ -317,7 +339,7 @@
         justify-content: center;
         gap: var(--row-list-img-three-smaller);
         position: relative;
-        bottom: 100px;
+        bottom: 0px;
     }
 
     .mobilecraftsmanship-photo {
@@ -358,4 +380,18 @@
         width: 50%;
         aspect-ratio: 1 / 1;
     }
+
+    .craftsmanship-text {
+        width: 100%;
+        padding: 50px;
+    }
+
+    .craftsmanship {
+        display: flex;
+        justify-content: space-around;
+        margin-top: -0px;
+        padding: var(--section-padding-mobile);
+        align-items: center;
+    }
+
 }

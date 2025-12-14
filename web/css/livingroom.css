@@ -1,0 +1,155 @@
+.hero-banner {
+    background-image: url(../images/lroom-page.jpg);
+}
+
+.hero-title {
+    text-align: center;
+}
+
+.six-row {
+    display: flex;
+    flex-direction: column;
+    gap: var(--row-list-img-three);
+}
+
+.categories-set {
+    text-align: center;
+    padding: 120px 0 120px 0;
+    gap: var(--row-list-img-three);
+}
+
+.p-categories h6 {
+    color: var(----deep-cocoa-brown);
+}
+
+.p-categories {
+    margin-bottom: 61px;
+}
+
+.inspi {
+    display: flex;
+    align-items: center;
+    background-color: var(--medium-warm-gray);
+    gap: var(--row-img-paragraph);
+    margin-bottom: 30px;
+}
+
+.inspi-info {
+    width: 50%;
+    padding-right: 30px;
+}
+
+.inspi-img {
+    background-image: url(../images/inspiration.jpg);
+    border-radius: var(--left-img);
+    box-shadow: var(--shadow);
+    width: calc(50% - 38px);
+    aspect-ratio: var(--left-overlay-img);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1001;
+    top: -15px;
+    margin-bottom: -30px;
+}
+
+.lroom-craft {
+    display: flex;
+    align-items: center;
+    background-color: var(--warm-light-gray);
+    width: 80%;
+    margin: auto;
+    border-radius: var(--large-img);
+    box-shadow: var(--shadow);
+    position: relative;
+    top: -80px;
+    z-index: 1001;
+    margin-bottom: -80px;
+}
+
+.overlay-color h2 {
+    color: var(--light-cream);
+    padding: 0;
+}
+
+.craft-info {
+    width: 60%;
+    padding: 70px;
+}
+
+。p-categories {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.craft-img {
+    background-image: url(../images/intro.jpg);
+    border-radius: var(--left-img);
+    width: 40%;
+    aspect-ratio: 1 / 1.25;
+    background-size: cover;
+    background-position: center;
+}
+
+.sofa {
+    background-image: url(../images/sofa.jpg);
+}
+
+.coffee-table {
+    background-image: url(../images/coffee-table.jpg);
+}
+
+.armchairs {
+    background-image: url(../images/armchairs.jpg);
+}
+
+.armchairs h2 {
+    text-align: center;
+}
+
+.lighting {
+    background-image: url(../images/l-lighting.jpg);
+}
+
+.storage {
+    background-image: url(../images/storage.jpg);
+}
+
+.cabinet {
+    background-image: url(../images/cabinets.jpg);
+}
+
+.designer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: var(--row-list-img-three);
+    padding: var(--section-padding-mobile);
+}
+
+.designer-pic {
+    display: flex;
+    justify-content: center;
+    gap: var(--row-img-four);
+}
+
+.personal-intro {
+    width: calc(23.5- 30.75px);
+    justify-content: center;
+}
+
+.profile-img img,
+.profile-img {
+    border-radius: var(--large-img);
+}
+
+.profile-info {
+    width: 85%;
+    background-color: var(--light-cream);
+    box-shadow: var(--shadow);
+    padding: 24px 0;
+    border-radius: var(--large-img);
+    margin: auto;
+    position: relative;
+    top: -61px;
+}

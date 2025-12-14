@@ -84,15 +84,21 @@
 
 /* padding and gap*/
 :root {
+    /* 普通的padding(东西有set在中间可以用) */
     --section-padding: 42px;
+    /* 打横的（左边照片，右边文字那种）可以用这个padding */
     --row-img-paragraph: 76px;
+    /* 图片有三张的间距 */
     --row-list-img-three: 61px;
+    /* 图片有四张的间距 */
     --row-img-four: 41px;
     --section-padding-smaller-size: 22px;
     --list-title-paragraph: 20px;
     --frame-inside: 24px;
     --row-list-img-three-smaller: 31px;
     --row-img-paragraph-smaller: 38px;
+
+    /* 手机上下的padding */
     --section-padding-mobile: 61px 0;
 }
 

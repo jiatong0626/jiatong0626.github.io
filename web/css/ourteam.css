@@ -154,6 +154,7 @@
     text-align: center;
     box-shadow: var(--shadow);
     border-radius: var(--large-img);
+    padding: 20px;
 }
 
 .get-btn p {
@@ -161,14 +162,13 @@
 
 }
 
-/* 给他有margin去挤压里面多余的空间 */
 .section3-btn {
     margin: auto;
 }
 
 .get-btn {
     background-color: var(--deep-cocoa-brown);
-    padding: 16px 40px;
+    padding: 20px 60px;
     border-radius: 25px;
 }
 
@@ -204,12 +204,24 @@
     align-items: center;
 }
 
+@media screen and (max-width: 2400px) {
+    .aboutintro-smalltitle-mobile {
+        display: none;
+    }
+
+    .benefits-smalltitle-mobile {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 1210px) {
     .smallinfo {
         flex-direction: column;
         display: flex;
         gap: var(--list-title-paragraph);
     }
+
+
 }
 
 @media screen and (max-width: 1130px) {
@@ -265,6 +277,23 @@
 }
 
 @media screen and (max-width: 800px) {
+    .aboutintro-smalltitle-mobile {
+        display: block;
+    }
+
+
+    .aboutintro-smalltitle {
+        display: none;
+    }
+
+    .benefits-smalltitle-mobile {
+        display: block;
+    }
+
+    .benefits-smalltitle {
+        display: none;
+    }
+
     .ourteam-intro {
         width: 100%;
         display: flex;
@@ -327,8 +356,7 @@
 
     .section4 {
         flex-direction: column-reverse;
-        padding: var(--section-padding-mobile);
-
+        gap: 0px;
     }
 
     .team-title {
@@ -356,7 +384,9 @@
         justify-content: center;
         gap: var(--list-title-paragraph);
         text-align: center;
+        padding: var(--section-padding-mobile);
     }
+
 
 }
 

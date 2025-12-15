@@ -211,7 +211,6 @@
     padding: var(--section-padding-mobile);
     display: flex;
     flex-direction: column;
-    gap: var(--row-list-img-three);
 }
 
 .section3_text {
@@ -222,7 +221,7 @@
 
 
 
-@media screen and (max-width:2200px) {
+@media screen and (max-width:2400px) {
     .mobilecraftsmanship-photo {
         display: none;
     }

@@ -59,25 +59,14 @@
 
 }
 
-.firfteen {
+.number {
     font-family: var(--paragraph);
     color: var(--light-cream);
     font-size: 96px;
     font-weight: bold;
 }
 
-.seventeen {
-    font-family: var(--paragraph);
-    color: var(--light-cream);
-    font-size: 96px;
-    font-weight: bold;
-}
-
-.firfteen-title {
-    margin-top: 50px;
-}
-
-.seventeen-title {
+.number-title {
     margin-top: 50px;
 }
 
@@ -213,4 +202,194 @@
     padding: 20px;
     gap: var(--list-title-paragraph);
     align-items: center;
+}
+
+@media screen and (max-width: 1210px) {
+    .smallinfo {
+        flex-direction: column;
+        display: flex;
+        gap: var(--list-title-paragraph);
+    }
+}
+
+@media screen and (max-width: 1130px) {
+    .smallinfo {
+        flex-direction: column;
+        display: flex;
+    }
+
+    .number {
+        font-family: var(--paragraph);
+        color: var(--light-cream);
+        font-size: 86px;
+        font-weight: bold;
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 1000px) {
+    .team-member {
+        flex-wrap: wrap;
+    }
+
+    .member-intro {
+        width: calc(35% - 20.5px);
+    }
+
+    .member-img img {
+        width: 100%;
+    }
+
+    .number {
+        font-family: var(--paragraph);
+        color: var(--light-cream);
+        font-size: 76px;
+        font-weight: bold;
+    }
+
+    .number-title {
+        margin-top: 45px;
+    }
+
+    .ourteam-intro {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: var(--clay-taupe);
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .ourteam-intro {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: var(--section-padding);
+        text-align: center;
+    }
+
+    .smallinfo {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .craftsmanship {
+        display: flex;
+        gap: 0px;
+    }
+
+    .designbuild {
+        display: flex;
+        gap: 0px;
+
+    }
+
+    .number-title {
+        margin-top: 20px;
+        width: 50%;
+        padding: 10px;
+    }
+
+    .number {
+        font-family: var(--paragraph);
+        color: var(--light-cream);
+        font-size: 62px;
+        font-weight: bold;
+    }
+
+    .ourteam-title {
+        width: 100%;
+    }
+
+    .ourteam-text {
+        width: 100%;
+    }
+
+    .ourteam-section1 {
+        flex-direction: column-reverse;
+        gap: 0px;
+    }
+
+    .ourteamintro-img {
+        background-image: url(../images/about-ourteam.jpg);
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        aspect-ratio: 1 / 0.8;
+    }
+
+
+    .section4 {
+        flex-direction: column-reverse;
+        padding: var(--section-padding-mobile);
+
+    }
+
+    .team-title {
+        margin-left: 0px;
+    }
+
+    .team-text div {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .team-benefits {
+        background-image: url(../images/team\ benefits.jpg);
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        aspect-ratio: 1 / 1;
+    }
+
+
+    .team-info {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: var(--list-title-paragraph);
+        text-align: center;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 700px) {
+    .team-member {
+        flex-wrap: column;
+    }
+
+    .team-member>div {
+        width: 50%;
+        margin: auto;
+        margin-bottom: -61px;
+    }
 }

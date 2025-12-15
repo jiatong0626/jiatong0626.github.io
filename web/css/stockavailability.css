@@ -254,3 +254,38 @@
 .steps li {
     margin-bottom: 12px;
 }
+
+
+@media screen and (max-width: 1000px) {
+    .category-top {
+        padding: 0 24px;
+    }
+
+    .search-box {
+        width: 280px;
+        max-width: 280px;
+        padding: 14px 28px;
+    }
+
+    .go-btn {
+        padding: 14px 28px;
+    }
+
+    .category-menu {
+        gap: 30px;
+        padding: 28px 24px 0;
+    }
+
+    .product-list {
+        padding: 50px 24px;
+        gap: 28px;
+    }
+
+    .product-box {
+        width: calc(50% - 14px);
+    }
+
+    .steps {
+        padding: 60px 24px;
+    }
+}

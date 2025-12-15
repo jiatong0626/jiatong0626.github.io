@@ -155,28 +155,31 @@
     color: var(--light-cream);
 }
 
-.materials-image {
-    background-image: url(../images/material.png);
+.material-intro {
+    display: flex;
+    align-items: center;
+    background-color: var(--light-cream);
+    gap: var(--row-img-paragraph);
+    margin-bottom: 30px;
+}
+
+.material-info {
     width: 50%;
-    border-radius: var(--top-left-img);
+    padding-right: 30px;
+}
+
+.material-img {
+    background-image: url(../images/material.png);
+    border-radius: var(--left-img);
     box-shadow: var(--shadow);
-    aspect-ratio: 1 / 0.7;
+    width: calc(50% - 38px);
+    aspect-ratio: var(--left-overlay-img);
     background-size: cover;
     background-position: center;
-    border-radius: var(--top-left-img);
-}
-
-
-.material-title {
-    display: none;
-}
-
-
-.text {
-    width: 50%;
-    padding-right: 45px;
-    gap: var(--list-title-paragraph);
-
+    position: relative;
+    z-index: 1001;
+    top: -15px;
+    margin-bottom: -30px;
 }
 
 .explore-btn {
@@ -188,4 +191,8 @@
     font-family: var(--paragraph);
     font-weight: var(--regular);
     font-size: var(--h3-size);
+}
+
+.explore-btn:hover {
+    background-color: var(--warm-light-gray);
 }

@@ -143,6 +143,24 @@
     gap: 120px;
 }
 
+.stock-dot {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--medium-warm-gray);
+}
+
+.dot.on {
+    background-color: var(--warm-golden-accent);
+}
+
+
 .material-intro {
     display: flex;
     gap: 40px;
@@ -179,7 +197,13 @@
     position: relative;
     z-index: 1001;
     top: -15px;
-    margin-bottom: -30px;
+    margin-bottom: -60px;
+}
+
+.material-content>div {
+    display: flex;
+    flex-direction: column;
+    gap: var(--list-title-paragraph);
 }
 
 .explore-btn {
@@ -191,8 +215,25 @@
     font-family: var(--paragraph);
     font-weight: var(--regular);
     font-size: var(--h3-size);
+    width: fit-content;
 }
 
 .explore-btn:hover {
     background-color: var(--warm-light-gray);
+}
+
+.steps {
+    padding: 80px 42px;
+    background-color: var(--warm-light-gray);
+    align-items: center;
+    gap: var(--row-img-paragraph);
+}
+
+.steps ol {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.steps li {
+    margin-bottom: 12px;
 }

@@ -413,4 +413,46 @@
         width: 100%;
         box-sizing: border-box;
     }
+
+    @media screen and (max-width: 600px) {
+
+        .product-box {
+            width: 100%;
+        }
+
+        .product-pic img {
+
+            width: 50%;
+        }
+
+        .product-top,
+        .product-bottom {
+            gap: 10px;
+        }
+
+        .go-btn,
+        .explore-btn {
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    @media screen and (max-width: 450px) {
+        .category {
+            padding: 35px 0 45px;
+        }
+
+        .product-list {
+            padding: 32px 18px;
+        }
+
+        .store-section {
+            padding: 32px 18px;
+        }
+
+        .steps {
+            padding: 40px 18px;
+        }
+    }
+
 }

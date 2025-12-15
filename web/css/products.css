@@ -53,6 +53,10 @@
     margin-bottom: -50px;
 }
 
+.frame {
+    width: calc(30.2% - 40.67px);
+}
+
 .lroom {
     background-image: url(../images/lroom-p.jpg);
 }

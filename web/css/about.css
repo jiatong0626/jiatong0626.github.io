@@ -47,9 +47,6 @@
     justify-content: center;
 }
 
-
-
-
 .aboutintro-text {
     margin-top: 20px;
     width: 95%;
@@ -67,20 +64,24 @@
     bottom: 100px;
 }
 
+.frame {
+    width: 30%;
+}
+
 .team-photo {
     background-image: url(../images/aboutteam.jpg);
-    background-size: cover;
+    /* background-size: cover;
     width: 30%;
     aspect-ratio: 1 / 1;
-    box-shadow: var(--shadow);
+    box-shadow: var(--shadow); */
 }
 
 .service-photo {
     background-image: url(../images/aboutservice.jpg);
-    background-size: cover;
+    /* background-size: cover;
     width: 30%;
     aspect-ratio: 1 / 1;
-    box-shadow: var(--shadow);
+    box-shadow: var(--shadow); */
 
 }
 
@@ -96,17 +97,17 @@
     border-radius: var(--small-img);
 } */
 
-.overlay-color:hover {
+/* .overlay-color:hover {
     background-color: var(--transparency-bg-opacity);
-}
+} */
 
 .overlay-color h2 {
     color: var(--light-cream);
 }
 
-.overlay-color:hover {
+/* .overlay-color:hover {
     display: none;
-}
+} */
 
 .team-photo {
     border-radius: var(--small-img);
@@ -178,10 +179,7 @@
 }
 
 .line3 hr {
-
     width: 95%;
-
-
 }
 
 .section3_title h1 {

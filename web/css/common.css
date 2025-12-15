@@ -114,6 +114,27 @@
     --left-overlay-img: 1 / 0.8;
 }
 
+/* btn-size */
+/* big-btn and small-btn */
+.big-btn {
+    background-color: var(--deep-cocoa-brown);
+    padding: 20px 60px;
+    border-radius: 40px;
+}
+
+.big-btn p {
+    color: var(--light-cream);
+}
+
+.small-btn {
+    background-color: var(--deep-cocoa-brown);
+    padding: 16px 40px;
+    border-radius: 25px;
+}
+
+.small-btn p {
+    color: var(--light-cream);
+}
 
 /* html class name setup */
 
@@ -154,7 +175,7 @@
 /* 不一定要一行三格 内部的style*/
 /* <div class="frame-living frame"> */
 .frame {
-    width: calc(30.2% - 40.67px);
+    /* width: calc(30.2% - 40.67px); */
     aspect-ratio: var(--sq-img);
     background-size: cover;
     border-radius: var(--small-img);
@@ -172,10 +193,43 @@
     border-radius: var(--small-img);
 }
 
+
+/* 针对一个row有4个人物的介绍 */
+.team-member {
+    display: flex;
+    justify-content: center;
+    gap: var(--row-img-four);
+}
+
+.personal-intro {
+    width: calc(23.5% - 30.75px);
+    justify-content: center;
+}
+
+.personal-intro img,
+.profile-img {
+    border-radius: var(--large-img);
+}
+
+.profile-info {
+    width: 85%;
+    background-color: var(--light-cream);
+    box-shadow: var(--shadow);
+    padding: 24px 0;
+    border-radius: var(--large-img);
+    margin: auto;
+    position: relative;
+    top: -61px;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body.no-scroll {
+    overflow: hidden;
 }
 
 img {
@@ -303,6 +357,8 @@ p {
 
 .menu-icon {
     display: none;
+    position: relative;
+    z-index: 1003;
 }
 
 .main {
@@ -338,11 +394,11 @@ p {
     align-items: center;
 }
 
-.footer-discover-btn {
+/* .footer-discover-btn {
     background-color: var(--deep-cocoa-brown);
     padding: 16px 40px;
     border-radius: 25px;
-}
+} */
 
 .footer-info {
     display: flex;
@@ -410,19 +466,30 @@ p {
     display: flex;
 }
 
-.footer-discover-btn:hover {
+.big-btn:hover,
+.small-btn:hover {
     background-color: var(--warm-light-gray);
+    box-shadow: var(--shadow);
 }
 
-.footer-discover-btn:hover h6,
-.footer-sub-page>div:hover h6,
-.footer-home:hover h6,
-.footer-contact:hover h6 {
+.small-btn:hover p,
+.big-btn:hover p,
+.footer-sub-page>div:hover p,
+.footer-home:hover p,
+.footer-contact:hover p {
     color: var(--deep-cocoa-brown);
 }
 
 .social-btn-link:hover {
     opacity: 0.5;
+}
+
+.frame-bg-color:hover {
+    background-color: var(--transparency-bg-opacity);
+}
+
+.frame-bg-color:hover h2 {
+    display: none;
 }
 
 @media screen and (max-width: 1300px) {
@@ -444,9 +511,9 @@ p {
         gap: 50px;
     }
 
-    .footer-discover-btn {
+    /* .footer-discover-btn {
         padding: 12px 24px;
-    }
+    } */
 }
 
 @media screen and (max-width: 1000px) {
@@ -471,11 +538,52 @@ p {
     .main-btn {
         gap: 40px;
     }
+
+    .team-member {
+        flex-wrap: wrap;
+    }
+
+    .personal-intro {
+        width: calc(35% - 20.5px);
+    }
+
+    .profile-img img {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 900px) {
     h3 {
         font-size: var(--h3-p1-medium-size);
+    }
+
+    .footer-slogbar {
+        flex-direction: column;
+        gap: 41px;
+        text-align: center;
+    }
+
+    /* .footer-discover-btn {
+        padding: 16px 40px;
+    } */
+
+    .footer-info {
+        flex-direction: column-reverse;
+        gap: 61px;
+    }
+
+    .footer-page-btn {
+        gap: 41px;
+    }
+
+    .page-btn,
+    .social-btn,
+    .footer-contact-area>div {
+        justify-content: center;
+    }
+
+    .footer-home {
+        display: none;
     }
 }
 
@@ -504,41 +612,69 @@ p {
     h6 {
         font-size: var(--p1-mobile-size);
     }
-
-    .footer-slogbar {
-        flex-direction: column;
-        gap: 41px;
-        text-align: center;
-    }
-
-    .footer-discover-btn {
-        padding: 16px 40px;
-    }
-
-    .footer-info {
-        flex-direction: column-reverse;
-        gap: 61px;
-    }
-
-    .footer-page-btn {
-        gap: 41px;
-    }
-
-    .footer-page-btn>div {
-        justify-content: space-around;
-    }
-
-    .footer-contact-area>div {
-        justify-content: center;
-    }
 }
 
 @media screen and (max-width: 700px) {
     .main-btn {
         display: none;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+        z-index: 1002;
+        background-color: var(--soft-sand-beige);
+        gap: 50px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-btn h3 {
+        font-size: var(--h2-mobile-size);
+    }
+
+    .have-sub {
+        flex-direction: column;
+    }
+
+    .submenu-icon {
+        display: none;
+    }
+
+    .submenu {
+        display: block;
+        position: static;
+        box-shadow: none;
+        padding: 0;
+        width: 100%;
+    }
+
+    .main-btn.active {
+        display: flex;
     }
 
     .menu-icon {
         display: block;
+    }
+
+    /* .team-member {
+        flex-direction: column;
+    } */
+
+    .team-member>div {
+        width: 50%;
+        margin: auto;
+        margin-bottom: -61px;
+    }
+
+    .page-btn {
+        flex-wrap: wrap;
+        margin: auto;
+    }
+
+    .page-btn>div {
+        width: 40%;
     }
 }

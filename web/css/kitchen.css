@@ -1,0 +1,321 @@
+.deep {
+    background-color: var(--warm-light-gray);
+}
+
+.contact {
+    max-width: 800px;
+    margin: auto;
+}
+
+.hero-banner {
+    background-image: url(../images/kithero.jpg);
+    text-align: center;
+}
+
+.kitchen-intro {
+    display: flex;
+    gap: var(--row-img-paragraph);
+    align-items: center;
+}
+
+.kitchen-mobile-title {
+    text-align: center;
+    display: none;
+}
+
+.intro-img {
+    background-image: url(../images/kitintroimg.jpg);
+    width: calc(60% - 38px);
+    border-radius: var(--top-left-img);
+    box-shadow: var(--shadow);
+    aspect-ratio: 1 / 0.7;
+    background-size: cover;
+    background-position: center;
+    border-radius: var(--top-left-img);
+    position: relative;
+    z-index: 1001;
+}
+
+.kitchen-info {
+    width: calc(40% - 38px);
+    padding-right: 45px;
+}
+
+.we-design {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: var(--row-list-img-three);
+    padding: 110px 0;
+    position: relative;
+    top: -50px;
+    margin-bottom: -50px;
+}
+
+.our-kitchens {
+    background-image: url(../images/ourkitchen.jpg);
+}
+
+.our-craft {
+    background-image: url(../images/ourcraft.jpg);
+}
+
+.our-materials {
+    background-image: url(../images/ourmeterials.jpg);
+}
+
+.frame {
+    width: calc(30.2% - 40.67px);
+}
+
+.frame h2 {
+    color: var(--light-cream);
+}
+
+.our-benefits {
+    display: flex;
+    align-items: center;
+    gap: var(--row-img-paragraph);
+    position: relative;
+    z-index: 1001;
+    top: -30px;
+    margin-bottom: -30px;
+}
+
+.benefits-info-mobile {
+    display: none;
+    text-align: center;
+    background-color: var(--transparency-bg);
+    width: 100%;
+    aspect-ratio: 1 / 0.3;
+    align-items: center;
+    justify-content: center;
+}
+
+.benefits-info-mobile h2,
+.benefits-info-mobile h5 {
+    color: var(--light-cream);
+}
+
+.left-overlay-img {
+    background-image: url(../images/kitchenset.jpg);
+    border-radius: var(--left-img);
+    box-shadow: var(--shadow);
+    width: calc(50% - 38px);
+    aspect-ratio: var(--left-overlay-img);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.benefits-info {
+    width: calc(50% - 38px);
+    padding: 0 100px 0 0;
+}
+
+.benefits-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mark-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mark-content h6 {
+    color: var(--deep-cocoa-brown);
+}
+
+.frame-living {
+    background-image: url(../images/livingroom.jpg);
+
+}
+
+.frame-bedroom {
+    background-image: url(../images/bedroomcard.jpg);
+}
+
+.frame-accessories {
+    background-image: url(../images/homeacc.jpg);
+}
+
+.our-collections,
+.what-people-say {
+    text-align: center;
+}
+
+.our-collections {
+    padding: 100px 0 61px 0;
+    position: relative;
+    top: -30px;
+    margin-bottom: -30px;
+    display: flex;
+    flex-direction: column;
+    gap: var(--row-list-img-three);
+}
+
+.what-people-say {
+    display: flex;
+    flex-direction: column;
+    gap: var(--row-list-img-three);
+    padding: var(--section-padding-mobile);
+}
+
+.what-people-say h1 {
+    color: var(--deep-cocoa-brown);
+}
+
+.evaluation-card {
+    background-color: var(--warm-light-gray);
+    width: 70%;
+    aspect-ratio: 1 / 0.4;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: var(--shadow);
+    border-radius: var(--large-img);
+    gap: var(--row-list-img-three);
+    padding: var(--section-padding-smaller-size);
+}
+
+.evaluation-card>div {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.what-people-say .title {
+    line-height: 0.8;
+}
+
+@media screen and (max-width: 1100px) {
+    .benefits-info {
+        padding: 0 50px 0 0;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .kitchen-intro {
+        gap: var(--row-img-paragraph-smaller);
+    }
+
+    .intro-img {
+        aspect-ratio: 1 / 1;
+    }
+
+    .our-benefits {
+        gap: var(--row-img-paragraph-smaller);
+    }
+
+    .benefits-info {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .contact {
+        max-width: var(--mobile-max-content);
+    }
+
+    .left-overlay-img {
+        aspect-ratio: 1 / 1;
+    }
+
+    .comment {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .kitchen-intro {
+        flex-direction: column;
+        text-align: center;
+        gap: var(--row-list-img-three-smaller);
+        padding: var(--section-padding);
+    }
+
+    .kitchen-mobile-title {
+        display: block;
+    }
+
+    .intro-img {
+        width: 80%;
+        border-radius: var(--large-img);
+        aspect-ratio: var(--img-card);
+        box-shadow: none;
+    }
+
+    .kitchen-title {
+        display: none;
+    }
+
+    .kitchen-info {
+        width: 100%;
+        padding: 0;
+    }
+
+    .kitchen-title-contact {
+        max-width: var(--mobile-max-content);
+        margin: auto;
+    }
+
+    .we-design {
+        position: static;
+        top: 0;
+        margin-bottom: 0;
+        padding: var(--section-padding-mobile);
+        gap: var(--row-list-img-three-smaller);
+    }
+
+    .content-row {
+        flex-direction: column;
+        margin: auto;
+        width: 50%;
+        gap: var(--row-list-img-three-smaller);
+    }
+
+    .frame {
+        width: 100%;
+    }
+
+    .our-benefits {
+        flex-direction: column;
+        text-align: center;
+        padding: 0 0 42px 0;
+        top: 0;
+        margin-bottom: 0;
+    }
+
+    .benefits-info-mobile {
+        display: flex;
+    }
+
+    .left-overlay-img {
+        width: 100%;
+        aspect-ratio: 1 / 0.3;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .benefits-info {
+        padding: 0 42px;
+        width: 100%;
+        max-width: var(--mobile-max-content);
+    }
+
+    .benefits-info>.title {
+        display: none;
+    }
+
+    .our-collections {
+        position: static;
+        top: 0;
+        margin-bottom: 0;
+        padding: var(--section-padding-mobile);
+        gap: var(--row-list-img-three-smaller);
+    }
+}

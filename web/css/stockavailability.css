@@ -64,13 +64,23 @@
     border-radius: 25px;
     background-color: var(--light-cream);
     border: 1px solid var(--medium-warm-gray);
+
     font-family: var(--paragraph);
-    font-size: var(--h3-size);
-    color: var(--medium-warm-gray);
-    display: flex;
-    align-items: center;
+    font-size: var(--h3-p1-size);
+    color: var(--deep-cocoa-brown);
+
+    outline: none;
 }
 
+
+.search-box::placeholder {
+    color: var(--medium-warm-gray);
+}
+
+
+.search-box:focus {
+    border-color: var(--deep-cocoa-brown);
+}
 
 .go-btn {
     padding: 16px 40px;

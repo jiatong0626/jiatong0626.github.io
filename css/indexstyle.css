@@ -65,6 +65,7 @@ body {
 
 .profile-img img {
     border-radius: 200px;
+    transition: all 0.3s;
 }
 
 .name h1 {

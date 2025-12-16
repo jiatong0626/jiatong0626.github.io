@@ -239,21 +239,60 @@
     background-color: var(--warm-light-gray);
 }
 
-.steps {
-    padding: 80px 42px;
+.material-section {
     background-color: var(--warm-light-gray);
-    align-items: center;
-    gap: var(--row-img-paragraph);
+    padding: 120px 0 120px 0;
 }
 
-.steps ol {
-    margin-top: 20px;
-    padding-left: 20px;
+.material-section-title h6 {
+    color: var(--deep-cocoa-brown);
 }
 
-.steps li {
-    margin-bottom: 12px;
+.sub-title {
+    text-align: center;
+    font-family: var(--heading);
+    font-size: var(--h4-size);
+    color: var(--medium-warm-gray);
 }
+
+.title {
+    text-align: center;
+}
+
+.slogan {
+    text-align: center;
+}
+
+.material-row {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    flex-wrap: wrap;
+    padding-top: 40px;
+}
+
+
+.material-card {
+    width: 320px;
+    background-color: var(--light-cream);
+    border-radius: 40px;
+    padding: 42px 34px;
+    box-shadow: var(--shadow);
+    text-align: center;
+}
+
+
+.material-card h3 {
+    font-size: 26px;
+    margin-bottom: 18px;
+}
+
+
+.material-card p {
+    line-height: 1.7;
+    color: var(--deep-cocoa-brown);
+}
+
 
 
 @media screen and (max-width: 1000px) {
@@ -470,9 +509,6 @@
         border: none;
     }
 
-
-
-
     .product-list {
         display: flex;
         flex-direction: column;
@@ -515,7 +551,6 @@
 
     .steps {
         padding: 40px 18px;
-        text-align: center;
     }
 
     .steps ol {

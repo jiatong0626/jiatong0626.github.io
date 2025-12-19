@@ -5,3 +5,32 @@
 .hero-title {
     text-align: center;
 }
+
+.new-arrival {
+    aspect-ratio: 1/0.1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-color: var(--medium-warm-gray);
+}
+
+.new-img {
+    background-image: url(../images/new-bed.jpg);
+    width: calc(60% - 38px);
+    aspect-ratio: 1 / 0.4;
+    background-size: cover;
+}
+
+.best-seller {
+    display: flex;
+    gap: var(--row-list-img-three);
+    align-items: center;
+}
+
+.best-img {
+    background-image: url(../images/best.jpg);
+    width: 50%;
+    aspect-ratio: 1 / 1;
+    background-size: cover;
+    width: calc(50% - 38px);
+}

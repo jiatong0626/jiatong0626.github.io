@@ -6,3 +6,32 @@
 .ourfurniture-herobannertitle {
     text-align: center;
 }
+
+
+.ourfurnitureintro-img {
+    background-image: url(../images/top-pick.jpg);
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    aspect-ratio: 1.1 / 1.2;
+}
+
+.ourfurniture-title-text {
+    gap: var(--list-title-paragraph);
+}
+
+.ourfurniture-intro {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    gap: var(--row-img-paragraph-smaller);
+
+}
+
+.ourfurniture-section1 {
+    display: flex;
+    gap: var(--row-img-paragraph);
+    background-color: var(--warm-light-gray);
+}

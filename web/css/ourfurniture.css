@@ -189,7 +189,7 @@
     background-size: cover;
     background-position: center;
     aspect-ratio: 1.1 / 1.2;
-    border-radius: var(--large-img);
+    border-radius: var(--left-img);
 
 }
 
@@ -204,8 +204,8 @@
 .promotion-img-overlap {
     width: 100%;
     aspect-ratio: 1.1 / 1.1;
-    background-color: rgba(209, 194, 194, 0.2);
-    border-radius: var(--large-img);
+    background: linear-gradient(to right, #fdf8f2, #fdf8f200);
+
 }
 
 .promotion-img2 {
@@ -214,7 +214,7 @@
     background-size: cover;
     background-position: center;
     aspect-ratio: 1.1 / 1.2;
-    border-radius: var(--large-img);
+    border-radius: var(--left-img);
 }
 
 .promotion1 {

@@ -330,19 +330,17 @@
 }
 
 @media screen and (max-width: 800px) {
+
     .store-section {
         flex-direction: column;
         text-align: center;
-    }
-
-    .store-image,
-    .store-text {
-        width: 100%;
+        gap: var(--row-list-img-three-smaller);
     }
 
     .store-image {
         aspect-ratio: 2/ 1;
         border-radius: var(--small-img);
+        width: 80%;
     }
 
     .store-title {
@@ -352,7 +350,7 @@
     .store-title-mobile {
         display: block;
         width: 100%;
-        text-align: left;
+        text-align: center;
     }
 
 

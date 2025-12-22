@@ -1,0 +1,263 @@
+.hero {
+    background-image: url("../images/repair&maintenance.png");
+    text-align: center;
+}
+
+.title-mobile {
+    display: none;
+}
+
+.contain-mobile {
+    display: none;
+}
+
+.repair-maintenance-section {
+    display: flex;
+    flex-direction: column;
+    gap: var(--row-list-img-three-smaller);
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    background-color: var(--warm-light-gray);
+    width: 80%;
+    margin: auto;
+    border-radius: var(--large-img);
+    box-shadow: var(--shadow);
+    position: relative;
+    top: -80px;
+    z-index: 1001;
+    margin-bottom: -120px;
+}
+
+.overlay-color h2 {
+    color: var(--light-cream);
+    padding: 0;
+}
+
+.card-info {
+    width: 60%;
+    padding: 70px;
+
+}
+
+.card-info h3 {
+    text-align: left;
+}
+
+.card-img {
+    background-image: url(../images/furniture\ service.jpg);
+    border-radius: var(--left-img);
+    width: 40%;
+    aspect-ratio: 1 / 1.25;
+    background-size: cover;
+    background-position: center;
+}
+
+.repair-section {
+    background-color: var(--medium-warm-gray);
+    padding: 120px 0 120px 0;
+}
+
+.repair-maintenance-section {
+    background-color: var(--light-cream);
+    display: flex;
+    flex-direction: column;
+    gap: var(--row-list-img-three-smaller);
+}
+
+.repair-section-title h6 {
+    color: var(--deep-cocoa-brown);
+}
+
+.sub-title {
+    text-align: center;
+    font-family: var(--heading);
+    font-size: var(--h4-size);
+    color: var(--medium-warm-gray);
+}
+
+.title {
+    text-align: center;
+}
+
+.slogan {
+    text-align: center;
+}
+
+.repair-row {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    padding-top: 40px;
+}
+
+
+.repair-card {
+    width: 320px;
+    background-color: var(--light-cream);
+    border-radius: 40px;
+    padding: 42px 34px;
+    box-shadow: var(--shadow);
+    text-align: center;
+}
+
+
+.repair-card h3 {
+    font-size: 26px;
+    margin-bottom: 18px;
+}
+
+
+.repair-card p {
+    line-height: 1.7;
+    color: var(--deep-cocoa-brown);
+}
+
+.repair-faq {
+    padding: 55px;
+
+}
+
+.fqa-intro {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    position: relative;
+    z-index: 1001;
+}
+
+.title h6 {
+    color: var(--light-cream);
+}
+
+
+.fqa-info {
+    width: 50%;
+    padding-right: 30px;
+}
+
+.fqa-img {
+    background-image: url(../images/fqa.png);
+    border-radius: var(--left-img);
+    box-shadow: var(--shadow);
+    width: calc(50% - 38px);
+    aspect-ratio: var(--left-overlay-img);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1001;
+    top: -15px;
+    margin-bottom: -60px;
+}
+
+.content-item {
+    border-bottom: 1px solid var(--medium-warm-gray);
+    padding: 10px 0;
+}
+
+.fqa-content>div {
+    display: flex;
+    flex-direction: column;
+    gap: var(--list-title-paragraph);
+
+}
+
+.repair-review {
+    background: var(--medium-warm-gray);
+    padding: 65px 0;
+}
+
+.repair-review-in {
+    display: grid;
+    grid-template-columns: 480px 520px;
+    gap: 42px;
+    align-items: center;
+    padding: 0 var(--section-padding);
+}
+
+.review-card {
+    background: rgba(253, 248, 242, 0.55);
+    border-radius: var(--small-img);
+    padding: 32px;
+}
+
+.review-card h2 {
+    margin-bottom: 10px;
+}
+
+.stars {
+    color: var(--warm-golden-accent);
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+.review-card p {
+    line-height: 1.75;
+    margin-bottom: 20px;
+}
+
+.review-user {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.review-user img {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review-img img {
+    width: 100%;
+    border-radius: var(--small-img);
+    box-shadow: var(--shadow);
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.repair-why {
+    padding: 65px var(--section-padding);
+}
+
+.why-grid {
+    display: grid;
+    grid-template-columns: 540px 460px;
+    gap: 42px;
+    align-items: center;
+}
+
+.why-list {
+    display: grid;
+    grid-template-columns: 260px 260px;
+    gap: 18px 22px;
+    margin-top: 22px;
+}
+
+.why-item {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+}
+
+.why-item img {
+    width: 22px;
+    height: 22px;
+    margin-top: 4px;
+}
+
+.why-item p {
+    color: var(--deep-cocoa-brown);
+    line-height: 1.6;
+}
+
+.why-img img {
+    width: 100%;
+    border-radius: var(--small-img);
+    box-shadow: var(--shadow);
+    aspect-ratio: 0.7 /0.8;
+    object-fit: cover;
+}

@@ -34,3 +34,56 @@
     background-size: cover;
     width: calc(50% - 38px);
 }
+
+.six-row {
+    display: flex;
+    flex-direction: column;
+    gap: var(--row-list-img-three);
+}
+
+.categories-set {
+    text-align: center;
+    padding: 120px 0 120px 0;
+    gap: var(--row-list-img-three);
+    background-color: var(--warm-light-gray);
+}
+
+.frame {
+    width: calc(30.2% - 40.67px);
+}
+
+.p-categories h6 {
+    color: var(--deep-cocoa-brown);
+}
+
+.p-categories {
+    margin-bottom: 61px;
+}
+
+.six-row h2 {
+    color: var(--light-cream);
+}
+
+.beds {
+    background-image: url(../images/beds.jpg);
+}
+
+.mattresses {
+    background-image: url(../images/mattresses-sqr.jpg);
+}
+
+.wardrobes {
+    background-image: url(../images/wardrobes-sqr.jpg);
+}
+
+.tables {
+    background-image: url(../images/besides-tables.jpg);
+}
+
+.dressers {
+    background-image: url(../images/dressers-sqr.jpg);
+}
+
+.bedding {
+    background-image: url(../images/bedding-sqr.jpg);
+}

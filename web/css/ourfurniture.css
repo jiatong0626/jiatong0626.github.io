@@ -35,3 +35,44 @@
     gap: var(--row-img-paragraph);
     background-color: var(--warm-light-gray);
 }
+
+
+.section2-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.section2-title h6 {
+    color: var(--deep-cocoa-brown);
+}
+
+.frame {
+    width: calc(30.2% - 40.67px);
+}
+
+.lroom {
+    background-image: url(../images/lroom-p.jpg);
+}
+
+.bedroom {
+    background-image: url(../images/bedroom.jpg);
+}
+
+.kitchen {
+    background-image: url(../images/kitchen.jpg);
+}
+
+.c-text h2 {
+    color: var(--light-cream);
+}
+
+.section2-info {
+    gap: var(--row-list-img-three);
+    padding: var(--section-padding);
+    display: flex;
+    flex-direction: column;
+
+}

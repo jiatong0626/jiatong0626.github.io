@@ -28,11 +28,19 @@
 }
 
 .best-img {
-    background-image: url(../images/best.jpg);
-    width: 50%;
-    aspect-ratio: 1 / 1;
     background-size: cover;
     width: calc(50% - 38px);
+    padding: var(--section-padding);
+}
+
+.best-img img,
+.tips-img img {
+    border-radius: var(--small-img);
+    aspect-ratio: 1 / 1;
+}
+
+.best-info {
+    width: 50%;
 }
 
 .six-row {
@@ -86,4 +94,50 @@
 
 .bedding {
     background-image: url(../images/bedding-sqr.jpg);
+}
+
+.tips-full {
+    display: flex;
+    align-items: center;
+}
+
+.tips-info {
+    width: 50%;
+    padding: var(--section-padding);
+}
+
+.tips-img {
+    width: 50%;
+    background-size: cover;
+    padding: var(--section-padding);
+}
+
+.inspi-info-mobile {
+    display: none;
+}
+
+.inspi {
+    display: flex;
+    align-items: center;
+    background-color: var(--medium-warm-gray);
+    gap: var(--row-img-paragraph);
+    margin-bottom: 30px;
+}
+
+.inspi-info {
+    width: 50%;
+}
+
+.inspi-img {
+    background-image: url(../images/inspi-bed.jpg);
+    border-radius: var(--left-img);
+    box-shadow: var(--shadow);
+    width: calc(50% - 38px);
+    aspect-ratio: var(--left-overlay-img);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1001;
+    top: -15px;
+    margin-bottom: -30px;
 }

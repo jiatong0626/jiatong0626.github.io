@@ -161,16 +161,26 @@
 
 .ourfurniture-section5 {
     background-color: var(--warm-light-gray);
+    padding: var(--section-padding-mobile);
+    display: flex;
+    flex-direction: column;
+    gap: var(--list-title-paragraph);
 }
 
 .section5-title h1 {
-    color: var(----deep-cocoa-brown);
+    color: var(--deep-cocoa-brown);
     display: flex;
     justify-content: center;
 }
 
 .promotion-card {
     display: flex;
+    background-color: var(--light-cream);
+    aspect-ratio: 1.2 / 0.6;
+    width: 50%;
+    margin: auto;
+    box-shadow: var(--shadow);
+    border-radius: var(--large-img);
 }
 
 .promotion-img {
@@ -179,8 +189,21 @@
     background-size: cover;
     background-position: center;
     aspect-ratio: 1.1 / 1.2;
+    border-radius: var(--large-img);
+
 }
 
-.promotion-info {
+.promotion-info-btn {
     width: 50%;
+    padding: var(--section-padding);
+    gap: var(--row-img-paragraph);
+    display: flex;
+    flex-direction: column;
+}
+
+.promotion-img-overlap {
+    width: 100%;
+    aspect-ratio: 1.1 / 1.1;
+    background-color: rgba(209, 194, 194, 0.2);
+    border-radius: var(--large-img);
 }

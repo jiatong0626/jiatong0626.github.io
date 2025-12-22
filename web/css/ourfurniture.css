@@ -44,6 +44,14 @@
     text-align: center;
 }
 
+.profile-img img {
+    width: 100%;
+}
+
+.personal-intro {
+    width: calc(22.5% - 30.75px);
+}
+
 
 .section2-title h6 {
     color: var(--deep-cocoa-brown);

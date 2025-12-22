@@ -24,6 +24,12 @@ h1 {
     color: #F3E7D8;
 }
 
-.back-home-btn p {
-    color: var(--light-cream);
+.back-home-btn {
+    margin: auto;
+}
+
+@media screen and (max-width: 900px) {
+    .four-o-four {
+        font-size: 200px;
+    }
 }

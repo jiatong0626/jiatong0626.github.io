@@ -120,20 +120,26 @@
     background-color: var(--deep-cocoa-brown);
     padding: 20px 60px;
     border-radius: 40px;
+    width: fit-content;
+    transition: all 0.3s;
 }
 
 .big-btn p {
     color: var(--light-cream);
+    transition: all 0.3s;
 }
 
 .small-btn {
     background-color: var(--deep-cocoa-brown);
     padding: 16px 40px;
     border-radius: 25px;
+    width: fit-content;
+    transition: all 0.3s;
 }
 
 .small-btn p {
     color: var(--light-cream);
+    transition: all 0.3s;
 }
 
 /* html class name setup */
@@ -320,11 +326,17 @@ p {
 .logo,
 .lower-logo {
     width: 100px;
+    transition: all 0.3s;
 }
 
 .main-btn {
     display: flex;
     gap: 40px;
+}
+
+.main-btn h3,
+.main-btn img {
+    transition: all 0.3s;
 }
 
 .have-sub {
@@ -350,7 +362,9 @@ p {
     box-shadow: var(--shadow);
     flex-direction: column;
     gap: 10px;
-    display: none;
+    display: flex;
+    transition: all 0.3s;
+    transform: scaleY(0);
 }
 
 .about-submenu {
@@ -362,7 +376,7 @@ p {
 }
 
 .service-submenu {
-    width: 160px;
+    width: 180px;
 }
 
 .menu-icon {
@@ -389,6 +403,7 @@ p {
 
 .footer p {
     color: var(--light-cream);
+    transition: all 0.3s;
 }
 
 .footer-in {
@@ -449,6 +464,10 @@ p {
     gap: 48px;
 }
 
+.social-btn-link {
+    transition: all 0.3s;
+}
+
 .lower-footer {
     background-color: var(--deep-cocoa-brown);
 }
@@ -473,13 +492,14 @@ p {
 }
 
 .btn-item:hover .submenu {
-    display: flex;
+    transform: scaleY(1);
 }
 
 .big-btn:hover,
 .small-btn:hover {
     background-color: var(--warm-light-gray);
     box-shadow: var(--shadow);
+    transform: scale(0.95);
 }
 
 .small-btn:hover p,
@@ -651,6 +671,7 @@ p {
         text-align: center;
         justify-content: center;
         align-items: center;
+        transform: translateX(0);
     }
 
     .main-btn h3 {
@@ -671,6 +692,7 @@ p {
         box-shadow: none;
         padding: 0;
         width: 100%;
+        transform: scaleY(1);
     }
 
     .main-btn.active {

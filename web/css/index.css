@@ -51,6 +51,7 @@
     top: -80px;
     z-index: 1001;
     margin-bottom: -80px;
+    transition: all 0.3s;
 }
 
 .craft-info {
@@ -176,6 +177,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    transition: all 0.3s;
 }
 
 .benefits-info {
@@ -238,6 +240,7 @@
     padding: 32px;
     border-radius: var(--small-img);
     aspect-ratio: 1 / 0.6;
+    transition: all 0.3s;
 }
 
 .keep-right-grid {
@@ -287,6 +290,18 @@
 
 .team-contact {
     padding: 0 42px;
+}
+
+.our-craft-card:hover {
+    transform: scale(1.02);
+}
+
+.left-overlay-img:hover {
+    transform: scale(1.02);
+}
+
+.content-grid:hover {
+    transform: scale(1.02);
 }
 
 @media screen and (max-width: 1100px) {

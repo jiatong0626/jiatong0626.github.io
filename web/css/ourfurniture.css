@@ -158,3 +158,29 @@
 .section4-text p {
     width: 80%;
 }
+
+.ourfurniture-section5 {
+    background-color: var(--warm-light-gray);
+}
+
+.section5-title h1 {
+    color: var(----deep-cocoa-brown);
+    display: flex;
+    justify-content: center;
+}
+
+.promotion-card {
+    display: flex;
+}
+
+.promotion-img {
+    background-image: url(../images/20discount.jpg);
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    aspect-ratio: 1.1 / 1.2;
+}
+
+.promotion-info {
+    width: 50%;
+}

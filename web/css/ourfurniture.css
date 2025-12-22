@@ -91,7 +91,6 @@
 
 .section3-info {
     display: flex;
-    gap: var(--row-img-paragraph);
 }
 
 .section3-title {
@@ -99,6 +98,55 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: var(--section-padding);
+    padding: 0 76px 0 42px;
     gap: var(--list-title-paragraph);
+}
+
+/* .section3-title h2 {
+    width: 90%;
+}
+
+.section3-title p {
+    width: 90%;
+} */
+
+.section4-img {
+    background-image: url(../images/ourdifference.jpg);
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    aspect-ratio: 1.1 / 1.2;
+}
+
+.section4-info {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    padding-left: var(--row-img-paragraph);
+    gap: var(--list-title-paragraph);
+
+}
+
+.section4-title-text {
+    gap: var(--list-title-paragraph);
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.ourfurniture-section4 {
+    display: flex;
+}
+
+.team-text div {
+    display: flex;
+    padding: 20px;
+    gap: var(--list-title-paragraph);
+    align-items: center;
+}
+
+.section4-text p {
+    width: 80%;
 }

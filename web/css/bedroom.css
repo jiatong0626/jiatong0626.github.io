@@ -1,0 +1,184 @@
+.hero-banner {
+    background-image: url(../images/bedroom-back.jpg);
+}
+
+.hero-title {
+    text-align: center;
+}
+
+.new-arrival {
+    aspect-ratio: 1/0.1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-color: var(--medium-warm-gray);
+}
+
+.new-img {
+    background-image: url(../images/new-bed.jpg);
+    width: 50%;
+    aspect-ratio: 1 / 0.4;
+    background-size: cover;
+}
+
+.best-seller {
+    display: flex;
+    gap: var(--row-img-paragraph);
+    align-items: center;
+}
+
+.best-img {
+    background-size: cover;
+    width: 50%;
+    padding: var(--section-padding);
+}
+
+.best-img img,
+.tips-img img {
+    border-radius: var(--small-img);
+    aspect-ratio: 1 / 1;
+}
+
+.best-info {
+    width: 70%;
+}
+
+.six-row {
+    display: flex;
+    flex-direction: column;
+    gap: var(--row-list-img-three);
+}
+
+.categories-set {
+    text-align: center;
+    padding: 120px 0 120px 0;
+    gap: var(--row-list-img-three);
+    background-color: var(--warm-light-gray);
+}
+
+.frame {
+    width: calc(30.2% - 40.67px);
+}
+
+.p-categories h6 {
+    color: var(--deep-cocoa-brown);
+}
+
+.p-categories {
+    margin-bottom: 61px;
+}
+
+.six-row h2 {
+    color: var(--light-cream);
+}
+
+.beds {
+    background-image: url(../images/beds.jpg);
+}
+
+.mattresses {
+    background-image: url(../images/mattresses-sqr.jpg);
+}
+
+.wardrobes {
+    background-image: url(../images/wardrobes-sqr.jpg);
+}
+
+.tables {
+    background-image: url(../images/besides-tables.jpg);
+}
+
+.dressers {
+    background-image: url(../images/dressers-sqr.jpg);
+}
+
+.bedding {
+    background-image: url(../images/bedding-sqr.jpg);
+}
+
+.tips-full {
+    display: flex;
+    align-items: center;
+}
+
+.tips-info {
+    width: 50%;
+    padding: var(--section-padding);
+}
+
+.tips-img {
+    width: 50%;
+    background-size: cover;
+    padding: var(--section-padding);
+}
+
+.inspi-info-mobile {
+    display: none;
+}
+
+.inspi {
+    display: flex;
+    align-items: center;
+    background-color: var(--medium-warm-gray);
+    gap: var(--row-img-paragraph);
+    margin-bottom: 30px;
+    padding-right: 45px;
+}
+
+.inspi-info {
+    width: 50%;
+}
+
+.inspi-img {
+    background-image: url(../images/inspi-img.jpg);
+    border-radius: var(--left-img);
+    box-shadow: var(--shadow);
+    width: calc(50% - 38px);
+    aspect-ratio: var(--left-overlay-img);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1001;
+    top: -15px;
+    margin-bottom: -30px;
+}
+
+.title h5 {
+    color: var(--light-cream);
+}
+
+.what-people-say {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: var(--row-list-img-three);
+    padding: var(--section-padding-mobile);
+}
+
+.what-people-say h1 {
+    color: var(--deep-cocoa-brown);
+}
+
+.evaluation-card {
+    background-color: var(--warm-light-gray);
+    width: 70%;
+    aspect-ratio: 1 / 0.4;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: var(--shadow);
+    border-radius: var(--large-img);
+    gap: var(--row-list-img-three);
+    padding: var(--section-padding-smaller-size);
+}
+
+.evaluation-card>div {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.what-people-say .title {
+    line-height: 0.8;
+}

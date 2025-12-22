@@ -205,7 +205,10 @@
     padding: var(--section-padding-mobile);
     display: flex;
     flex-direction: column;
+    gap: var(--list-title-paragraph);
 }
+
+
 
 .section3_text {
     display: flex;

@@ -1,0 +1,51 @@
+.hero {
+    background-image: url("../images/repair&maintenance.png");
+    text-align: center;
+}
+
+.title-mobile {
+    display: none;
+}
+
+.contain-mobile {
+    display: none;
+}
+
+.repair-maintenance-section {
+    display: flex;
+    flex-direction: column;
+    gap: var(--row-list-img-three-smaller);
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    background-color: var(--warm-light-gray);
+    width: 80%;
+    margin: auto;
+    border-radius: var(--large-img);
+    box-shadow: var(--shadow);
+    position: relative;
+    top: -80px;
+    z-index: 1001;
+    margin-bottom: -80px;
+}
+
+.overlay-color h2 {
+    color: var(--light-cream);
+    padding: 0;
+}
+
+.card-info {
+    width: 60%;
+    padding: 70px;
+}
+
+.craft-img {
+    background-image: url(../images/furniture\ service.jpg);
+    border-radius: var(--left-img);
+    width: 40%;
+    aspect-ratio: 1 / 1.25;
+    background-size: cover;
+    background-position: center;
+}

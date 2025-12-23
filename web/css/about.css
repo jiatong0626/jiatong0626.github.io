@@ -247,6 +247,16 @@
     }
 }
 
+@media screen and (max-width:1000px) {
+
+    .about-section1 {
+        display: flex;
+        gap: var(--row-img-paragraph-smaller);
+    }
+}
+
+
+
 @media screen and (max-width:900px) {
 
 

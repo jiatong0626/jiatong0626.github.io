@@ -55,6 +55,15 @@
     z-index: 1001;
     top: -15px;
     margin-bottom: -30px;
+    transition: all 0.3s;
+}
+
+.inspi-img:hover {
+    transform: scale(1.02)
+}
+
+.subtitle h5 {
+    color: var(--light-cream);
 }
 
 .lroom-craft {
@@ -75,6 +84,11 @@
     top: -80px;
     z-index: 1001;
     margin-bottom: -80px;
+    transition: all 0.3s;
+}
+
+.craft-card:hover {
+    transform: scale(1.02)
 }
 
 .overlay-color h2 {
@@ -214,6 +228,11 @@
         top: 0;
         margin-bottom: 0;
         box-shadow: none;
+        transition: none;
+    }
+
+    .craft-card:hover {
+        transform: none;
     }
 
     .craft-info {
@@ -255,6 +274,11 @@
         aspect-ratio: 1 / 0.3;
         border-radius: 0;
         box-shadow: none;
+        transition: none;
+    }
+
+    .inspi-img:hover {
+        transform: none;
     }
 
     .inspi-info {

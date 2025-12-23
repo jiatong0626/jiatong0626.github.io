@@ -249,6 +249,17 @@
         padding: var(--clay-taupe);
         padding: 30px 0 30px 0;
     }
+
+    .ourteam-section1 {
+        display: flex;
+        gap: var(--row-img-paragraph-smaller);
+        background-color: var(--medium-warm-gray);
+    }
+
+    .section4 {
+        display: flex;
+        gap: var(--row-img-paragraph-smaller)
+    }
 }
 
 @media screen and (max-width: 800px) {

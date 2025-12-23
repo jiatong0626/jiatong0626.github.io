@@ -32,9 +32,9 @@
 
 .about-section2 {
     background-color: var(--medium-warm-gray);
-    position: relative;
-    bottom: 115px;
-    margin-bottom: -115px;
+    /* position: relative;
+    bottom: 115px; */
+    /* margin-bottom: -115px; */
 }
 
 .about_intro {
@@ -199,6 +199,7 @@
     text-align: center;
     box-shadow: var(--shadow);
     border-radius: var(--large-img);
+    padding: var(--section-padding);
 }
 
 .section3 {

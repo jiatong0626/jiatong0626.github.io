@@ -178,7 +178,6 @@
 }
 
 .review-card {
-    background: rgba(253, 248, 242, 0.55);
     border-radius: var(--small-img);
     padding: 32px;
 }
@@ -205,7 +204,7 @@
 }
 
 .review-user img {
-    width: 44px;
+    width: 30%;
     height: 44px;
     border-radius: 50%;
     object-fit: cover;
@@ -220,7 +219,7 @@
 }
 
 .repair-why {
-    padding: 65px var(--section-padding);
+    padding: 65px;
 }
 
 .why-grid {
@@ -233,12 +232,12 @@
 .why-list {
     display: grid;
     grid-template-columns: 260px 260px;
-    gap: 18px 22px;
+    gap: var(--list-title-paragraph);
     margin-top: 22px;
 }
 
 .why-item {
-    display: flex;
+
     gap: 12px;
     align-items: flex-start;
 }

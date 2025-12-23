@@ -141,10 +141,11 @@
     z-index: 1001;
     top: -15px;
     margin-bottom: -30px;
+    transition: all 0.3s;
 }
 
-.title h5 {
-    color: var(--light-cream);
+.inspi-img:hover {
+    transform: scale(1.02)
 }
 
 .what-people-say {

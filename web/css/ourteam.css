@@ -377,3 +377,10 @@
         margin-bottom: -61px;
     }
 }
+
+@media screen and (max-width: 520px) {
+    .smallinfo {
+        display: flex;
+        flex-direction: column;
+    }
+}

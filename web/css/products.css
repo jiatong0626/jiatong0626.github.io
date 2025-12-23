@@ -28,6 +28,11 @@
     background-size: cover;
     background-position: center;
     border-radius: var(--top-left-img);
+    transition: all 0.3s;
+}
+
+.intro-image:hover {
+    transform: scale(1.02)
 }
 
 .mobile-title {

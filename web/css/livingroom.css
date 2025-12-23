@@ -62,9 +62,6 @@
     transform: scale(1.02)
 }
 
-.subtitle h5 {
-    color: var(--light-cream);
-}
 
 .lroom-craft {
     display: flex;

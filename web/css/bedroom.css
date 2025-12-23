@@ -148,10 +148,6 @@
     transform: scale(1.02)
 }
 
-.title h5 {
-    color: var(--light-cream);
-}
-
 .what-people-say {
     text-align: center;
     display: flex;

@@ -29,6 +29,11 @@
     top: -80px;
     z-index: 1001;
     margin-bottom: -120px;
+    transition: all 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.02);
 }
 
 .overlay-color h2 {
@@ -47,7 +52,7 @@
 }
 
 .card-img {
-    background-image: url(../images/furniture\ service.jpg);
+    background-image: url(../images/furnitureservice.jpg);
     border-radius: var(--left-img);
     width: 40%;
     aspect-ratio: 1 / 1.25;
@@ -122,7 +127,7 @@
 
 .fqa-intro {
     display: flex;
-    gap: 40px;
+    gap: var(--row-img-paragraph);
     align-items: center;
     position: relative;
     z-index: 1001;
@@ -170,9 +175,8 @@
 }
 
 .repair-review-in {
-    display: grid;
-    grid-template-columns: 480px 520px;
-    gap: 42px;
+    display: flex;
+    gap: var(--row-img-paragraph);
     align-items: center;
     padding: 0 var(--section-padding);
 }
@@ -180,11 +184,13 @@
 .review-card {
     border-radius: var(--small-img);
     padding: 32px;
+    width: 50%;
 }
 
 .review-card h2 {
     margin-bottom: 10px;
 }
+
 
 .stars {
     color: var(--warm-golden-accent);
@@ -201,21 +207,28 @@
     display: flex;
     align-items: center;
     gap: 12px;
+
 }
 
 .review-user img {
-    width: 30%;
-    height: 44px;
-    border-radius: 50%;
+    width: 10%;
+    height: 40px;
+    border-radius: 200px;
     object-fit: cover;
 }
 
-.review-img img {
-    width: 100%;
-    border-radius: var(--small-img);
+.review-img {
+    background-image: url(../images/ctm\ rvs.jpg);
     box-shadow: var(--shadow);
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
+    width: 50%;
+    aspect-ratio: 1/0.8;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1001;
+    top: -15px;
+    margin-bottom: -30px;
+    border-radius: 22px 22px;
 }
 
 .repair-why {

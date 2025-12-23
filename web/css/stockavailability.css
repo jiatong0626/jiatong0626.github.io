@@ -180,7 +180,7 @@
 
 .material-intro {
     display: flex;
-    gap: 40px;
+    gap: var(--row-img-paragraph);
     align-items: center;
     position: relative;
     z-index: 1001;
@@ -343,12 +343,17 @@
         width: calc(50% - 14px);
     }
 
+    .material-intro {
+        gap: var(--row-img-paragraph-smaller);
+    }
+
 }
 
 @media screen and (max-width: 800px) {
     .store-section {
         flex-direction: column;
         text-align: center;
+        gap: var(--row-list-img-three-smaller);
     }
 
     .store-section h2 {

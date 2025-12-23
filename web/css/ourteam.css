@@ -247,7 +247,7 @@
         flex-direction: column;
         justify-content: center;
         padding: var(--clay-taupe);
-        padding: 20px;
+        padding: 30px 0 30px 0;
     }
 }
 

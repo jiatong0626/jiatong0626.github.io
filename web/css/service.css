@@ -1,6 +1,8 @@
 .hero {
     background-image: url("../images/servicemains.png");
     text-align: center;
+    background-size: cover;
+    background-position: center;
 }
 
 

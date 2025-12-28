@@ -229,3 +229,165 @@
     gap: var(--row-img-paragraph);
     padding: var(--section-padding);
 }
+
+@media screen and (max-width: 1000px) {
+    .ourfurniture-section1 {
+        display: flex;
+        gap: var(--row-img-paragraph-smaller);
+        background-color: var(--warm-light-gray);
+    }
+
+    .section4-info {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        justify-content: center;
+        padding-left: var(--row-img-paragraph-smaller);
+        gap: var(--list-title-paragraph);
+
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .ourfurniture-intro {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 50px;
+        gap: var(--row-img-paragraph-smaller);
+        text-align: center;
+    }
+
+    .ourfurniture-section1 {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        background-color: var(--warm-light-gray);
+    }
+
+    .ourfurniture-btn {
+        margin: auto;
+    }
+
+    .ourfurnitureintro-img {
+        background-image: url(../images/top-pick.jpg);
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        aspect-ratio: 1.5 / 1.2;
+    }
+
+    .categories {
+        gap: var(--row-list-img-three-smaller);
+        top: 0;
+        padding: 61px 0;
+    }
+
+    .categories div {
+        gap: var(--row-list-img-three-smaller);
+    }
+
+    .three-cat {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        width: 50%;
+        text-align: center;
+    }
+
+    .three-cat div {
+        width: 100%;
+    }
+
+
+    .f-img {
+        display: flex;
+        flex-direction: column;
+        gap: var(--row-list-img-three-smaller);
+        align-items: center;
+        margin: auto;
+        width: 100%;
+    }
+
+
+    .living-intro {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: var(--row-list-img-three-smaller);
+        padding: var(--section-padding);
+    }
+
+    .section3-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section3-img {
+        background-image: url(../images/build\ to\ last.jpg);
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        aspect-ratio: 1.9 / 1.7;
+    }
+
+    .section3-title {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: var(--section-padding);
+        gap: var(--list-title-paragraph);
+        text-align: center;
+    }
+
+    .ourfurniture-section4 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .section4-img {
+        background-image: url(../images/ourdifference.jpg);
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        aspect-ratio: 1.9 / 2;
+    }
+
+    .section4-info {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        justify-content: center;
+        padding-left: 0px;
+        gap: var(--list-title-paragraph);
+        padding: var(--section-padding);
+
+    }
+
+    .section4-text p {
+        width: 80%;
+        margin: auto;
+    }
+
+    .team-text div {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        gap: var(--list-title-paragraph);
+        align-items: center;
+        text-align: center;
+    }
+
+    .section4-title-text {
+        gap: var(--list-title-paragraph);
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+}

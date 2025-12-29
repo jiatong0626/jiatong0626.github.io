@@ -250,6 +250,80 @@
 }
 
 
+@media screen and (max-width: 1250px) {
+    .promotion-info-btn {
+        width: 50%;
+        padding: 30px;
+        gap: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .promotion-info-btn {
+        width: 50%;
+        padding: 30px;
+        gap: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .promotion-info-btn {
+        width: 50%;
+        padding: 20px;
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .promotion-info-btn {
+        width: 50%;
+        padding: var(--section-padding);
+        gap: 60%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .promotion-discount {
+        display: flex;
+        flex-direction: column;
+        gap: var(--row-img-paragraph-smaller);
+        padding: 0 70px 0 70px;
+    }
+
+    .promotion1 {
+        width: 100%;
+    }
+
+    .promotion2 {
+        width: 100%;
+    }
+
+    .promotion-img1 {
+        background-image: url(../images/20discount.jpg);
+        width: 50%;
+        background-size: cover;
+        background-position: center;
+        aspect-ratio: 1.1 / 1.2;
+        border-radius: var(--left-img);
+    }
+
+    .promotion-img2 {
+        background-image: url(../images/30discount.jpg);
+        width: 50%;
+        background-size: cover;
+        background-position: center;
+        aspect-ratio: 1.1 / 1.2;
+        border-radius: var(--left-img);
+
+    }
+}
+
 @media screen and (max-width: 800px) {
     .ourfurniture-intro {
         width: 100%;
@@ -391,4 +465,217 @@
         flex-direction: column;
     }
 
+}
+
+@media screen and (max-width: 710px) {
+    .promotion-info-btn {
+        width: 50%;
+        padding: var(--section-padding);
+        gap: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .promotion-discount {
+        display: flex;
+        flex-direction: column;
+        gap: var(--row-img-paragraph-smaller);
+        padding: 0 70px 0 70px;
+    }
+
+    .promotion1 {
+        width: 100%;
+    }
+
+    .promotion2 {
+        width: 100%;
+    }
+
+    .promotion-img1 {
+        background-image: url(../images/20discount.jpg);
+        width: 50%;
+        background-size: cover;
+        background-position: center;
+        aspect-ratio: 1.1 / 1.2;
+        border-radius: var(--left-img);
+    }
+
+    .promotion-img2 {
+        background-image: url(../images/30discount.jpg);
+        width: 50%;
+        background-size: cover;
+        background-position: center;
+        aspect-ratio: 1.1 / 1.2;
+        border-radius: var(--left-img);
+
+    }
+}
+
+
+@media screen and (max-width: 690px) {
+    .promotion-info-btn {
+        width: 50%;
+        padding: 10%;
+        gap: 30%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .promotion-discount {
+        display: flex;
+        flex-direction: column;
+        gap: var(--row-img-paragraph-smaller);
+        padding: 0 70px 0 70px;
+    }
+
+    .promotion1 {
+        width: 100%;
+    }
+
+    .promotion2 {
+        width: 100%;
+    }
+
+    .promotion-img1 {
+        background-image: url(../images/20discount.jpg);
+        width: 50%;
+        background-size: cover;
+        background-position: center;
+        aspect-ratio: 1.1 / 1.2;
+        border-radius: var(--left-img);
+    }
+
+    .promotion-img2 {
+        background-image: url(../images/30discount.jpg);
+        width: 50%;
+        background-size: cover;
+        background-position: center;
+        aspect-ratio: 1.1 / 1.2;
+        border-radius: var(--left-img);
+
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .promotion-info-btn {
+        width: 50%;
+        padding: 10%;
+        gap: 30%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .promotion-discount {
+        display: flex;
+        flex-direction: column;
+        gap: var(--row-img-paragraph-smaller);
+        padding: 0 70px 0 70px;
+    }
+
+    .promotion1 {
+        width: 100%;
+    }
+
+    .promotion2 {
+        width: 100%;
+    }
+
+    .promotion-img1 {
+        background-image: url(../images/20discount.jpg);
+        width: 50%;
+        background-size: cover;
+        background-position: center;
+        aspect-ratio: 1.1 / 1.2;
+        border-radius: var(--left-img);
+    }
+
+    .promotion-img2 {
+        background-image: url(../images/30discount.jpg);
+        width: 50%;
+        background-size: cover;
+        background-position: center;
+        aspect-ratio: 1.1 / 1.2;
+        border-radius: var(--left-img);
+
+    }
+
+    .promotion-card {
+        display: flex;
+        background-color: var(--light-cream);
+        aspect-ratio: 1.2 / 0.8;
+        width: 100%;
+        margin: auto;
+        box-shadow: var(--shadow);
+        border-radius: var(--large-img);
+    }
+
+    .promotion-img-overlap {
+        width: 100%;
+        aspect-ratio: 1.1 / 1.464;
+        background: linear-gradient(to right, #fdf8f2, #fdf8f200);
+
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .promotion-info-btn {
+        width: 50%;
+        padding: 5%;
+        gap: 30%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .promotion-discount {
+        display: flex;
+        flex-direction: column;
+        gap: var(--row-img-paragraph-smaller);
+        padding: 0 70px 0 70px;
+    }
+
+    .promotion1 {
+        width: 100%;
+    }
+
+    .promotion2 {
+        width: 100%;
+    }
+
+    .promotion-img1 {
+        background-image: url(../images/20discount.jpg);
+        width: 50%;
+        background-size: cover;
+        background-position: center;
+        aspect-ratio: 1.1 / 1.2;
+        border-radius: var(--left-img);
+    }
+
+    .promotion-img2 {
+        background-image: url(../images/30discount.jpg);
+        width: 50%;
+        background-size: cover;
+        background-position: center;
+        aspect-ratio: 1.1 / 1.2;
+        border-radius: var(--left-img);
+
+    }
+
+    .promotion-card {
+        display: flex;
+        background-color: var(--light-cream);
+        aspect-ratio: 1.2 / 0.8;
+        width: 100%;
+        margin: auto;
+        box-shadow: var(--shadow);
+        border-radius: var(--large-img);
+    }
+
+    .promotion-img-overlap {
+        width: 100%;
+        aspect-ratio: 1.1 / 1.464;
+        background: linear-gradient(to right, #fdf8f2, #fdf8f200);
+
+    }
 }

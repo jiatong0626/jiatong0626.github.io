@@ -244,6 +244,10 @@
         width: 100%;
     }
 
+    .best-seller {
+        gap: var(--row-list-img-three-smaller);
+    }
+
 }
 
 @media screen and (max-width: 900px) {

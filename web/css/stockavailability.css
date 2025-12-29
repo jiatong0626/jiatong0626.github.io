@@ -460,14 +460,17 @@
 
     }
 
-    .price p {
+    .product-bottom p {
         font-size: 20px;
-
     }
+
+    /* .prnst p {
+        font-size: 20px;
+    } */
 
     .material-intro {
         flex-direction: column;
-        margin: 0 24px 40px;
+        /* margin: 0 24px 40px; */
         gap: 18px;
         text-align: center;
         padding: var(--section-padding);
@@ -475,6 +478,7 @@
 
     .material-info {
         width: 100%;
+        padding: 0;
     }
 
     .material-img {
@@ -498,10 +502,14 @@
         transition: all 0.3s ease;
     }
 
-    .explore-btn {
+    .material-content>div {
+        align-items: center;
+    }
+
+    /* .explore-btn {
         width: 100%;
         box-sizing: border-box;
-    }
+    } */
 }
 
 

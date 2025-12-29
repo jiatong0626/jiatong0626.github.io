@@ -461,16 +461,12 @@
     }
 
     .product-bottom p {
-        font-size: 20px;
+        font-size: 15px;
     }
 
-    /* .prnst p {
-        font-size: 20px;
-    } */
 
     .material-intro {
         flex-direction: column;
-        /* margin: 0 24px 40px; */
         gap: 18px;
         text-align: center;
         padding: var(--section-padding);
@@ -506,10 +502,6 @@
         align-items: center;
     }
 
-    /* .explore-btn {
-        width: 100%;
-        box-sizing: border-box;
-    } */
 }
 
 

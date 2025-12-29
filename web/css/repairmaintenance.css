@@ -197,20 +197,14 @@
     width: 50%;
 }
 
-/* .review-card h2 {
-    margin-bottom: 10px;
-} */
-
 
 .stars {
     color: var(--warm-golden-accent);
     letter-spacing: 2px;
-    /* margin-bottom: 12px; */
+
 }
 
 .review-card {
-    /* line-height: 1.75; */
-    /* margin-bottom: 20px; */
     display: flex;
     flex-direction: column;
     gap: var(--list-title-paragraph);
@@ -224,7 +218,7 @@
 }
 
 .review-user img {
-    /* width: 6%; */
+
     height: 40px;
     border-radius: 200px;
     object-fit: cover;
@@ -246,14 +240,14 @@
 }
 
 .repair-why {
-    padding: 65px;
+    padding: var(--section-padding);
 }
 
 .why-grid {
-    display: grid;
-    grid-template-columns: 540px 460px;
+    display: flex;
     gap: 42px;
     align-items: center;
+    justify-content: space-between;
 }
 
 .why-list {
@@ -344,11 +338,11 @@
 
     .repair-review-in {
         gap: var(--row-img-paragraph-smaller);
-        padding: 0 24px;
+        padding: var(--section-padding);
     }
 
     .why-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 25%;
     }
 
     .why-img img {
@@ -414,7 +408,7 @@
 
 
     .repair-section {
-        padding: 80px 0;
+        padding: var(--section-padding);
     }
 
     .repair-card {
@@ -448,25 +442,23 @@
         padding: var(--section-padding);
     }
 
-    .review-card,
-    .review-img {
+    .review-card {
         width: 100%;
     }
 
     .review-img {
-        top: 0;
-        margin-bottom: 0;
+        width: 100%;
         border-radius: var(--large-img);
         aspect-ratio: 1 / 0.7;
     }
 
     .review-user img {
-        width: 6.5%;
+        width: 100%;
         align-items: center;
     }
 
     .repair-why {
-        padding: 40px 24px;
+        padding: var(--section-padding);
     }
 
     .why-list {
@@ -534,10 +526,16 @@
     }
 
     .repair-review {
-        padding: 48px 0;
+        padding: var(--section-padding);
     }
 
-    .why-list {
-        grid-template-columns: 1fr;
+    .why-grid {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .why-img img {
+        width: 100%;
+        border-radius: var(--large-img);
     }
 }

@@ -327,6 +327,10 @@
         padding: 40px;
     }
 
+    .repair-section {
+        padding: var(--section-padding);
+    }
+
     .repair-row {
         gap: 24px;
         padding-top: 28px;

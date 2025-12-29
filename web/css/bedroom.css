@@ -30,6 +30,7 @@
     display: flex;
     gap: var(--row-img-paragraph);
     align-items: center;
+    padding: var(--section-padding);
 }
 
 .mobile-title,
@@ -38,15 +39,16 @@
 }
 
 .best-img {
-    background-size: cover;
+    /* background-size: cover; */
     width: 50%;
-    padding: var(--section-padding);
+    /* padding: var(--section-padding); */
 }
 
 .best-img img,
 .tips-img img {
     border-radius: var(--small-img);
-    aspect-ratio: 1 / 1;
+    width: 100%;
+    /* aspect-ratio: 1 / 1; */
 }
 
 .best-info {

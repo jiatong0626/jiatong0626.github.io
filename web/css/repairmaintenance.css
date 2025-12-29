@@ -108,6 +108,10 @@
     padding: 42px 34px;
     box-shadow: var(--shadow);
     text-align: center;
+    transition: all 0.3s;
+    /* transform: scale(1.02); */
+    animation: reveal 5s both;
+
 }
 
 
@@ -164,6 +168,8 @@
 .content-item {
     border-bottom: 1px solid var(--medium-warm-gray);
     padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .fqa-content>div {
@@ -215,10 +221,11 @@
 }
 
 .review-user img {
-    width: 10%;
+    width: 6%;
     height: 40px;
     border-radius: 200px;
     object-fit: cover;
+
 }
 
 .review-img {
@@ -276,4 +283,254 @@
     box-shadow: var(--shadow);
     aspect-ratio: 0.7 /0.8;
     object-fit: cover;
+}
+
+
+
+@keyframes reveal {
+    0% {
+        opacity: 0;
+        filter: blur(20px);
+        transform: translateY(80px);
+    }
+
+    30% {
+        filter: blur(0px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.material-card:nth-child(2) {
+    animation-delay: 1s;
+}
+
+.material-card:nth-child(3) {
+    animation-delay: 2s;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .card {
+        width: 92%;
+        top: -60px;
+        margin-bottom: -90px;
+    }
+
+    .card-info {
+        padding: 40px;
+    }
+
+    .repair-row {
+        gap: 24px;
+        padding-top: 28px;
+        flex-wrap: wrap;
+    }
+
+    .repair-card {
+        width: calc(50% - 12px);
+        min-width: 260px;
+    }
+
+    .repair-review-in {
+        gap: var(--row-img-paragraph-smaller);
+        padding: 0 24px;
+    }
+
+    .why-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .why-img img {
+        aspect-ratio: 1 / 0.9;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .repair-maintenance-section {
+        text-align: center;
+        padding: var(--section-padding);
+    }
+
+    .title-mobile {
+        display: block;
+        text-align: center;
+        padding: 24px 24px 12px;
+    }
+
+    .title-mobile h5,
+    .title-mobile h2 {
+        text-align: center;
+    }
+
+
+    .card {
+        width: 100%;
+        background: none;
+        box-shadow: none;
+        border-radius: 0;
+        top: 0;
+        margin: 0;
+        padding: 0;
+        gap: 0;
+        flex-direction: column;
+    }
+
+
+    .card-info {
+        display: none;
+        background: none;
+        box-shadow: none;
+    }
+
+
+    .card-img {
+        width: 82%;
+        aspect-ratio: var(--img-card);
+        border-radius: var(--large-img);
+
+    }
+
+
+    .contain-mobile {
+        display: block;
+        text-align: center;
+        padding: 22px 32px 32px;
+        line-height: 1.75;
+        max-width: 760px;
+        margin: 0 auto;
+    }
+
+
+    .repair-section {
+        padding: 80px 0;
+    }
+
+    .repair-card {
+        width: 100%;
+        max-width: 520px;
+    }
+
+    .fqa-intro {
+        flex-direction: column;
+        gap: 24px;
+        padding: var(--section-padding)
+    }
+
+    .fqa-img {
+        width: 80%;
+        top: 0;
+        margin-bottom: 0;
+        border-radius: var(--large-img);
+    }
+
+    .fqa-info {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .repair-review-in {
+        flex-direction: column;
+    }
+
+    .repair-review {
+        padding: var(--section-padding);
+    }
+
+    .review-card,
+    .review-img {
+        width: 100%;
+    }
+
+    .review-img {
+        top: 0;
+        margin-bottom: 0;
+        border-radius: var(--large-img);
+        aspect-ratio: 1 / 0.7;
+    }
+
+    .review-user img {
+        width: 6.5%;
+        align-items: center;
+    }
+
+    .repair-why {
+        padding: 40px 24px;
+    }
+
+    .why-list {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .why-img img {
+        width: 80%;
+        border-radius: var(--large-img);
+        box-shadow: none;
+        aspect-ratio: 1 / 1;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .title-mobile {
+        display: block;
+        text-align: center;
+        padding: 20px 20px 10px;
+    }
+
+
+    .card {
+        width: 100%;
+        background: none;
+        box-shadow: none;
+        border-radius: 0;
+        top: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .card-info {
+        display: none;
+        background: none;
+        box-shadow: none;
+    }
+
+
+    .card-img {
+        width: calc(100% - 40px);
+        margin: 0 auto;
+        border-radius: 30px;
+        aspect-ratio: 16 / 9;
+    }
+
+
+    .contain-mobile {
+        display: block;
+        text-align: center;
+        padding: 18px 22px 26px;
+        max-width: 640px;
+        margin: 0 auto;
+        line-height: 1.7;
+    }
+
+    .repair-section-title {
+        padding: 0 24px;
+    }
+
+    .repair-row {
+        padding: 24px 24px 0;
+    }
+
+    .repair-review {
+        padding: 48px 0;
+    }
+
+    .why-list {
+        grid-template-columns: 1fr;
+    }
 }

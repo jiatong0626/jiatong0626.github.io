@@ -53,6 +53,10 @@
     width: 70%;
 }
 
+.mobile-new {
+    display: none;
+}
+
 .mobile-best-info {
     display: none;
     text-align: center;
@@ -347,6 +351,7 @@
         align-items: center;
         gap: var(--row-img-paragraph-smaller);
     }
+
 }
 
 @media screen and (max-width: 700px) {
@@ -362,18 +367,19 @@
     .content-row {
         width: 100%;
     }
-}
 
-@media screen and (max-width: 618px) {
+    .new-arrival {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .new-img {
+        width: 100%;
+    }
+
     .new-arrival-info {
-        padding: 10px;
+        width: 100%;
     }
 
-    .new-arrival-info h2 {
-        font-size: 20px;
-    }
-
-    .new-arrival-info p {
-        font-size: 9px;
-    }
 }

@@ -346,6 +346,12 @@
         text-align: center;
     }
 
+    .team-member>div {
+        width: 50%;
+        margin: auto;
+        margin-bottom: 0px;
+    }
+
     .ourfurniture-section1 {
         display: flex;
         flex-direction: column;
@@ -368,7 +374,7 @@
     .categories {
         gap: var(--row-list-img-three-smaller);
         top: 0;
-        padding: 61px 0;
+        padding: 0 0;
     }
 
     .categories div {
@@ -386,6 +392,14 @@
 
     .three-cat div {
         width: 100%;
+    }
+
+    .section2-info {
+        gap: var(--row-list-img-three-smaller);
+        padding: var(--section-padding);
+        display: flex;
+        flex-direction: column;
+
     }
 
 

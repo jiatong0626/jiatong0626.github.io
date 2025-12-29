@@ -191,7 +191,7 @@
 .about-section3 {
     background-color: var(--warm-light-gray);
     aspect-ratio: 1 / 0.4;
-    width: 70%;
+    width: 50%;
     margin: auto;
     display: flex;
     flex-direction: column;

@@ -6,13 +6,13 @@
     font-display: swap;
 }
 
-.done h3 {
+/* .done h3 {
     color: green;
 }
 
 .doing h3 {
-    color: orange;
-}
+    color: green;
+} */
 
 /* font family */
 :root {
@@ -643,9 +643,16 @@ p {
     }
 
     .page-btn,
-    .social-btn,
-    .footer-contact-area>div {
+    .social-btn {
         justify-content: center;
+    }
+
+    .footer-contact-area {
+        margin: auto;
+    }
+
+    .footer-contact-area>div {
+        justify-content: left;
     }
 
     .footer-home {
@@ -691,7 +698,7 @@ p {
         width: 100%;
         z-index: 1002;
         background-color: var(--soft-sand-beige);
-        gap: 50px;
+        gap: 30px;
         text-align: center;
         justify-content: center;
         align-items: center;
@@ -710,6 +717,10 @@ p {
         display: none;
     }
 
+    .have-sub {
+        padding-bottom: 30px;
+    }
+
     .submenu {
         display: block;
         position: static;
@@ -717,6 +728,9 @@ p {
         padding: 0;
         width: 100%;
         transform: scaleY(1);
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
     }
 
     .main-btn.active {

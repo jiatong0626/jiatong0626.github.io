@@ -233,13 +233,17 @@
 
 
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 2400px) {
     .promotion-info-btn {
         width: 50%;
         padding: 30px;
         gap: 50px;
         display: flex;
         flex-direction: column;
+    }
+
+    .difference-small-title-mobile {
+        display: none;
     }
 }
 
@@ -344,6 +348,14 @@
         padding: 50px;
         gap: var(--row-img-paragraph-smaller);
         text-align: center;
+    }
+
+    .difference-small-title-mobile {
+        display: block;
+    }
+
+    .difference-small-title {
+        display: none;
     }
 
     .team-member>div {

@@ -181,19 +181,22 @@
 
 .repair-review {
     background: var(--medium-warm-gray);
-    padding: 65px 0;
+    padding: 65px var(--section-padding);
+    display: flex;
+    gap: var(--row-img-paragraph);
+    align-items: center;
 }
 
-.repair-review-in {
+/* .repair-review-in {
     display: flex;
     gap: var(--row-img-paragraph);
     align-items: center;
     padding: 0 var(--section-padding);
-}
+} */
 
 .review-card {
     border-radius: var(--small-img);
-    padding: 32px;
+    /* padding: 32px; */
     width: 50%;
 }
 
@@ -336,7 +339,7 @@
         min-width: 260px;
     }
 
-    .repair-review-in {
+    .repair-review {
         gap: var(--row-img-paragraph-smaller);
         padding: var(--section-padding);
     }
@@ -434,13 +437,13 @@
         padding-right: 0;
     }
 
-    .repair-review-in {
+    .repair-review {
         flex-direction: column;
     }
 
-    .repair-review {
+    /* .repair-review {
         padding: var(--section-padding);
-    }
+    } */
 
     .review-card {
         width: 100%;

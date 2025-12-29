@@ -296,7 +296,8 @@
     }
 
     .best-info {
-        display: none;
+        width: 100%;
+        text-align: center;
     }
 
     .mobile-best-info {

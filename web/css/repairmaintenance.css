@@ -168,7 +168,11 @@
 .content-item {
     border-bottom: 1px solid var(--medium-warm-gray);
     padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
 }
+
+
 
 .fqa-content>div {
     display: flex;
@@ -176,6 +180,7 @@
     gap: var(--list-title-paragraph);
 
 }
+
 
 .repair-review {
     background: var(--medium-warm-gray);
@@ -282,6 +287,8 @@
     aspect-ratio: 0.7 /0.8;
     object-fit: cover;
 }
+
+
 
 @keyframes reveal {
     0% {

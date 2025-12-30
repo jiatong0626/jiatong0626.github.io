@@ -733,6 +733,7 @@ p {
         display: flex;
         flex-direction: column;
         gap: 30px;
+        opacity: 1;
     }
 
     .main-btn.active {

@@ -362,6 +362,11 @@
     .why-img img {
         aspect-ratio: 1 / 0.9;
     }
+
+    .fqa-intro {
+        padding: 20px 0px;
+        ;
+    }
 }
 
 

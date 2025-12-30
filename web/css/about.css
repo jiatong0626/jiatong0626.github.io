@@ -118,8 +118,9 @@
 
 .craftsmanship {
     display: flex;
-    justify-content: space-around;
-    margin-top: -160px;
+    justify-content: center;
+    gap: var(--row-img-paragraph);
+    margin-top: -140px;
     padding: 50px 0px;
     align-items: center;
 }
@@ -130,7 +131,7 @@
 }
 
 .craftsmanship-photo {
-    width: 40%;
+    width: 30%;
 }
 
 
@@ -241,8 +242,17 @@
     .about-section2 {
         background-color: var(--medium-warm-gray);
         position: relative;
-        bottom: 70px;
+        bottom: 30px;
         margin-bottom: -70px;
+    }
+
+    .craftsmanship {
+        display: flex;
+        justify-content: center;
+        gap: var(--row-img-paragraph-smaller);
+        margin-top: -140px;
+        padding: 50px 0px;
+        align-items: center;
     }
 }
 
@@ -252,8 +262,16 @@
         display: flex;
         gap: var(--row-img-paragraph-smaller);
     }
-}
 
+    .craftsmanship {
+        display: flex;
+        justify-content: center;
+        gap: var(--row-img-paragraph-smaller);
+        margin-top: -140px;
+        padding: 50px 0px;
+        align-items: center;
+    }
+}
 
 
 @media screen and (max-width:900px) {
@@ -272,6 +290,25 @@
 
 }
 
+@media screen and (max-width:850px) {
+
+    .categories-photo {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        position: relative;
+        bottom: 60px;
+    }
+
+    .craftsmanship {
+        display: flex;
+        justify-content: center;
+        gap: var(--row-img-paragraph-smaller);
+        margin-top: -100px;
+        padding: 50px 0px;
+        align-items: center;
+    }
+}
 
 @media screen and (max-width:800px) {
     .craftsmanship_smalltitle {
@@ -336,7 +373,7 @@
     .intro-img {
         width: 100%;
         background-image: url(../images/aboutintro.jpg);
-        aspect-ratio: 1 / 0.8;
+        aspect-ratio: 0.9 / 0.9;
         background-size: cover;
         background-position: center;
 
@@ -393,14 +430,16 @@
 
     .craftsmanship-text {
         width: 100%;
-        padding: 50px;
+        padding: 50px 50px 0 50px;
+        ;
     }
 
     .craftsmanship {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
+        gap: var(--row-img-paragraph-smaller);
         margin-top: -0px;
-        padding: var(--section-padding-mobile);
+        padding: 0px;
         align-items: center;
     }
 

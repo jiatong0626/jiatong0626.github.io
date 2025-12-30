@@ -187,16 +187,9 @@
     align-items: center;
 }
 
-/* .repair-review-in {
-    display: flex;
-    gap: var(--row-img-paragraph);
-    align-items: center;
-    padding: 0 var(--section-padding);
-} */
 
 .review-card {
     border-radius: var(--small-img);
-    /* padding: 32px; */
     width: 50%;
 }
 
@@ -440,10 +433,6 @@
     .repair-review {
         flex-direction: column;
     }
-
-    /* .repair-review {
-        padding: var(--section-padding);
-    } */
 
     .review-card {
         width: 100%;

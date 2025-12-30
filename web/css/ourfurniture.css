@@ -234,16 +234,19 @@
 
 
 @media screen and (max-width: 2400px) {
+    .difference-small-title-mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+
     .promotion-info-btn {
         width: 50%;
         padding: 30px;
         gap: 50px;
         display: flex;
         flex-direction: column;
-    }
-
-    .difference-small-title-mobile {
-        display: none;
     }
 }
 

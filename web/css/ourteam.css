@@ -129,7 +129,7 @@
     text-align: center;
     box-shadow: var(--shadow);
     border-radius: var(--large-img);
-    padding: 20px;
+    padding: var(--section-padding);
 }
 
 /* .get-btn p {

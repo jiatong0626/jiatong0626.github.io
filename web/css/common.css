@@ -371,6 +371,7 @@ p {
     gap: 10px;
     display: flex;
     transition: all 0.3s;
+    opacity: 0;
     transform: scaleY(0);
 }
 
@@ -500,6 +501,7 @@ p {
 
 .btn-item:hover .submenu {
     transform: scaleY(1);
+    opacity: 1;
 }
 
 .big-btn:hover,

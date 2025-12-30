@@ -165,6 +165,24 @@
     background-position: center;
 }
 
+.fqa-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    display: flex;
+}
+
+.fqa-question {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.fqa-answer {
+    overflow: hidden;
+    height: 0;
+    /* start collapsed */
+    opacity: 0;
+}
+
 .content-item {
     border-bottom: 1px solid var(--medium-warm-gray);
     padding: 10px 0;

@@ -179,15 +179,15 @@
     align-items: center;
 }
 
-@media screen and (max-width: 2400px) {
-    .aboutintro-smalltitle-mobile {
-        display: none;
-    }
 
-    .benefits-smalltitle-mobile {
-        display: none;
-    }
+.aboutintro-smalltitle-mobile {
+    display: none;
 }
+
+.benefits-smalltitle-mobile {
+    display: none;
+}
+
 
 @media screen and (max-width: 1210px) {
     .smallinfo {

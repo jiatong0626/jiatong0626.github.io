@@ -179,8 +179,8 @@
 .fqa-answer {
     overflow: hidden;
     height: 0;
-    /* start collapsed */
     opacity: 0;
+    color: var(--deep-cocoa-brown);
 }
 
 .content-item {

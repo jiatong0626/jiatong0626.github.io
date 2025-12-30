@@ -700,7 +700,7 @@ p {
         width: 100%;
         z-index: 1002;
         background-color: var(--soft-sand-beige);
-        gap: 30px;
+        gap: 20px;
         text-align: center;
         justify-content: center;
         align-items: center;
@@ -720,7 +720,7 @@ p {
     }
 
     .have-sub {
-        padding-bottom: 30px;
+        padding-bottom: 20px;
     }
 
     .submenu {
@@ -732,7 +732,7 @@ p {
         transform: scaleY(1);
         display: flex;
         flex-direction: column;
-        gap: 30px;
+        gap: 20px;
         opacity: 1;
     }
 

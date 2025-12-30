@@ -204,7 +204,7 @@
 
 .evaluation-card {
     background-color: var(--warm-light-gray);
-    width: 70%;
+    width: 50%;
     aspect-ratio: 1 / 0.4;
     margin: auto;
     display: flex;

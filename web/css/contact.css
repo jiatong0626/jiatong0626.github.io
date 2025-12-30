@@ -1,0 +1,283 @@
+input,
+textarea {
+    border: none;
+    font-family: var(--paragraph);
+}
+
+.deep {
+    background-color: var(--warm-light-gray);
+}
+
+.hero-banner {
+    background-image: url(../images/contactshero.jpg);
+    text-align: center;
+}
+
+.contact-us {
+    display: flex;
+    gap: var(--row-img-paragraph);
+    align-items: center;
+    padding: var(--section-padding);
+}
+
+.contact-info-mobile {
+    display: none;
+}
+
+.contact-illus,
+.contact-info {
+    width: calc(50% - 38px);
+}
+
+.mark-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--list-title-paragraph);
+}
+
+.contact-item {
+    display: flex;
+    gap: var(--list-title-paragraph);
+    align-items: center;
+}
+
+.contact-item img {
+    width: 24px;
+}
+
+.contact-sheet-card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--list-title-paragraph);
+    margin: auto;
+    background-color: var(--warm-light-gray);
+    width: 80%;
+    border-radius: var(--large-img);
+    box-shadow: var(--shadow);
+    padding: var(--section-padding);
+    position: relative;
+    z-index: 1001;
+    /* transition: all 0.3s; */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-sheet-card h6 {
+    color: var(--deep-cocoa-brown);
+}
+
+.intro {
+    display: flex;
+    gap: var(--section-padding);
+}
+
+.intro>div {
+    width: 50%;
+}
+
+.fullsize input,
+textarea {
+    width: 100%;
+    padding: 20px;
+    border-radius: 35px;
+    background-color: var(--light-cream);
+    color: var(--medium-warm-gray);
+}
+
+.ur-massage textarea {
+    aspect-ratio: 1 / 0.15;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 500px;
+}
+
+.form-sub-btn input {
+    color: var(--light-cream);
+    transition: all 0.3s;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: var(--medium-warm-gray);
+}
+
+.form-sub-btn input:hover {
+    color: var(--deep-cocoa-brown);
+}
+
+.barnd-promise {
+    padding: 300px 0 0 0;
+    position: relative;
+    bottom: 300px;
+    margin-bottom: -300px;
+}
+
+.barnd-promise>div {
+    display: flex;
+    align-items: center;
+    gap: var(--row-img-paragraph);
+    position: relative;
+    top: 100px;
+}
+
+.barnd-promise h6 {
+    color: var(--deep-cocoa-brown);
+}
+
+.left-overlay-img {
+    background-image: url(../images/brandpromise.jpg);
+    border-radius: var(--left-img);
+    box-shadow: var(--shadow);
+    width: calc(50% - 38px);
+    aspect-ratio: var(--left-overlay-img);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* transition: all 0.3s; */
+}
+
+.frame {
+    width: calc(30.2% - 40.67px);
+}
+
+.frame h2 {
+    color: var(--light-cream);
+}
+
+.frame-living {
+    background-image: url(../images/livingroom.jpg);
+
+}
+
+.frame-bedroom {
+    background-image: url(../images/bedroomcard.jpg);
+}
+
+.frame-accessories {
+    background-image: url(../images/homeacc.jpg);
+}
+
+.our-collections,
+.what-people-say {
+    text-align: center;
+}
+
+.our-collections {
+    padding: 161px 0 61px 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--row-list-img-three);
+}
+
+@media screen and (max-width: 1100px) {
+    .barnd-promise>div {
+        top: 50px;
+    }
+
+    .our-collections {
+        padding: 111px 0 61px 0;
+        display: flex;
+        flex-direction: column;
+        gap: var(--row-list-img-three);
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .contact-us {
+        gap: var(--row-img-paragraph-smaller);
+    }
+
+    .contact-illus,
+    .contact-info {
+        width: calc(50% - 19px);
+    }
+
+    .fullsize input,
+    textarea {
+        padding: 15px;
+        border-radius: 25px;
+    }
+
+    .barnd-promise {
+        padding: 150px 0 0 0;
+        position: relative;
+        bottom: 150px;
+        margin-bottom: -150px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .contact-us {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-info-mobile {
+        display: block;
+    }
+
+    .contact-illus {
+        width: 80%;
+    }
+
+    .contact-info {
+        width: 100%;
+    }
+
+    .contact-info .title {
+        display: none;
+    }
+
+    .benefits-content {
+        max-width: var(--mobile-max-content);
+        margin: auto;
+    }
+
+    .mark-content {
+        margin: auto;
+    }
+
+    .intro {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .intro>div {
+        width: 100%;
+    }
+
+    .barnd-promise>div {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .left-overlay-img {
+        width: 100%;
+        aspect-ratio: 1 / 0.3;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .barnd-promise {
+        padding: 150px 0 100px 0;
+    }
+
+    .content-row {
+        flex-direction: column;
+        margin: auto;
+        width: 50%;
+        gap: var(--row-list-img-three-smaller);
+    }
+
+    .frame {
+        width: 100%;
+    }
+
+    .our-collections {
+        padding: var(--section-padding-mobile);
+    }
+}

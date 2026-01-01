@@ -137,6 +137,7 @@
     align-items: center;
     position: relative;
     z-index: 1001;
+
 }
 
 .title h6 {
@@ -159,8 +160,8 @@
     background-position: center;
     position: relative;
     z-index: 1001;
-    top: -15px;
-    margin-bottom: -60px;
+    top: -18px;
+    margin-bottom: -25px;
     background-size: cover;
     background-position: center;
 }
@@ -335,9 +336,9 @@
         padding: 40px;
     }
 
-    .repair-section {
+    /* .repair-section {
         padding: var(--section-padding);
-    }
+    } */
 
     .repair-row {
         gap: 24px;

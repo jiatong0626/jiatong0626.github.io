@@ -66,6 +66,10 @@ form {
     gap: 20px;
 }
 
+.small-btn {
+    cursor: pointer;
+}
+
 .contact-sheet-card h6 {
     color: var(--deep-cocoa-brown);
 }

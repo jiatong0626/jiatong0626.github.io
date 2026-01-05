@@ -391,7 +391,8 @@
 
     .mobilecraftsmanship-photo {
         display: block;
-        width: 100%;
+        margin: auto;
+        width: 70%;
     }
 
     .craftsmanship-photo {

@@ -137,6 +137,7 @@
     align-items: center;
     position: relative;
     z-index: 1001;
+
 }
 
 .title h6 {
@@ -159,10 +160,28 @@
     background-position: center;
     position: relative;
     z-index: 1001;
-    top: -15px;
-    margin-bottom: -60px;
+    top: -18px;
+    margin-bottom: -25px;
     background-size: cover;
     background-position: center;
+}
+
+.fqa-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    display: flex;
+}
+
+.fqa-question {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.fqa-answer {
+    overflow: hidden;
+    height: 0;
+    opacity: 0;
+    color: var(--deep-cocoa-brown);
 }
 
 .content-item {
@@ -317,9 +336,9 @@
         padding: 40px;
     }
 
-    .repair-section {
+    /* .repair-section {
         padding: var(--section-padding);
-    }
+    } */
 
     .repair-row {
         gap: 24px;
@@ -343,6 +362,11 @@
 
     .why-img img {
         aspect-ratio: 1 / 0.9;
+    }
+
+    .fqa-intro {
+        padding: 20px 0px;
+        ;
     }
 }
 

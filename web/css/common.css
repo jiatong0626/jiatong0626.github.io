@@ -690,6 +690,14 @@ p {
 }
 
 @media screen and (max-width: 700px) {
+    .big-btn {
+        padding: 10px 20px;
+    }
+
+    .small-btn {
+        padding: 8px 15px;
+    }
+
     .main-btn {
         display: none;
         flex-direction: column;

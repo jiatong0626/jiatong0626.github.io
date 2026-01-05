@@ -42,7 +42,7 @@
     --h1-medium-size: 36px;
     --h2-medium-size: 26px;
     --h3-p1-medium-size: 15px;
-    --small-caption-medium-size: 115px;
+    --small-caption-medium-size: 15px;
 
     --h1-mobile-size: 32px;
     --h2-mobile-size: 24px;
@@ -205,10 +205,12 @@
     transition: all 0.3s;
 }
 
-.frame-bg-color h2 {
+.frame-bg-color div {
     transition: all 0.3s;
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
-
 
 /* 针对一个row有4个人物的介绍 */
 .team-member {
@@ -527,7 +529,7 @@ p {
     background-color: var(--transparency-bg-opacity);
 }
 
-.frame-bg-color:hover h2 {
+.frame-bg-color:hover div {
     opacity: 0;
 }
 

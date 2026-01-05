@@ -39,15 +39,6 @@
     display: none;
 }
 
-.external {
-    width: 20px;
-}
-
-.font-external {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
 
 .info {
     width: 40%;

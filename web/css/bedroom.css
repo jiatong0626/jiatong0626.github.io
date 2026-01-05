@@ -97,6 +97,17 @@
     background-image: url(../images/beds.jpg);
 }
 
+.external {
+    width: 25px;
+}
+
+.ex,
+.font-external {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
 .mattresses {
     background-image: url(../images/mattresses-sqr.jpg);
 }

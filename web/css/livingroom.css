@@ -12,6 +12,16 @@
     gap: var(--row-list-img-three);
 }
 
+.external {
+    width: 25px;
+}
+
+.font-external {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
 .categories-set {
     text-align: center;
     padding: 120px 0 120px 0;

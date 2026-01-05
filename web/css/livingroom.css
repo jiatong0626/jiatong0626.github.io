@@ -16,6 +16,10 @@
     width: 25px;
 }
 
+.overlay-color:hover .external {
+    opacity: 0;
+}
+
 .font-external {
     display: flex;
     align-items: center;

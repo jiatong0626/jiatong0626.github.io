@@ -109,7 +109,6 @@
     box-shadow: var(--shadow);
     text-align: center;
     transition: all 0.3s;
-    /* transform: scale(1.02); */
     animation: reveal 5s both;
 
 }
@@ -297,8 +296,6 @@
     object-fit: cover;
 }
 
-
-
 @keyframes reveal {
     0% {
         opacity: 0;
@@ -315,6 +312,21 @@
         transform: translateY(0);
     }
 }
+
+.material-card {
+    opacity: 0;
+    filter: blur(20px);
+    transform: translateY(80px);
+
+    animation-name: reveal;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+
+
+    animation-timeline: scroll();
+    animation-range: entry 20% cover 40%;
+}
+
 
 .material-card:nth-child(2) {
     animation-delay: 1s;
@@ -336,9 +348,9 @@
         padding: 40px;
     }
 
-    /* .repair-section {
-        padding: var(--section-padding);
-    } */
+    .repair-section {
+        padding: var(--section-padding)
+    }
 
     .repair-row {
         gap: 24px;
@@ -543,6 +555,10 @@
 
     .repair-review {
         padding: var(--section-padding);
+    }
+
+    .fqa-img {
+        width: 50%;
     }
 
     .why-grid {

@@ -101,6 +101,10 @@
     width: 25px;
 }
 
+.overlay-color:hover .external {
+    opacity: 0;
+}
+
 .ex,
 .font-external {
     display: flex;

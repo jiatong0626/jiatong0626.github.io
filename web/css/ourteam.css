@@ -280,6 +280,11 @@
         display: none;
     }
 
+    .section3-logo {
+        width: 30%;
+        margin: auto;
+    }
+
     .ourteam-intro {
         width: 100%;
         display: flex;
